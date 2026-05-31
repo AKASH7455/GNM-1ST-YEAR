@@ -1,0 +1,174 @@
+/* =========================
+   PINK THEME
+========================= */
+
+.pink-theme {
+  --primary-color: #ec4899;
+  --secondary-color: #fd79a8;
+  --background-color: #fff5fa;
+  --card-bg: #ffffff;
+  --card-gradient-start: #fff5fa;
+  --card-gradient-end: #ffeaf4;
+  --card-border: #ffd6e8;
+  --border-hover: #ffb6d5;
+  --text-heading: #2d3436;
+  --text-secondary: #636e72;
+  --shadow-color: rgba(232, 67, 147, 0.15);
+  --shadow-hover: rgba(232, 67, 147, 0.25);
+}
+
+/* =========================
+   BLUE THEME
+========================= */
+
+.blue-theme {
+  --primary-color: #2563eb;
+  --secondary-color: #60a5fa;
+  --background-color: #eef6ff;
+  --card-bg: #ffffff;
+  --card-gradient-start: #ffffff;
+  --card-gradient-end: #f7fbff;
+  --card-border: #bfdcff;
+  --border-hover: #93c5fd;
+  --text-heading: #1e293b;
+  --text-secondary: #475569;
+  --shadow-color: rgba(37, 99, 235, 0.16);
+  --shadow-hover: rgba(37, 99, 235, 0.25);
+}
+
+
+
+.sets-page {
+  padding: 20px;
+  padding-bottom: 90px;
+
+  background: var(--background-color);
+
+  min-height: 100vh;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.sets-header {
+  margin-bottom: 24px;
+}
+
+.sets-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+
+  color: var(--text-heading);
+}
+
+.sets-header p {
+  margin-top: 6px;
+
+  font-size: 14px;
+
+  color: var(--primary-color);
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+}
+
+/* =========================
+   SETS GRID
+========================= */
+
+.sets-grid {
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+/* =========================
+   SET CARD
+========================= */
+
+.set-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px;
+
+  background: var(--card-bg);
+
+  border: 1px solid var(--card-border);
+
+  border-radius: 18px;
+
+  text-decoration: none;
+
+  color: var(--text-heading);
+
+  transition: all 0.25s ease;
+
+  box-shadow:
+    0 4px 12px
+    var(--shadow-color);
+}
+
+.set-card:hover {
+  transform: translateY(-2px);
+
+  border-color: var(--primary-color);
+
+  box-shadow:
+    0 8px 20px
+    var(--shadow-hover);
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.set-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+
+  color: var(--text-heading);
+
+  margin-bottom: 4px;
+}
+
+.set-card p {
+  font-size: 13px;
+
+  color: var(--text-secondary);
+}
+
+/* =========================
+   ARROW
+========================= */
+
+.set-card span {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--card-gradient-end);
+
+  color: var(--primary-color);
+
+  border-radius: 10px;
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+/* =========================
+   ACTIVE EFFECT
+========================= */
+
+.set-card:active {
+  transform: scale(0.98);
+}

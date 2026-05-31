@@ -1,0 +1,223 @@
+/* =========================
+   PINK THEME
+========================= */
+
+.pink-theme {
+  --primary-color: #e84393;
+  --secondary-color: #fd79a8;
+  --background-color: #fff5fa;
+  --card-bg: #ffffff;
+  --card-gradient-start: #fff5fa;
+  --card-gradient-end: #ffeaf4;
+  --card-border: #ffd6e8;
+  --border-hover: #ffb6d5;
+  --text-heading: #2d3436;
+  --text-secondary: #636e72;
+  --shadow-color: rgba(232, 67, 147, 0.15);
+  --shadow-hover: rgba(232, 67, 147, 0.25);
+}
+
+/* =========================
+   BLUE THEME
+========================= */
+
+.blue-theme {
+  --primary-color: #2563eb;
+  --secondary-color: #60a5fa;
+  --background-color: #eef6ff;
+  --card-bg: #ffffff;
+  --card-gradient-start: #ffffff;
+  --card-gradient-end: #f7fbff;
+  --card-border: #bfdcff;
+  --border-hover: #93c5fd;
+  --text-heading: #1e293b;
+  --text-secondary: #475569;
+  --shadow-color: rgba(37, 99, 235, 0.16);
+  --shadow-hover: rgba(37, 99, 235, 0.25);
+}
+
+/* =========================
+   SUBJECTS CONTAINER
+========================= */
+
+.subjects-page {
+  padding: 20px 16px 90px;
+
+  max-width: 900px;
+
+  margin: 0 auto;
+}
+
+/* =========================
+   SUBJECT CARD
+========================= */
+
+.subject-card {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px;
+
+  margin-bottom: 14px;
+
+  background: var(--card-bg);
+
+  border: 1px solid var(--card-border);
+
+  border-radius: 20px;
+
+  text-decoration: none;
+
+  box-shadow:
+    0 4px 12px rgba(
+      0,
+      0,
+      0,
+      0.04
+    );
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.subject-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--primary-color);
+
+  box-shadow:
+    0 12px 24px
+    var(--shadow-hover);
+}
+
+/* =========================
+   LEFT SECTION
+========================= */
+
+.subject-card-left {
+  display: flex;
+  align-items: center;
+
+  gap: 14px;
+}
+
+/* =========================
+   SUBJECT ICON
+========================= */
+
+.subject-icon {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 14px;
+
+  background: var(--card-gradient-end);
+
+  color: var(--primary-color);
+
+  font-size: 20px;
+
+  flex-shrink: 0;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.subject-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.subject-name {
+  font-size: 16px;
+
+  font-weight: 700;
+
+  color: var(--text-heading);
+
+  line-height: 1.4;
+}
+
+.subject-info {
+  margin-top: 4px;
+
+  font-size: 13px;
+
+  color: var(--text-secondary);
+
+  font-weight: 500;
+}
+
+/* =========================
+   RIGHT ARROW
+========================= */
+
+.subject-card-right {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 12px;
+
+  background: var(--card-gradient-end);
+
+  color: var(--primary-color);
+
+  font-size: 13px;
+
+  transition: all 0.3s ease;
+}
+
+.subject-card:hover .subject-card-right {
+  transform: translateX(4px);
+}
+
+/* =========================
+   ACTIVE EFFECT
+========================= */
+
+.subject-card:active {
+  transform: scale(0.98);
+}
+
+/* =========================
+   DESKTOP
+========================= */
+
+@media (min-width: 768px) {
+  .subjects-page {
+    padding: 32px 24px 100px;
+  }
+
+  .subject-card {
+    padding: 20px 22px;
+  }
+
+  .subject-name {
+    font-size: 17px;
+  }
+
+  .subject-info {
+    font-size: 14px;
+  }
+
+  .subject-icon {
+    width: 52px;
+    height: 52px;
+
+    font-size: 22px;
+  }
+}

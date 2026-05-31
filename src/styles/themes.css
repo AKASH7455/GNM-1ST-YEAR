@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #dbeafe;
+}
+
+.blue-theme {
+  --primary-color: #2563eb;
+  --secondary-color: #dbeafe;
+}
+
+.pink-theme {
+  --primary-color: #ec4899;
+  --secondary-color: #fce7f3;
+}

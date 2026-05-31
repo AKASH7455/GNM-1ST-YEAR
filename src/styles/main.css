@@ -1,0 +1,129 @@
+/* =========================
+   PINK THEME
+========================= */
+
+.pink-theme {
+  /* Brand */
+  --primary-color: #e84393;
+  --secondary-color: #fd79a8;
+
+  /* Backgrounds */
+  --background-color: #fff5fa;
+  --surface-color: #ffffff;
+  --surface-soft: #fff8fc;
+
+  /* Cards */
+  --card-bg: #ffffff;
+  --card-gradient-start: #fff5fa;
+  --card-gradient-end: #ffeaf4;
+
+  /* Borders */
+  --card-border: #ffd6e8;
+  --border-hover: #ffb6d5;
+  --border-active: #e84393;
+
+  /* Text */
+  --text-heading: #2d3436;
+  --text-primary: #2d3436;
+  --text-secondary: #636e72;
+  --text-muted: #7f8c8d;
+  --text-white: #ffffff;
+
+  /* Status */
+  --success-color: #00b894;
+  --warning-color: #fdcb6e;
+  --danger-color: #e74c3c;
+  --info-color: #0984e3;
+
+  /* Buttons */
+  --button-primary: #e84393;
+  --button-primary-hover: #d63384;
+
+  --button-secondary: #ffffff;
+  --button-secondary-hover: #fff0f7;
+
+  /* Progress */
+  --progress-bg: #ffd6e8;
+  --progress-fill: #e84393;
+
+  /* Navbar */
+  --nav-bg: rgba(255, 255, 255, 0.95);
+  --nav-border: #ffd6e8;
+
+  /* Icons */
+  --icon-color: #e84393;
+  --active-icon-text: #ffffff;
+
+  /* Decorative */
+  --circle-1: rgba(232, 67, 147, 0.08);
+  --circle-2: rgba(253, 121, 168, 0.08);
+
+  /* Effects */
+  --shadow-color: rgba(232, 67, 147, 0.15);
+  --shadow-hover: rgba(232, 67, 147, 0.25);
+}
+
+/* =========================
+   BLUE THEME
+========================= */
+
+.blue-theme {
+  /* Brand */
+  --primary-color: #2563eb;
+  --secondary-color: #60a5fa;
+
+  /* Backgrounds */
+  --background-color: #eef6ff;
+  --surface-color: #ffffff;
+  --surface-soft: #f7fbff;
+
+  /* Cards */
+  --card-bg: #ffffff;
+  --card-gradient-start: #ffffff;
+  --card-gradient-end: #f7fbff;
+
+  /* Borders */
+  --card-border: #bfdcff;
+  --border-hover: #93c5fd;
+  --border-active: #2563eb;
+
+  /* Text */
+  --text-heading: #1e293b;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-white: #ffffff;
+
+  /* Status */
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
+  --info-color: #3b82f6;
+
+  /* Buttons */
+  --button-primary: #2563eb;
+  --button-primary-hover: #1d4ed8;
+
+  --button-secondary: #ffffff;
+  --button-secondary-hover: #eff6ff;
+
+  /* Progress */
+  --progress-bg: #dbeafe;
+  --progress-fill: #2563eb;
+
+  /* Navbar */
+  --nav-bg: rgba(255,255,255,0.96);
+  --nav-border: #dbeafe;
+
+  /* Icons */
+  --icon-color: #2563eb;
+  --active-icon-text: #ffffff;
+
+  /* Decorative */
+  --circle-1: rgba(37, 99, 235, 0.12);
+  --circle-2: rgba(96, 165, 250, 0.12);
+
+  /* Effects */
+  --shadow-color: rgba(37, 99, 235, 0.16);
+  --shadow-hover: rgba(37, 99, 235, 0.25);
+}

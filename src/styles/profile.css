@@ -1,0 +1,200 @@
+/* =========================
+   PROFILE PAGE
+========================= */
+
+.profile-page {
+  min-height: 100vh;
+
+  padding: 20px 16px 120px;
+
+  background: var(--background-color);
+
+  color: var(--text-heading);
+}
+
+/* =========================
+   PROFILE HEADER
+========================= */
+
+.profile-header {
+  text-align: center;
+
+  margin-bottom: 26px;
+}
+
+.profile-avatar {
+  width: 96px;
+  height: 96px;
+
+  margin: 0 auto 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+
+  color: #ffffff;
+
+  font-size: 30px;
+  font-weight: 700;
+
+  box-shadow:
+    0 10px 25px
+    var(--shadow-color);
+}
+
+.profile-header h2 {
+  margin-bottom: 6px;
+
+  font-size: 24px;
+
+  color: var(--text-heading);
+
+  font-weight: 700;
+}
+
+.profile-header p {
+  font-size: 14px;
+
+  color: var(--text-secondary);
+}
+
+/* =========================
+   PROFILE CARD
+========================= */
+
+.profile-section {
+  background: var(--card-bg);
+
+  border: 1px solid
+    var(--card-border);
+
+  border-radius: 22px;
+
+  padding: 22px;
+
+  box-shadow:
+    0 10px 30px
+    var(--shadow-color);
+}
+
+.profile-section h3 {
+  margin-bottom: 18px;
+
+  font-size: 18px;
+
+  color: var(--text-heading);
+
+  font-weight: 700;
+}
+
+/* =========================
+   SETTING ROW
+========================= */
+
+.setting-row {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px 0;
+
+  border-bottom: 1px solid
+    var(--card-border);
+}
+
+.setting-row:last-child {
+  border-bottom: none;
+}
+
+.setting-row span {
+  font-size: 15px;
+
+  color: var(--text-heading);
+
+  font-weight: 500;
+}
+
+/* =========================
+   THEME BUTTON
+========================= */
+
+.theme-btn {
+  border: none;
+
+  min-width: 95px;
+
+  padding: 10px 16px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.theme-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================
+   ACTIVE THEME
+========================= */
+
+.active-theme {
+  box-shadow:
+    0 0 0 2px #ffffff,
+    0 0 0 5px
+    var(--primary-color);
+}
+
+/* =========================
+   PINK BUTTON
+========================= */
+
+.pink-btn {
+  background: linear-gradient(
+    135deg,
+    #e84393,
+    #fd79a8
+  );
+}
+
+/* =========================
+   BLUE BUTTON
+========================= */
+
+.blue-btn {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #60a5fa
+  );
+}
+
+/* =========================
+   VERSION ROW
+========================= */
+
+.version-row strong {
+  color: var(--primary-color);
+
+  font-size: 15px;
+
+  font-weight: 700;
+}

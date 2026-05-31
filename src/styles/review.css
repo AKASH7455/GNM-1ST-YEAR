@@ -1,0 +1,143 @@
+/* =========================
+   PINK THEME
+========================= */
+
+.pink-theme {
+  --primary-color: #e84393;
+  --secondary-color: #fd79a8;
+  --background-color: #fff5fa;
+  --card-bg: #ffffff;
+  --card-gradient-start: #fff5fa;
+  --card-gradient-end: #ffeaf4;
+  --card-border: #ffd6e8;
+  --text-heading: #2d3436;
+  --text-secondary: #636e72;
+  --shadow-color: rgba(232, 67, 147, 0.15);
+}
+
+/* =========================
+   BLUE THEME
+========================= */
+
+.blue-theme {
+  --primary-color: #2563eb;
+  --secondary-color: #60a5fa;
+  --background-color: #eef6ff;
+  --card-bg: #ffffff;
+  --card-gradient-start: #ffffff;
+  --card-gradient-end: #f7fbff;
+  --card-border: #bfdcff;
+  --text-heading: #1e293b;
+  --text-secondary: #475569;
+  --shadow-color: rgba(37, 99, 235, 0.16);
+}
+
+/* =========================
+   REVIEW PAGE
+========================= */
+
+.review-page {
+  min-height: 100vh;
+
+  padding: 20px;
+  padding-bottom: 100px;
+
+  background: var(--background-color);
+}
+
+.review-page h1 {
+  text-align: center;
+
+  font-size: 28px;
+  font-weight: 700;
+
+  color: var(--text-heading);
+
+  margin-bottom: 24px;
+}
+
+.review-page h2 {
+  text-align: center;
+
+  color: var(--text-secondary);
+}
+
+/* =========================
+   REVIEW CARD
+========================= */
+
+.review-card {
+  background: var(--card-bg);
+
+  border: 1px solid var(--card-border);
+
+  border-radius: 20px;
+
+  padding: 20px;
+
+  margin-bottom: 18px;
+
+  box-shadow:
+    0 8px 20px
+    var(--shadow-color);
+}
+
+.review-card h3 {
+  color: var(--text-heading);
+
+  font-size: 18px;
+
+  line-height: 1.6;
+
+  margin-bottom: 16px;
+}
+
+.review-card p {
+  margin-bottom: 10px;
+
+  font-size: 15px;
+
+  line-height: 1.6;
+
+  color: var(--text-secondary);
+}
+
+.review-card strong {
+  color: var(--text-heading);
+}
+
+/* =========================
+   STATUS
+========================= */
+
+.correct {
+  display: inline-block;
+
+  margin-top: 8px;
+
+  padding: 8px 14px;
+
+  border-radius: 30px;
+
+  background: #e8fff0;
+
+  color: #00a651;
+
+  font-weight: 700;
+}
+
+.wrong {
+  display: inline-block;
+
+  margin-top: 8px;
+
+  padding: 8px 14px;
+
+  border-radius: 30px;
+
+  background: #fff0f0;
+
+  color: #e53935;
+
+  font-weight: 700;
+}

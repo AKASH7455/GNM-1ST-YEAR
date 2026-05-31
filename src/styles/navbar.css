@@ -1,0 +1,209 @@
+/* =========================
+   PINK THEME
+========================= */
+
+.pink-theme {
+  --primary-color: #e84393;
+  --secondary-color: #fd79a8;
+  --card-bg: #ffffff;
+  --card-border: #ffd6e8;
+  --text-heading: #2d3436;
+  --text-secondary: #636e72;
+  --nav-bg: rgba(255, 255, 255, 0.95);
+  --nav-border: #ffd6e8;
+  --active-icon-text: #ffffff;
+  --border-hover: #ffb6d5;
+  --shadow-color: rgba(232, 67, 147, 0.15);
+  --shadow-hover: rgba(232, 67, 147, 0.25);
+}
+
+/* =========================
+   BLUE THEME
+========================= */
+
+.blue-theme {
+  --primary-color: #2563eb;
+  --secondary-color: #60a5fa;
+  --card-bg: #ffffff;
+  --card-border: #bfdcff;
+  --text-heading: #1e293b;
+  --text-secondary: #475569;
+  --nav-bg: rgba(255, 255, 255, 0.96);
+  --nav-border: #dbeafe;
+  --active-icon-text: #ffffff;
+  --border-hover: #93c5fd;
+  --shadow-color: rgba(37, 99, 235, 0.16);
+  --shadow-hover: rgba(37, 99, 235, 0.25);
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.navbar {
+  position: sticky;
+
+  top: 0;
+
+  z-index: 1000;
+
+  padding: 16px 20px;
+
+  background: var(--nav-bg);
+
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+
+  border-bottom: 1px solid
+    var(--nav-border);
+
+  box-shadow:
+    0 4px 20px
+    var(--shadow-color);
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.navbar-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.navbar-logo {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+}
+
+.logo-icon {
+  font-size: 38px;
+
+  color: var(--primary-color);
+
+  filter:
+    drop-shadow(
+      0 6px 14px
+      var(--shadow-color)
+    );
+
+  transition: transform 0.3s ease;
+}
+
+.logo-icon:hover {
+  transform: scale(1.05);
+}
+
+.logo-content h2 {
+  font-size: 20px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.3px;
+
+  color: var(--text-heading);
+}
+
+.logo-content span {
+  display: block;
+
+  margin-top: 2px;
+
+  font-size: 12px;
+  font-weight: 500;
+
+  color: var(--text-secondary);
+}
+
+/* =========================
+   ACTION BUTTON
+========================= */
+
+.header-action {
+  width: 46px;
+  height: 46px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  border: 1px solid
+    var(--card-border);
+
+  border-radius: 14px;
+
+  background: var(--card-bg);
+
+  box-shadow:
+    0 8px 20px
+    var(--shadow-color);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.header-action:hover {
+  transform: translateY(-2px);
+
+  border-color:
+    var(--border-hover);
+
+  box-shadow:
+    0 12px 26px
+    var(--shadow-hover);
+}
+
+.header-action:active {
+  transform: scale(0.95);
+}
+
+.header-action svg {
+  font-size: 18px;
+
+  color: var(--primary-color);
+
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.header-action:hover svg {
+  transform: rotate(15deg);
+}
+
+/* =========================
+   ACTIVE STATE
+========================= */
+
+.header-action.active {
+  background:
+    var(--primary-color);
+
+  border-color:
+    var(--primary-color);
+}
+
+.header-action.active svg {
+  color:
+    var(--active-icon-text);
+}
