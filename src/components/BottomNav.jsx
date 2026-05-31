@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "../styles/bottomNav.css";
+import "../styles/bottomnav.css";
 
 import {
   FaHouse,

@@ -36,7 +36,7 @@ function Profile() {
         </div>
 
         <div className="setting-row">
-          <span>Blue Theme</span>
+          <span>kaju special </span>
 
           <button
             className={`theme-btn blue-btn ${
