@@ -118,19 +118,6 @@
     border-color 0.3s ease;
 }
 
-.progress-card::before {
-  content: "";
-
-  position: absolute;
-
-  inset: 6px;
-
-  border-radius: 18px;
-
-
-  pointer-events: none;
-}
-
 .progress-card:hover {
   transform:
     translateY(-4px);

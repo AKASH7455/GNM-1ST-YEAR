@@ -1,61 +1,44 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-function useLocalStorage(
-  key,
-  initialValue
-) {
-  const [value, setValue] =
-    useState(() => {
-      try {
-        if (
-          typeof window ===
-          "undefined"
-        ) {
-          return initialValue;
-        }
+function useLocalStorage(key, initialValue) {
+  const [value, setValue] = useState(() => {
+    if (typeof window === "undefined") {
+      return initialValue;
+    }
 
-        const storedValue =
-          localStorage.getItem(key);
-
-        if (!storedValue) {
-          return initialValue;
-        }
-
-        return JSON.parse(
-          storedValue
-        );
-      } catch (error) {
-        console.error(
-          "LocalStorage Read Error:",
-          error
-        );
-
-        return initialValue;
-      }
-    });
-
-  const updateValue = (
-    newValue
-  ) => {
     try {
-      const valueToStore =
+      const storedValue = localStorage.getItem(key);
+
+      return storedValue !== null
+        ? JSON.parse(storedValue)
+        : initialValue;
+    } catch (error) {
+      console.error("LocalStorage Read Error:", error);
+      return initialValue;
+    }
+  });
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch (error) {
+      console.error("LocalStorage Save Error:", error);
+    }
+  }, [key, value]);
+
+  const updateValue = (newValue) => {
+    try {
+      setValue((prevValue) =>
         newValue instanceof Function
-          ? newValue(value)
-          : newValue;
-
-      setValue(valueToStore);
-
-      localStorage.setItem(
-        key,
-        JSON.stringify(
-          valueToStore
-        )
+          ? newValue(prevValue)
+          : newValue
       );
     } catch (error) {
-      console.error(
-        "LocalStorage Save Error:",
-        error
-      );
+      console.error("LocalStorage Save Error:", error);
     }
   };
 

@@ -41,13 +41,17 @@
 ========================= */
 
 .subjects-page {
-  padding: 20px 16px 90px;
+  width: 100%;
 
   max-width: 900px;
 
-  margin: 0 auto;
-}
+  margin-left: auto;
+  margin-right: auto;
 
+  padding: 20px 16px 120px;
+
+  box-sizing: border-box;
+}
 /* =========================
    SUBJECT CARD
 ========================= */

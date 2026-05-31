@@ -43,9 +43,12 @@
 
   display: flex;
   justify-content: center;
-  align-items: center;
 
-  padding: 20px;
+  align-items: flex-start;
+
+  padding: 24px;
+  padding-top: 40px;
+  padding-bottom: 140px;
 
   background: var(--background-color);
 }
@@ -58,21 +61,18 @@
   width: 100%;
   max-width: 430px;
 
+  margin: 0 auto;
+
   background: var(--card-bg);
 
   border-radius: 24px;
 
   padding: 30px 24px;
 
-  text-align: center;
-
   border: 1px solid var(--card-border);
 
-  box-shadow:
-    0 12px 30px
-    var(--shadow-color);
+  box-shadow: 0 12px 30px var(--shadow-color);
 }
-
 /* =========================
    SCORE CIRCLE
 ========================= */
@@ -225,9 +225,10 @@
 }
 
 .review-btn:hover {
-  background: var(--button-primary-hover);
 
   transform: translateY(-2px);
+
+  box-shadow: 0 8px 20px var(--shadow-color);
 }
 
 .home-btn {
@@ -236,10 +237,14 @@
   color: var(--primary-color);
 
   border: 1px solid var(--card-border);
+
+  transition: all 0.25s ease;
 }
 
 .home-btn:hover {
-  background: var(--border-hover);
+  background: var(--button-secondary-hover);
+
+  border-color: var(--border-hover);
 
   transform: translateY(-2px);
 }
