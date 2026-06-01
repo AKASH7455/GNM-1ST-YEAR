@@ -1,8 +1,8 @@
-import set1 from "./set1";
-import set2 from "./set2";
-import set3 from "./set3";
-import set4 from "./set4";
-import set5 from "./set5";
+import set1 from "./set1.js";
+import set2 from "./set2.js";
+import set3 from "./set3.js";
+import set4 from "./set4.js";
+import set5 from "./set5.js";
 
 const anatomyPhysiology = {
   name: "Anatomy & Physiology",

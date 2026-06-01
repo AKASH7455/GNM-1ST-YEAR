@@ -89,7 +89,7 @@ function Quiz() {
 
   const { timeLeft } =
     useQuizTimer(
-      questions.length * 60,
+      questions.length * 30,
       handleSubmitQuiz
     );
 
