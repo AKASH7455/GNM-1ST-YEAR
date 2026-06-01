@@ -1,631 +1,290 @@
+// Answer Key:
+// [4,1,3,2,1,4,2,3,1,4,3,2,4,1,2,3,4,2,3,1]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5
+
 const set4 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Sociology ke Community & Social Change topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Ek community me kuch log health center ki jagah jhaad-phoonk ko prefer karte hain. Nurse ko sabse pehle kis sociological factor ko assess karna chahiye?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Occupation pattern",
+      "Income source",
+      "Family size",
+      "Cultural beliefs"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Cultural beliefs",
+    explanation: "Health-seeking behavior par cultural beliefs ka direct effect hota hai. Agar community traditional healing par trust karti hai to nurse ko un beliefs ko samajhkar health education deni chahiye. Family size ya occupation yahan primary factor nahi hai. Culturally sensitive care nursing ka important principle hai.",
+    topic: "Culture",
     difficulty: "medium"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Sociology ke Community & Social Change topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Ek child sabse pehle language, values aur acceptable behavior kis social institution se seekhta hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Family",
+      "Hospital",
+      "Government",
+      "Workplace"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Family",
+    explanation: "Family primary agent of socialization hai. Bachcha sabse pehle norms aur values family se hi seekhta hai. School aur media baad me influence karte hain. Nursing assessment me family environment ka evaluation important hota hai.",
+    topic: "Socialization",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Sociology ke Community & Social Change topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Ek HIV patient ko society me baar-baar rejection aur discrimination face karna pad raha hai. Yeh kis sociological concept ka example hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Social mobility",
+      "Social integration",
+      "Social stigma",
+      "Acculturation"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "medium"
+    answer: "Social stigma",
+    explanation: "Social stigma negative labeling aur discrimination ko darshata hai. HIV patients aksar stigma ke karan treatment delay karte hain. Nurse ko counseling aur advocacy provide karni chahiye. Yeh public health concern bhi hai.",
+    topic: "Social Stigma",
+    difficulty: "hard"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Sociology ke Community & Social Change topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Ek adolescent ghar par obedient hai lekin friends ke saath risky behavior karta hai. Yeh kis sociological process ko reflect karta hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Urbanization",
+      "Role strain",
+      "Migration",
+      "Peer influence"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Peer influence",
+    explanation: "Peer group adolescence me behavior ko strongly influence karta hai. Risk-taking behaviors aksar peers se seekhe ya reinforce hote hain. Nurse ko adolescent counseling me peer pressure assess karna chahiye. Yeh socialization ka important aspect hai.",
+    topic: "Peer Group",
     difficulty: "medium"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Sociology ke Community & Social Change topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Ek daily wage worker ka beta IAS officer ban jata hai. Sociology me ise kya kaha jayega?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Upward social mobility",
+      "Role conflict",
+      "Social control",
+      "Social isolation"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Upward social mobility",
+    explanation: "Social mobility social status me change ko darshati hai. Education aur opportunities upward mobility ke major factors hain. Yeh social development ka positive indicator hai. Public health outcomes bhi mobility se influence ho sakte hain.",
+    topic: "Social Mobility",
     difficulty: "medium"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Sociology ke Community & Social Change topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Ek village me modern hospital ban gaya hai lekin log purane health myths ko hi follow kar rahe hain. Yeh kis concept ka example hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Social integration",
+      "Social control",
+      "Role conflict",
+      "Cultural lag"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "medium"
+    answer: "Cultural lag",
+    explanation: "Cultural lag tab hota hai jab technology ya facilities jaldi badal jayein lekin beliefs aur values dheere change hon. Hospital available hai par soch purani hai. Health education se is gap ko kam kiya ja sakta hai.",
+    topic: "Cultural Lag",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Sociology ke Community & Social Change topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Jab log laws aur regulations ke dar se public places par smoking avoid karte hain, to yeh kya hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Socialization",
+      "Social control",
+      "Acculturation",
+      "Migration"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "medium"
+    answer: "Social control",
+    explanation: "Social control society me acceptable behavior maintain karne ka mechanism hai. Laws aur penalties iska hissa hote hain. Smoking restrictions public health protection ke liye lagayi jati hain. Nursing professionals bhi health policies ko support karte hain.",
+    topic: "Social Control",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Sociology ke Community & Social Change topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Income, education aur occupation ke basis par society ka division kis concept ko darshata hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Role conflict",
+      "Acculturation",
+      "Social stratification",
+      "Urbanization"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "medium"
+    answer: "Social stratification",
+    explanation: "Social stratification society ko different levels me divide karti hai. Education, income aur occupation common indicators hain. Health inequalities bhi stratification se judi hoti hain. Community health planning me yeh concept important hai.",
+    topic: "Social Stratification",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Sociology ke Community & Social Change topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Ek patient treatment lene se pehle family elders ki permission ka wait karta hai. Iska sabse uchit explanation kya hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Traditional authority",
+      "Social mobility",
+      "Migration",
+      "Urbanization"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "medium"
+    answer: "Traditional authority",
+    explanation: "Traditional authority customs aur elders ke influence par based hoti hai. Kai societies me important decisions elders lete hain. Health behavior bhi is authority se influence hota hai. Nurse ko family dynamics samajhne chahiye.",
+    topic: "Authority",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Sociology ke Community & Social Change topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Ek migrant family local customs aur language ko gradually adopt kar leti hai. Is process ko kya kahenge?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Role strain",
+      "Social stigma",
+      "Social mobility",
+      "Acculturation"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Acculturation",
+    explanation: "Acculturation me log dusri culture ke elements ko apna lete hain. Migration ke baad yeh process common hota hai. Iska impact health beliefs aur practices par bhi pad sakta hai. Community nurse ko cultural adaptation samajhna chahiye.",
+    topic: "Acculturation",
     difficulty: "medium"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Sociology ke Community & Social Change topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Ek community me obesity aur diabetes ke cases rapid urban growth ke baad badhne lage. Iska major sociological factor kya hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Genetics only",
+      "Religion",
+      "Urbanization",
+      "Family size"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "medium"
+    answer: "Urbanization",
+    explanation: "Urbanization lifestyle changes laati hai jaise sedentary habits aur unhealthy diet. Yeh NCDs ka risk badhati hai. Community health nursing me urban health problems ka assessment zaroori hai. Genetics akela factor nahi hai.",
+    topic: "Urbanization",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Sociology ke Community & Social Change topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Ek woman self-help group ki member banne ke baad apne healthcare decisions khud lene lagti hai. Yeh kis process ko darshata hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Social isolation",
+      "Empowerment",
+      "Role conflict",
+      "Migration"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "medium"
+    answer: "Empowerment",
+    explanation: "Empowerment individuals ko resources aur decisions par control deta hai. Women empowerment health outcomes ko improve karta hai. Community development programs me empowerment ek major objective hota hai.",
+    topic: "Empowerment",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Sociology ke Community & Social Change topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Ek TB patient apni disease ko society se chhupata hai kyunki use logon ki reaction ka dar hai. Yeh kis factor ka result hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Social mobility",
+      "Role strain",
+      "Acculturation",
+      "Fear of stigma"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Fear of stigma",
+    explanation: "Disease-related stigma patients ko diagnosis aur treatment chhupane par majboor kar sakta hai. Isse treatment adherence aur mental health dono affect hote hain. Nurse ko confidential aur supportive care deni chahiye.",
+    topic: "Stigma",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Sociology ke Community & Social Change topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Ek child social media influencers se dressing aur behavior patterns seekh raha hai. Kaunsa agent of socialization active hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Mass media",
+      "Family",
+      "Religion",
+      "Occupation"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
+    answer: "Mass media",
+    explanation: "Mass media modern socialization ka powerful source hai. Social media attitudes aur behavior ko shape karta hai. Adolescents aur children par iska impact zyada hota hai. Health promotion campaigns bhi media ka use karti hain.",
+    topic: "Agents of Socialization",
+    difficulty: "medium"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Sociology ke Community & Social Change topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Ek nurse observe karti hai ki working mother ko ghar aur office dono ki responsibilities manage karne me difficulty ho rahi hai. Yeh kya hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Migration",
+      "Role conflict",
+      "Social control",
+      "Social mobility"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Role conflict",
+    explanation: "Role conflict tab hota hai jab multiple roles ki expectations ek doosre se takrati hain. Isse stress aur burnout ho sakta hai. Nursing assessment me psychosocial stressors identify karna zaroori hai.",
+    topic: "Role Conflict",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Sociology ke Community & Social Change topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Ek sanitation campaign ke baad community me open defecation significantly kam ho jata hai. Yeh kis process ka example hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Social stigma",
+      "Migration",
+      "Social change",
+      "Role strain"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
+    answer: "Social change",
+    explanation: "Social change society ke behavior aur attitudes me long-term transformation ko darshata hai. Sanitation campaigns positive behavioral changes la sakti hain. Public health interventions ka yahi objective hota hai.",
+    topic: "Social Change",
+    difficulty: "medium"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Sociology ke Community & Social Change topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Alag-alag religions ke log milkar blood donation camp organize karte hain. Yeh kis concept ko strengthen karta hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Role conflict",
+      "Social isolation",
+      "Social mobility",
+      "Social integration"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Social integration",
+    explanation: "Social integration groups ke beech unity aur cooperation ko badhava deti hai. Community participation aur trust improve hota hai. Public health programs ki success me integration important hai.",
+    topic: "Social Integration",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Sociology ke Community & Social Change topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Ek patient ko caste ke karan healthcare access me problems face karni pad rahi hain. Yeh kis issue ko indicate karta hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Role conflict",
+      "Social inequality",
+      "Urbanization",
+      "Socialization"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Social inequality",
+    explanation: "Social inequality resources aur opportunities ke unequal distribution ko darshati hai. Healthcare access par iska direct effect pad sakta hai. Nurses ko equitable care aur advocacy provide karni chahiye.",
+    topic: "Social Inequality",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Sociology ke Community & Social Change topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Ek adolescent apne peer group se smoking aur alcohol use seekh leta hai. Yeh kis sociological process ka example hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Acculturation",
+      "Migration",
+      "Social learning",
+      "Social mobility"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Social learning",
+    explanation: "Social learning ke through individuals dusron ko observe karke behaviors adopt karte hain. Peer influence adolescence me bahut strong hota hai. Health education programs is factor ko target karte hain.",
+    topic: "Social Learning",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Sociology ke Community & Social Change topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Community health planning me local residents ko actively involve karne ka sabse bada benefit kya hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Community ownership aur participation",
+      "Disease ka instant cure",
+      "Assessment ki zarurat khatam",
+      "Nurse ki responsibility khatam"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Sociology ke Community & Social Change topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Sociology ke Community & Social Change topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Sociology ke Community & Social Change topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Sociology ke Community & Social Change topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Sociology ke Community & Social Change topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Sociology ke Community & Social Change topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Sociology ke Community & Social Change topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Sociology ke Community & Social Change topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Sociology ke Community & Social Change topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Sociology ke Community & Social Change topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Community & Social Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Community & Social Change",
-
+    answer: "Community ownership aur participation",
+    explanation: "Community involvement se trust aur ownership badhta hai. Programs zyada sustainable aur acceptable bante hain. Community participation public health nursing ka core principle hai.",
+    topic: "Community Participation",
     difficulty: "hard"
   }
 ];

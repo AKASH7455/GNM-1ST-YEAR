@@ -1,632 +1,183 @@
 const set5 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan First Aid ke Medical Emergencies First Aid topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
-    options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Crush injury ke baad patient ko monitor karte waqt sabse dangerous complication kya ho sakti hai?",
+    options: ["Hypothermia", "Crush syndrome", "Otitis media", "Conjunctivitis"],
+    answer: "Crush syndrome",
+    explanation: "Crush syndrome me muscle breakdown products blood me release hote hain. Isse kidney failure aur electrolyte imbalance ho sakta hai.",
+    topic: "Trauma Care",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki First Aid ke Medical Emergencies First Aid topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
-    options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Severe burn patient me airway burn ka sabse important indicator kya hai?",
+    options: ["Leg pain", "Nail discoloration", "Abdominal distension", "Facial burns aur soot around mouth"],
+    answer: "Facial burns aur soot around mouth",
+    explanation: "Face burn aur mouth ke aas-paas soot inhalation injury ka warning sign hai. Airway edema rapidly develop ho sakta hai.",
+    topic: "Burn Management",
+    difficulty: "hard"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki First Aid ke Medical Emergencies First Aid topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "CPR ke dauran pulse absent aur patient unresponsive ho to priority kya hai?",
+    options: ["High-quality chest compressions", "Patient ko bithana", "Water dena", "Temperature lena"],
+    answer: "High-quality chest compressions",
+    explanation: "Cardiac arrest me effective chest compressions survival improve karti hain. Delay harmful ho sakta hai.",
+    topic: "CPR",
+    difficulty: "hard"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur First Aid ke Medical Emergencies First Aid topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
-    ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Heat stroke me organ damage ka primary reason kya hai?",
+    options: ["Low glucose", "Mild dehydration", "Extremely high body temperature", "Ear infection"],
+    answer: "Extremely high body temperature",
+    explanation: "Heat stroke me severe hyperthermia cells aur organs ko damage kar sakti hai. Rapid cooling zaruri hota hai.",
+    topic: "Heat Emergencies",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki First Aid ke Medical Emergencies First Aid topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
-    options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
-    ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Open fracture me infection risk kam karne ke liye kya karna chahiye?",
+    options: ["Warm oil lagana", "Sterile dressing apply karna", "Massage karna", "Bone ko push karna"],
+    answer: "Sterile dressing apply karna",
+    explanation: "Sterile dressing wound contamination kam karti hai. Bone ko andar push karna avoid karna chahiye.",
+    topic: "Fracture Care",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan First Aid ke Medical Emergencies First Aid topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
-    options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
+    question: "Hypoglycemia patient me immediate first aid kya hai agar patient conscious ho?",
+    options: ["Fast-acting glucose dena", "Insulin dena", "Antibiotic dena", "Exercise karwana"],
+    answer: "Fast-acting glucose dena",
+    explanation: "Conscious hypoglycemic patient ko jaldi absorb hone wali sugar deni chahiye. Insulin condition ko aur worsen karega.",
+    topic: "Medical Emergency",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki First Aid ke Medical Emergencies First Aid topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
-    ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Embedded object eye me ho to kya avoid karna chahiye?",
+    options: ["Eye shield lagana", "Refer karna", "Observation", "Object remove karne ki koshish"],
+    answer: "Object remove karne ki koshish",
+    explanation: "Embedded object nikalne se permanent eye damage ho sakta hai. Eye ko stabilize karke refer karna chahiye.",
+    topic: "Eye Trauma",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki First Aid ke Medical Emergencies First Aid topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Anaphylaxis me sabse pehle kis system par life-threatening effect hota hai?",
+    options: ["Digestive system", "Urinary system", "Respiratory system", "Reproductive system"],
+    answer: "Respiratory system",
+    explanation: "Airway edema aur bronchospasm severe breathing difficulty create kar sakte hain. Isliye epinephrine priority hai.",
+    topic: "Anaphylaxis",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki First Aid ke Medical Emergencies First Aid topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
-    options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
-    ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Head injury ke baad patient ko repeatedly sone dena kyon risky ho sakta hai?",
+    options: ["Neurological deterioration miss ho sakti hai", "BP badh jata hai", "Weight kam ho jata hai", "Pulse slow ho jati hai"],
+    answer: "Neurological deterioration miss ho sakti hai",
+    explanation: "Frequent neurological assessment zaruri hoti hai. Excessive sleep worsening signs ko hide kar sakti hai.",
+    topic: "Head Injury",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan First Aid ke Medical Emergencies First Aid topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
-    options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Shock patient me cold clammy skin kis mechanism ki wajah se hoti hai?",
+    options: ["Peripheral vasoconstriction", "Liver enlargement", "Hyperglycemia", "Hyperventilation only"],
+    answer: "Peripheral vasoconstriction",
+    topic: "Shock",
+    difficulty: "hard",
+    explanation: "Body blood ko vital organs ki taraf divert karti hai. Isse skin thandi aur clammy ho sakti hai."
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan First Aid ke Medical Emergencies First Aid topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
-    ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Tension pneumothorax ka classic sign kya ho sakta hai?",
+    options: ["Mild itching", "Diarrhea", "Normal breathing", "Tracheal deviation"],
+    answer: "Tracheal deviation",
+    explanation: "Tension pneumothorax ek life-threatening emergency hai. Tracheal deviation advanced sign mana jata hai.",
+    topic: "Chest Trauma",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki First Aid ke Medical Emergencies First Aid topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "medium"
+    question: "Poison inhalation case me sabse pehla intervention kya hai?",
+    options: ["Fresh air me le jana", "Milk pilana", "Massage karna", "Walking karwana"],
+    answer: "Fresh air me le jana",
+    explanation: "Source se remove karna aur fresh air provide karna priority hai. Yeh further exposure rokta hai.",
+    topic: "Poisoning",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki First Aid ke Medical Emergencies First Aid topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
-    options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
+    question: "Seizure ke dauran patient ko forcefully hold karna kyon galat hai?",
+    options: ["BP badhta hai", "Pulse kam hoti hai", "Injury risk badhta hai", "Fever ho jata hai"],
+    answer: "Injury risk badhta hai",
+    explanation: "Restraint se musculoskeletal injury ka risk badh jata hai. Safety provide karna better approach hai.",
+    topic: "Neurological Emergency",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur First Aid ke Medical Emergencies First Aid topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
-    ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
+    question: "Snake bite victim ko calm rakhna kyon important hai?",
+    options: ["Pain increase karne ke liye", "Venom spread slow karne ke liye", "BP badhane ke liye", "Fever rokne ke liye"],
+    answer: "Venom spread slow karne ke liye",
+    explanation: "Anxiety aur movement circulation badha sakte hain. Calm rehne se venom spread relatively slow ho sakta hai.",
+    topic: "Bites and Stings",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki First Aid ke Medical Emergencies First Aid topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
+    question: "Electrical injury ke baad ECG monitoring kyon important hai?",
+    options: ["Vision improve karne ke liye", "Weight assess karne ke liye", "Pain assess karne ke liye", "Arrhythmia detect karne ke liye"],
+    answer: "Arrhythmia detect karne ke liye",
+    explanation: "Electrical current heart rhythm disturb kar sakta hai. ECG monitoring serious complications identify karti hai.",
+    topic: "Electrical Injury",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan First Aid ke Medical Emergencies First Aid topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
-    options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
+    question: "Frostbite area ko direct heat source se warm kyon nahi karna chahiye?",
+    options: ["Color change hota hai", "Pulse badhti hai", "Burn injury ho sakti hai", "Weight badhta hai"],
+    answer: "Burn injury ho sakti hai",
+    explanation: "Frozen tissue sensitive hota hai. Direct heat additional tissue damage kar sakti hai.",
+    topic: "Cold Emergencies",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki First Aid ke Medical Emergencies First Aid topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
-    options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
+    question: "Drowning victim me survival ka sabse important factor kya hai?",
+    options: ["Early oxygenation aur ventilation", "Hair color", "Body weight", "Age only"],
+    answer: "Early oxygenation aur ventilation",
+    explanation: "Drowning me hypoxia main problem hai. Early airway support outcome improve karta hai.",
+    topic: "Drowning",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki First Aid ke Medical Emergencies First Aid topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
+    question: "Asthma attack me patient ko kis position me bithana helpful hota hai?",
+    options: ["Flat supine", "Upright position", "Trendelenburg", "Prone"],
+    answer: "Upright position",
+    explanation: "Upright position breathing effort ko improve karti hai aur lung expansion me madad karti hai.",
+    topic: "Respiratory Emergency",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki First Aid ke Medical Emergencies First Aid topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
-    ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
+    question: "Mass casualty triage me green tag kis patient ko diya jata hai?",
+    options: ["Immediate care", "Delayed care", "Minor injury", "Deceased"],
+    answer: "Minor injury",
+    explanation: "Green tag walking wounded ya minor injury patients ke liye use hota hai.",
+    topic: "Disaster First Aid",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan First Aid ke Medical Emergencies First Aid topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
-    options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
-    ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan First Aid ke Medical Emergencies First Aid topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki First Aid ke Medical Emergencies First Aid topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki First Aid ke Medical Emergencies First Aid topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur First Aid ke Medical Emergencies First Aid topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki First Aid ke Medical Emergencies First Aid topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan First Aid ke Medical Emergencies First Aid topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki First Aid ke Medical Emergencies First Aid topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki First Aid ke Medical Emergencies First Aid topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki First Aid ke Medical Emergencies First Aid topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan First Aid ke Medical Emergencies First Aid topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Medical Emergencies First Aid me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medical Emergencies First Aid",
-
-    difficulty: "hard"
+    question: "Recovery position ka ek major benefit kya hai?",
+    options: ["BP increase", "Temperature increase", "Pain relief", "Aspiration risk kam karna"],
+    answer: "Aspiration risk kam karna",
+    explanation: "Recovery position airway protection aur secretion drainage me help karti hai.",
+    topic: "Emergency Positioning",
+    difficulty: "medium"
   }
 ];
 

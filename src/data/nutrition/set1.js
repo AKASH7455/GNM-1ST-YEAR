@@ -1,633 +1,312 @@
 const set1 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Therapeutic Diets topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Post-operative patient ko wound healing slow ho rahi hai. Nurse ko sabse pehle kis nutrient deficiency ka suspicion karna chahiye?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Protein deficiency",
+      "Vitamin D deficiency",
+      "Fluoride deficiency",
+      "Iodine deficiency"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Protein deficiency",
+    explanation:
+      "Protein tissue repair aur cell regeneration ke liye essential hai. Post-operative wound healing me adequate protein bahut zaroori hota hai. Vitamin D, fluoride aur iodine ke apne roles hain lekin direct wound healing par protein ka impact sabse zyada hota hai. Clinical setting me low albumin bhi delayed healing se associated hota hai.",
+    topic: "Therapeutic Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Therapeutic Diets topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Severe diarrhea ke baad admit patient me dehydration aur electrolyte imbalance hai. Nurse ko kaunsa food recommend karna chahiye jo potassium replenish karne me madad kare?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "White bread",
+      "Banana",
+      "Butter",
+      "Sugar candy"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Banana",
+    explanation:
+      "Banana potassium ka achha source hai aur diarrhea ke baad lost potassium ko replace karne me madad karta hai. White bread aur sugar mainly carbohydrate dete hain. Butter me potassium significant amount me nahi hota. Electrolyte correction patient safety ke liye important hai.",
+    topic: "Mineral Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Therapeutic Diets topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Night duty ke dauran ek child patient me frequent infections aur night blindness dekhi gayi. Yeh kis nutrient ki kami ko indicate karta hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Vitamin K",
+      "Vitamin E",
+      "Vitamin A",
+      "Vitamin B12"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Vitamin A",
+    explanation:
+      "Vitamin A vision aur epithelial tissue integrity ke liye important hai. Iski deficiency se night blindness aur infection susceptibility badh sakti hai. Vitamin K clotting se related hai. Vitamin E aur B12 ke deficiency manifestations alag hote hain.",
+    topic: "Vitamin Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Therapeutic Diets topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Pregnant woman ki assessment me nurse ko neural tube defects prevent karne ke liye kis nutrient intake par focus karna chahiye?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Calcium",
+      "Protein",
+      "Vitamin C",
+      "Folic Acid"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Folic Acid",
+    explanation:
+      "Folic acid pregnancy ke early weeks me neural tube development ke liye critical hai. Iski deficiency congenital defects ka risk badha sakti hai. Calcium aur protein bhi important hain lekin specific prevention folic acid se hoti hai. Antenatal counseling me is par khas zor diya jata hai.",
+    topic: "Maternal Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Therapeutic Diets topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "ICU patient ko enteral feeding di ja rahi hai. Nurse ko aspiration risk kam karne ke liye kya karna chahiye?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Head end 30–45 degree elevate rakhna",
+      "Patient ko flat sulana",
+      "Feeding ke turant baad prone position dena",
+      "Tube feeding ko rapid push karna"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "medium"
+    answer: "Head end 30–45 degree elevate rakhna",
+    explanation:
+      "Enteral feeding ke dauran head elevation aspiration risk ko significantly reduce karti hai. Flat position aspiration ko increase kar sakti hai. Rapid feeding bhi intolerance aur aspiration ka risk badhati hai. Yeh patient safety ka important nursing intervention hai.",
+    topic: "Enteral Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Therapeutic Diets topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Community survey me kai bachchon me goiter dekha gaya. Sabse likely nutritional deficiency kya hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Iron deficiency",
+      "Iodine deficiency",
+      "Magnesium deficiency",
+      "Copper deficiency"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Iodine deficiency",
+    explanation:
+      "Iodine thyroid hormone synthesis ke liye essential hai. Iski kami se thyroid enlargement yani goiter develop ho sakta hai. Iron deficiency anemia produce karti hai. Community health programs me iodized salt promotion isi wajah se kiya jata hai.",
+    topic: "Micronutrient Deficiency",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Therapeutic Diets topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Burn patient ka metabolic demand bahut increase ho gaya hai. Diet planning me sabse important priority kya hogi?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Low calorie diet",
+      "High carbohydrate only",
+      "High protein aur high calorie diet",
+      "Fat-free diet"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "medium"
+    answer: "High protein aur high calorie diet",
+    explanation:
+      "Burn injuries me tissue breakdown aur energy expenditure dono badh jate hain. Isliye high protein aur high calorie diet healing support karti hai. Low calorie ya fat-free diet recovery ko delay kar sakti hai. Nutrition burn management ka key component hai.",
+    topic: "Clinical Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Therapeutic Diets topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Anemia prevention program ke dauran nurse adolescent girls ko kis food combination ki advice degi jisse iron absorption improve ho?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Tea ke saath iron tablet",
+      "Milk ke saath iron tablet",
+      "Iron-rich food ke saath coffee",
+      "Iron-rich food ke saath citrus fruits"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "medium"
+    answer: "Iron-rich food ke saath citrus fruits",
+    explanation:
+      "Vitamin C iron absorption ko enhance karta hai. Citrus fruits ke saath iron-rich food lene se absorption better hota hai. Tea aur coffee iron absorption ko reduce kar sakte hain. Community nutrition education me yeh bahut important concept hai.",
+    topic: "Iron Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Therapeutic Diets topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Patient ka BMI 31 kg/m² hai aur type 2 diabetes newly diagnosed hai. Diet counseling me pehla focus kya hona chahiye?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Weight reduction through calorie control",
+      "Unlimited fruit intake",
+      "High sugar beverages",
+      "Skipping breakfast daily"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "medium"
+    answer: "Weight reduction through calorie control",
+    explanation:
+      "Obesity type 2 diabetes ke major risk factors me se ek hai. Controlled calorie intake aur weight reduction glycemic control improve karte hain. High sugar beverages harmful hote hain. Balanced meal planning diabetic care ka foundation hai.",
+    topic: "Diabetic Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Therapeutic Diets topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Parenteral nutrition receive kar rahe patient me infection prevention ke liye nurse ko kis cheez par sabse zyada dhyan dena chahiye?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Frequent tube shaking",
+      "Extra sugar add karna",
+      "Flow rate ignore karna",
+      "Strict aseptic technique maintain karna"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "medium"
+    answer: "Strict aseptic technique maintain karna",
+    explanation:
+      "Parenteral nutrition central venous access se diya jata hai jahan infection risk high hota hai. Strict aseptic technique se catheter-related infections prevent kiye ja sakte hain. Flow rate aur solution handling bhi important hain. Patient safety ke liye asepsis essential hai.",
+    topic: "Parenteral Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Therapeutic Diets topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Kwashiorkor se affected child me sabse characteristic finding kya ho sakti hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Severe dehydration only",
+      "Edema with protein deficiency",
+      "Hypertension",
+      "Hyperthyroidism"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "medium"
+    answer: "Edema with protein deficiency",
+    explanation:
+      "Kwashiorkor primarily protein deficiency disorder hai jisme edema commonly dekha jata hai. Serum protein levels low hone se fluid tissues me shift hota hai. Hypertension aur hyperthyroidism iski typical features nahi hain. Pediatric nutrition me yeh high-yield concept hai.",
+    topic: "Protein Energy Malnutrition",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Therapeutic Diets topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Rickets se affected child ke nutritional management me kaunsa nutrient sabse important hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Vitamin K",
+      "Vitamin B6",
+      "Vitamin D",
+      "Vitamin C"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Vitamin D",
+    explanation:
+      "Vitamin D calcium metabolism aur bone mineralization ke liye zaroori hai. Deficiency se rickets develop ho sakta hai. Vitamin K clotting ke liye important hai. Nurse ko diet aur sunlight exposure dono par counseling deni chahiye.",
+    topic: "Vitamin D Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Therapeutic Diets topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Cardiac patient ko sodium-restricted diet prescribe ki gayi hai. Nurse ko kis food ko avoid karne ki advice deni chahiye?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Processed salted snacks",
+      "Fresh fruits",
+      "Boiled vegetables",
+      "Plain rice"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Processed salted snacks",
+    explanation:
+      "Processed snacks me sodium content kaafi high hota hai jo fluid retention aur blood pressure badha sakta hai. Fresh fruits aur plain rice comparatively safer options hain. Cardiac nutrition me sodium restriction ek major intervention hai.",
+    topic: "Cardiac Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Therapeutic Diets topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Chronic kidney disease patient ko diet counseling dete waqt nurse kis nutrient ke excessive intake se bachne ki salah degi?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Water-soluble vitamins",
+      "Fiber",
+      "Simple hydration only",
+      "Protein"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Protein",
+    explanation:
+      "CKD me excessive protein nitrogenous waste load badha sakta hai. Disease stage ke according protein intake carefully plan kiya jata hai. Fiber aur vitamins generally different considerations rakhte hain. Renal nutrition individualized hoti hai.",
+    topic: "Renal Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Therapeutic Diets topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Under-five child me marasmus ka assessment karte waqt nurse sabse likely kya observe karegi?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Generalized edema",
+      "Moon face",
+      "Severe wasting and loss of subcutaneous fat",
+      "Fluid overload"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Severe wasting and loss of subcutaneous fat",
+    explanation:
+      "Marasmus severe calorie deficiency se related hota hai jisme marked wasting dekhi jati hai. Edema usually kwashiorkor me prominent hota hai. Child extremely thin aur weak nazar aa sakta hai. Growth monitoring me early detection important hai.",
+    topic: "Protein Energy Malnutrition",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Therapeutic Diets topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Lactating mother ki nutritional requirement pregnancy ke comparison me kis wajah se increase hoti hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Milk production ke liye additional nutrients chahiye",
+      "Bone growth restart hoti hai",
+      "Thyroid failure prevent karna hota hai",
+      "BP control ke liye"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
+    answer: "Milk production ke liye additional nutrients chahiye",
+    explanation:
+      "Lactation ke dauran mother ko breast milk synthesis ke liye extra energy aur nutrients ki zaroorat hoti hai. Yeh infant growth ko directly affect karta hai. Isliye balanced aur adequate diet bahut important hai. Nursing counseling ka major focus bhi yahi hota hai.",
+    topic: "Lactation Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Therapeutic Diets topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Scurvy se affected patient me nurse ko kaunsi dietary advice deni chahiye?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Refined sugar increase karna",
+      "High saturated fat diet",
+      "Protein completely stop karna",
+      "Vitamin C rich foods include karna"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
+    answer: "Vitamin C rich foods include karna",
+    explanation:
+      "Scurvy vitamin C deficiency se hota hai. Citrus fruits aur other vitamin C rich foods collagen synthesis aur healing improve karte hain. Refined sugar ya saturated fat iska treatment nahi hain. Nutritional correction primary management hai.",
+    topic: "Vitamin C Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Therapeutic Diets topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Nurse ek malnourished child ka Mid Upper Arm Circumference assess kar rahi hai. Yeh assessment kis purpose ke liye useful hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Vision assessment",
+      "Nutritional status screening",
+      "Hearing assessment",
+      "Cardiac output measurement"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Nutritional status screening",
+    explanation:
+      "MUAC malnutrition screening ka simple aur effective tool hai. Community settings me undernutrition identify karne ke liye widely use kiya jata hai. Hearing aur vision assessment se iska relation nahi hai. Early detection timely intervention me help karta hai.",
+    topic: "Nutritional Assessment",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Therapeutic Diets topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Hospitalized patient ko constipation ho raha hai. Diet modification me nurse sabse pehle kya suggest karegi?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Fiber completely avoid karna",
+      "Fluid restriction karna",
+      "Fiber-rich diet aur adequate fluids",
+      "Only liquid sugar diet"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
+    answer: "Fiber-rich diet aur adequate fluids",
+    explanation:
+      "Fiber stool bulk badhata hai aur adequate fluids bowel movement ko support karte hain. Constipation management me yeh first-line dietary approach hai. Fiber restriction problem ko worsen kar sakta hai. Non-pharmacological nursing care ka important part hai.",
+    topic: "Dietary Fiber",
+    difficulty: "medium"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Therapeutic Diets topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Exclusive breastfeeding ke baare me counseling dete waqt nurse 6 mahine tak kis advice ko support karegi?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Breast milk ke saath honey dena",
+      "Water regularly dena",
+      "Animal milk start kar dena",
+      "Sirf breast milk dena"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Therapeutic Diets topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Therapeutic Diets topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Therapeutic Diets topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Therapeutic Diets topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Therapeutic Diets topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Therapeutic Diets topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Therapeutic Diets topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Therapeutic Diets topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Therapeutic Diets topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Therapeutic Diets topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Therapeutic Diets me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Therapeutic Diets",
-
+    answer: "Sirf breast milk dena",
+    explanation:
+      "Exclusive breastfeeding ke dauran pehle 6 mahine tak sirf breast milk recommend kiya jata hai. Isme infant ki nutritional aur hydration needs puri ho jati hain. Honey aur animal milk early introduction se risks badh sakte hain. WHO recommendations bhi isi approach ko support karti hain.",
+    topic: "Infant Nutrition",
     difficulty: "hard"
   }
 ];
 
 export default set1;
+
+// Answer Key:
+// [1,2,3,4,1,2,3,4,1,4,2,3,1,4,3,2,4,2,3,4]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

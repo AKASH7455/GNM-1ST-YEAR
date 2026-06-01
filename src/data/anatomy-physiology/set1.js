@@ -1,631 +1,272 @@
 const set1 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Cardiovascular & Respiratory System topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
-    options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "medium"
+    question: "Head injury ke baad patient ka right pupil dilated aur fixed hai. Ye sabse adhik kis cranial nerve ke compression ko indicate karta hai?",
+    options: ["Optic Nerve", "Oculomotor Nerve", "Trochlear Nerve", "Abducens Nerve"],
+    answer: "Oculomotor Nerve",
+    explanation: "Oculomotor Nerve (CN III) pupil constriction control karti hai. Iske compression se pupil dilated aur fixed ho jata hai. Baaki nerves eye movement se related hain lekin pupillary constriction directly control nahi karti.",
+    topic: "Nervous System",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
-    options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "medium"
+    question: "Severe hemorrhage ke dauran sabse pehle kis mechanism se blood pressure maintain karne ki koshish hoti hai?",
+    options: ["ADH secretion decrease", "Baroreceptor reflex activation", "RBC production increase", "Platelet destruction"],
+    answer: "Baroreceptor reflex activation",
+    explanation: "Acute blood loss me body turant Baroreceptor reflex activate karti hai jisse heart rate aur vasoconstriction badhta hai. RBC production baad me hoti hai.",
+    topic: "Cardiovascular Physiology",
+    difficulty: "hard"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Alveoli me gas exchange ke liye sabse important factor kya hai?",
+    options: ["Thick membrane", "Large diffusion distance", "Thin respiratory membrane", "Low surface area"],
+    answer: "Thin respiratory membrane",
+    explanation: "Thin membrane oxygen aur carbon dioxide diffusion ko fast banati hai. Thick membrane gas exchange ko slow karti hai.",
+    topic: "Respiratory System",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Cardiovascular & Respiratory System topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
-    ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "medium"
+    question: "Kidney me Glomerular Filtration Rate kam hone par sabse pehle kaunsa hormone activate hota hai?",
+    options: ["Insulin", "Renin", "Calcitonin", "Thyroxine"],
+    answer: "Renin",
+    explanation: "Low renal perfusion par Juxtaglomerular cells Renin release karte hain. Ye RAAS system activate karke BP maintain karta hai.",
+    topic: "Urinary System",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
-    options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
-    ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "ECG me QRS complex kis event ko represent karta hai?",
+    options: ["Atrial depolarization", "Atrial repolarization", "Ventricular depolarization", "Ventricular relaxation"],
+    answer: "Ventricular depolarization",
+    explanation: "QRS complex ventricles ke electrical activation ko show karta hai. P wave atrial depolarization aur T wave ventricular repolarization ko show karti hai.",
+    topic: "Cardiovascular System",
     difficulty: "medium"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Cardiovascular & Respiratory System topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
-    options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "medium"
+    question: "Calcium level bahut kam hone par sabse pehle kaunsi gland response degi?",
+    options: ["Pituitary Gland", "Thyroid Gland", "Parathyroid Gland", "Adrenal Gland"],
+    answer: "Parathyroid Gland",
+    explanation: "Low calcium par PTH release hota hai jo serum calcium ko increase karta hai. Ye calcium homeostasis ka main regulator hai.",
+    topic: "Endocrine System",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
-    ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "medium"
+    question: "Oxygen dissociation curve right shift hone ka effect kya hoga?",
+    options: ["Tissues ko oxygen release badhega", "Hemoglobin oxygen strongly bind karega", "Oxygen transport ruk jayega", "CO2 transport band hoga"],
+    answer: "Tissues ko oxygen release badhega",
+    explanation: "Right shift se hemoglobin oxygen ko easily tissues me release karta hai. Exercise aur fever me ye physiological adaptation hoti hai.",
+    topic: "Respiratory Physiology",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Adult human body me sabse lambi haddi kaunsi hoti hai?",
+    options: ["Tibia", "Humerus", "Femur", "Radius"],
+    answer: "Femur",
+    explanation: "Femur body ki longest aur strongest bone hai. Ye weight bearing me important role nibhati hai.",
+    topic: "Skeletal System",
     difficulty: "medium"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
-    options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
-    ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "medium"
+    question: "Liver failure me blood clotting disorder ka main anatomical reason kya hai?",
+    options: ["Platelet overproduction", "Clotting factor synthesis kam hona", "RBC destruction ruk jana", "Neutrophil increase hona"],
+    answer: "Clotting factor synthesis kam hona",
+    explanation: "Liver adhiktar clotting factors banata hai. Liver damage se coagulation factors kam ho jate hain aur bleeding risk badh jata hai.",
+    topic: "Digestive System",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Cardiovascular & Respiratory System topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
-    options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Neuromuscular junction par neurotransmitter kaunsa release hota hai?",
+    options: ["Dopamine", "Acetylcholine", "Serotonin", "GABA"],
+    answer: "Acetylcholine",
+    explanation: "Skeletal muscle contraction ke liye Acetylcholine essential neurotransmitter hai. Iske bina muscle activation nahi hota.",
+    topic: "Muscular System",
     difficulty: "medium"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Cardiovascular & Respiratory System topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
-    ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "medium"
+    question: "Agar vagus nerve excessively stimulate ho jaye to kya hoga?",
+    options: ["Heart rate badhega", "Blood glucose badhega", "Heart rate kam hoga", "Respiration band hogi"],
+    answer: "Heart rate kam hoga",
+    explanation: "Vagus nerve parasympathetic nerve hai jo heart rate ko slow karti hai. Excess stimulation se bradycardia ho sakta hai.",
+    topic: "Nervous System",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "RBC production ka primary site adult me kya hai?",
+    options: ["Yellow marrow", "Red bone marrow", "Spleen", "Liver"],
+    answer: "Red bone marrow",
+    explanation: "Adult me erythropoiesis mainly red bone marrow me hoti hai. Liver aur spleen fetal life me zyada active hote hain.",
+    topic: "Hematology",
     difficulty: "medium"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
-    options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Protein digestion ka major hissa kis organ me complete hota hai?",
+    options: ["Mouth", "Esophagus", "Small Intestine", "Large Intestine"],
+    answer: "Small Intestine",
+    explanation: "Stomach digestion start karta hai lekin majority digestion aur absorption small intestine me complete hoti hai.",
+    topic: "Digestive System",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Cardiovascular & Respiratory System topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
-    ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Blood-brain barrier ka main function kya hai?",
+    options: ["CSF banana", "Brain ko harmful substances se protect karna", "Neuron divide karna", "Oxygen production"],
+    answer: "Brain ko harmful substances se protect karna",
+    explanation: "Blood-brain barrier selective permeability provide karta hai. Ye toxins aur pathogens ko brain tissue tak pahunchne se rokta hai.",
+    topic: "Nervous System",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "hard"
+    question: "Cardiac output kis formula se calculate hota hai?",
+    options: ["Stroke Volume × Heart Rate", "BP × Pulse", "RBC × Plasma", "Heart Rate ÷ Stroke Volume"],
+    answer: "Stroke Volume × Heart Rate",
+    explanation: "Cardiac output ek minute me heart dwara pump kiya gaya blood hota hai. Iska formula Stroke Volume × Heart Rate hai.",
+    topic: "Cardiovascular Physiology",
+    difficulty: "medium"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Cardiovascular & Respiratory System topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
-    options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "hard"
+    question: "Insulin ki deficiency se sabse adhik kaunsa metabolic effect hota hai?",
+    options: ["Hypoglycemia", "Hyperglycemia", "Hypocalcemia", "Anemia"],
+    answer: "Hyperglycemia",
+    explanation: "Insulin glucose ko cells me enter karne me madad karta hai. Iski kami se blood glucose level badh jata hai.",
+    topic: "Endocrine System",
+    difficulty: "medium"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
-    options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Pleura ka primary physiological role kya hai?",
+    options: ["Blood filtration", "Friction kam karna", "Hormone secretion", "RBC formation"],
+    answer: "Friction kam karna",
+    explanation: "Pleural fluid lungs aur chest wall ke beech friction ko reduce karta hai aur smooth breathing facilitate karta hai.",
+    topic: "Respiratory System",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Vitamin B12 deficiency se kis type ka anemia develop hota hai?",
+    options: ["Microcytic anemia", "Megaloblastic anemia", "Hemolytic anemia", "Aplastic anemia"],
+    answer: "Megaloblastic anemia",
+    explanation: "Vitamin B12 DNA synthesis ke liye zaroori hai. Deficiency me large immature RBCs develop hote hain.",
+    topic: "Hematology",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
-    ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "hard"
+    question: "Thyroid hormones ka primary effect kya hai?",
+    options: ["Metabolic rate increase karna", "Blood clotting karna", "Urine formation rokna", "Platelet banana"],
+    answer: "Metabolic rate increase karna",
+    explanation: "Thyroid hormones body metabolism ko regulate karte hain. Hyperthyroidism me metabolism excessive badh jata hai.",
+    topic: "Endocrine System",
+    difficulty: "medium"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Cardiovascular & Respiratory System topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
-    options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
-    ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Cerebellum damage hone par patient me sabse common finding kya hogi?",
+    options: ["Memory loss", "Ataxia", "Blindness", "Paralysis of diaphragm"],
+    answer: "Ataxia",
+    explanation: "Cerebellum coordination aur balance control karta hai. Damage se gait disturbance aur ataxia develop hoti hai.",
+    topic: "Nervous System",
     difficulty: "hard"
   },
-
   {
     id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Cardiovascular & Respiratory System topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Nephron ka kaunsa part water reabsorption me ADH ke prati sabse sensitive hota hai?",
+    options: ["Proximal tubule", "Loop of Henle", "Collecting duct", "Bowman capsule"],
+    answer: "Collecting duct",
+    explanation: "ADH collecting duct ki permeability badhata hai jisse water reabsorption increase hota hai.",
+    topic: "Urinary System",
     difficulty: "hard"
   },
-
   {
     id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Hypoxia ki condition me erythropoietin ka major source kya hai?",
+    options: ["Liver", "Kidney", "Spleen", "Pancreas"],
+    answer: "Kidney",
+    explanation: "Kidney oxygen deficiency ko detect karke erythropoietin release karti hai jo RBC production stimulate karta hai.",
+    topic: "Urinary System",
     difficulty: "hard"
   },
-
   {
     id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Sinoatrial node ko heart ka natural pacemaker kyu kaha jata hai?",
+    options: ["Sabse bada node hai", "Sabse fast impulse generate karta hai", "Valve control karta hai", "Blood filter karta hai"],
+    answer: "Sabse fast impulse generate karta hai",
+    explanation: "SA node spontaneous depolarization ki highest rate rakhta hai. Isi wajah se heart rhythm initiate karta hai.",
+    topic: "Cardiovascular System",
     difficulty: "hard"
   },
-
   {
     id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Cardiovascular & Respiratory System topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "hard"
+    question: "Joint cavity me Synovial fluid ka main function kya hai?",
+    options: ["Bone growth", "Lubrication", "RBC production", "Calcium storage"],
+    answer: "Lubrication",
+    explanation: "Synovial fluid friction reduce karta hai aur joint movement ko smooth banata hai.",
+    topic: "Skeletal System",
+    difficulty: "medium"
   },
-
   {
     id: 25,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Respiratory center primarily kis structure me located hota hai?",
+    options: ["Cerebrum", "Medulla Oblongata", "Thalamus", "Cerebellum"],
+    answer: "Medulla Oblongata",
+    explanation: "Medulla breathing rhythm control karti hai. Damage hone par respiration severely affect ho sakti hai.",
+    topic: "Respiratory System",
     difficulty: "hard"
   },
-
   {
     id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Cardiovascular & Respiratory System topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Macula densa ka major role kya hai?",
+    options: ["Blood clotting", "Tubular sodium monitor karna", "Bile secretion", "Insulin release"],
+    answer: "Tubular sodium monitor karna",
+    explanation: "Macula densa nephron me sodium concentration detect karti hai aur GFR regulation me help karti hai.",
+    topic: "Urinary System",
     difficulty: "hard"
   },
-
   {
     id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
-    difficulty: "hard"
+    question: "Sympathetic stimulation se pupil par kya effect hota hai?",
+    options: ["Constriction", "Dilation", "No change", "Permanent fixation"],
+    answer: "Dilation",
+    explanation: "Fight-or-flight response me sympathetic system pupil ko dilate karta hai taki vision field improve ho.",
+    topic: "Nervous System",
+    difficulty: "medium"
   },
-
   {
     id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Osteoclast cells ka primary function kya hai?",
+    options: ["Bone formation", "Bone resorption", "Cartilage formation", "Collagen synthesis"],
+    answer: "Bone resorption",
+    explanation: "Osteoclasts bone breakdown karte hain jabki Osteoblasts bone formation karte hain.",
+    topic: "Skeletal System",
     difficulty: "hard"
   },
-
   {
     id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Cardiovascular & Respiratory System topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Portal circulation directly kis do organs ko connect karti hai?",
+    options: ["Heart aur Kidney", "Liver aur Intestine", "Lung aur Heart", "Brain aur Spinal Cord"],
+    answer: "Liver aur Intestine",
+    explanation: "Portal vein intestine se absorbed nutrients ko liver tak pahunchati hai processing ke liye.",
+    topic: "Digestive System",
     difficulty: "hard"
   },
-
   {
     id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Cardiovascular & Respiratory System topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Cardiovascular & Respiratory System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Cardiovascular & Respiratory System",
-
+    question: "Myocardial infarction me sabse pehle kis tissue ko irreversible damage ka risk hota hai?",
+    options: ["Epicardium", "Endocardium", "Subendocardial region", "Pericardium"],
+    answer: "Subendocardial region",
+    explanation: "Subendocardial area blood supply compromise hone par sabse pehle ischemic injury suffer karta hai. Ye exam me frequently pucha jane wala concept hai.",
+    topic: "Cardiovascular System",
     difficulty: "hard"
   }
 ];

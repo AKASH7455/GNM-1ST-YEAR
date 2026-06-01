@@ -1,633 +1,292 @@
 const set1 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nursing Foundations ke Nursing Process & Care Plan topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Post-operative patient ko bed se wheelchair par transfer karte waqt nurse sabse pehle kya assess karegi?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Patient ka diet chart",
+      "Patient ka blood group",
+      "Patient ki mobility aur strength",
+      "Patient ke relatives ki sankhya"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Patient ki mobility aur strength",
+    explanation: "Safe transfer ke liye sabse pehle mobility aur muscle strength assess karna zaroori hai. Isse fall risk ka pata chalta hai. Baaki options transfer safety ko directly affect nahi karte. Patient safety nursing care ka primary goal hai.",
+    topic: "Patient Safety and Transfer",
     difficulty: "medium"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nursing Foundations ke Nursing Process & Care Plan topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Nurse medication dene se pehle patient identity verify karne ke liye best action kya hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Do identifiers verify karna",
+      "Sirf bed number dekhna",
+      "Relative se naam puchhna",
+      "Ward register check karna"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Do identifiers verify karna",
+    explanation: "Medication errors prevent karne ke liye do identifiers use karna standard practice hai. Bed number ya relative ki information sufficient nahi hoti. Correct patient ko correct medicine milna patient safety ka important part hai.",
+    topic: "Medication Safety",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Nursing Foundations ke Nursing Process & Care Plan topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Pressure ulcer risk wale patient ke liye sabse effective preventive intervention kya hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Fluid restriction",
+      "Head end hamesha high rakhna",
+      "Daily weight check",
+      "Regular repositioning schedule"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Regular repositioning schedule",
+    explanation: "Pressure ulcer prolonged pressure ki wajah se hota hai. Regular repositioning tissue perfusion maintain karti hai. Baaki interventions supportive ho sakte hain par primary prevention nahi hain. Nursing care me pressure relief essential hai.",
+    topic: "Pressure Ulcer Prevention",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Nursing Foundations ke Nursing Process & Care Plan topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Agar patient achanak gir jaye to nurse ki priority kya honi chahiye?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Incident report turant likhna",
+      "Patient ki condition assess karna",
+      "Family ko call karna",
+      "Patient ko turant khada karna"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "medium"
+    answer: "Patient ki condition assess karna",
+    explanation: "Fall ke baad sabse pehle injury aur vital condition assess karna zaroori hai. Assessment ke bina patient ko move karna unsafe ho sakta hai. Documentation baad me ki jaati hai. ABC approach follow karni chahiye.",
+    topic: "Fall Management",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Nursing Foundations ke Nursing Process & Care Plan topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Hand hygiene ka sabse important purpose kya hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Infection transmission ko rokna",
+      "Gloves ki requirement khatam karna",
+      "Patient ko comfortable banana",
+      "Documentation improve karna"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Infection transmission ko rokna",
+    explanation: "Hand hygiene healthcare-associated infections ko significantly reduce karti hai. Yeh infection control ka sabse effective method mana jata hai. Gloves hand hygiene ka substitute nahi hain. Patient aur nurse dono ko protection milti hai.",
+    topic: "Infection Control",
     difficulty: "medium"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nursing Foundations ke Nursing Process & Care Plan topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Nurse sterile dressing kar rahi hai. Agar sterile field wet ho jaye to kya maana jayega?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Field abhi bhi sterile hai",
+      "Sirf edge contaminated hai",
+      "Field contaminated mana jayega",
+      "Sirf instruments replace karne honge"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "medium"
+    answer: "Field contaminated mana jayega",
+    explanation: "Moisture microorganisms ko transfer kar sakti hai, isliye wet sterile field contaminated maani jaati hai. Sterility maintain karna wound infection prevention ke liye zaroori hai. Procedure ko safely restart karna chahiye.",
+    topic: "Aseptic Technique",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Nursing Foundations ke Nursing Process & Care Plan topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Bedridden patient me deep breathing exercise ka major benefit kya hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Blood sugar kam karna",
+      "Atelectasis prevent karna",
+      "Pulse rate kam karna",
+      "Digestion improve karna"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Atelectasis prevent karna",
+    explanation: "Deep breathing alveoli ko expand karti hai aur lung collapse ko prevent karti hai. Post-operative patients me yeh especially important hai. Respiratory complications kam hoti hain. Yeh evidence-based nursing intervention hai.",
+    topic: "Respiratory Care",
     difficulty: "medium"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nursing Foundations ke Nursing Process & Care Plan topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Nurse oral medication dene ja rahi hai aur patient vomiting kar raha hai. Sabse appropriate action kya hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Medicine force se dena",
+      "Dose double karna",
+      "Medicine discard karna",
+      "Medication hold karke physician ko inform karna"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "medium"
+    answer: "Medication hold karke physician ko inform karna",
+    explanation: "Vomiting ki condition me oral medication retain nahi ho sakti. Nurse ko patient condition assess karke physician ko inform karna chahiye. Forcefully medicine dena aspiration risk badha sakta hai. Patient safety priority hai.",
+    topic: "Medication Administration",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Nursing Foundations ke Nursing Process & Care Plan topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Vital signs record karte waqt abnormal BP milne par nurse ka pehla step kya hona chahiye?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Measurement ko recheck karna",
+      "Record delete karna",
+      "Patient ko discharge karna",
+      "Family ko panic karna"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Measurement ko recheck karna",
+    explanation: "Abnormal finding milne par accuracy confirm karna zaroori hai. Reassessment nursing process ka important step hai. Wrong reading par action lena inappropriate ho sakta hai. Accurate data clinical decisions ko support karta hai.",
+    topic: "Vital Signs",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nursing Foundations ke Nursing Process & Care Plan topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Urinary catheter care ke dauran drainage bag ko kis position me rakhna chahiye?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Bed par patient ke paas",
+      "Patient ke abdomen par",
+      "Head level se upar",
+      "Bladder level se neeche"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "medium"
+    answer: "Bladder level se neeche",
+    explanation: "Drainage bag bladder se neeche rakhne se urine backflow prevent hota hai. Backflow infection risk badha sakta hai. Catheter-associated infection prevention nursing responsibility hai. Proper positioning essential hai.",
+    topic: "Catheter Care",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nursing Foundations ke Nursing Process & Care Plan topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Nurse ko medication error ka pata chalta hai. Sabse appropriate action kya hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Error ko hide karna",
+      "Patient assess karke report karna",
+      "Record destroy karna",
+      "Dusri nurse ko blame karna"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "medium"
+    answer: "Patient assess karke report karna",
+    explanation: "Medication error ke baad patient assessment aur prompt reporting zaroori hai. Transparency patient safety culture ka part hai. Error hide karna unethical hai. Documentation aur monitoring bhi important hain.",
+    topic: "Medication Error Management",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nursing Foundations ke Nursing Process & Care Plan topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Nasogastric tube feeding se pehle nurse ko sabse pehle kya verify karna chahiye?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Patient ka weight",
+      "Room temperature",
+      "Tube placement",
+      "Visitor timing"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "medium"
+    answer: "Tube placement",
+    explanation: "Incorrect tube placement aspiration aur serious complications ka cause ban sakta hai. Feeding se pehle placement verify karna mandatory hai. Yeh patient safety ka critical step hai. Baaki options secondary importance rakhte hain.",
+    topic: "Enteral Feeding",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Nursing Foundations ke Nursing Process & Care Plan topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Nursing process ka assessment phase kis purpose ke liye use hota hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Patient data collect karna",
+      "Care evaluate karna",
+      "Diagnosis prescribe karna",
+      "Treatment complete karna"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
+    answer: "Patient data collect karna",
+    explanation: "Assessment nursing process ka first step hai jisme subjective aur objective data collect kiya jata hai. Accurate assessment se hi sahi planning hoti hai. Poor assessment poor outcomes ka cause ban sakta hai.",
+    topic: "Nursing Process",
+    difficulty: "medium"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Nursing Foundations ke Nursing Process & Care Plan topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Isolation room me enter karte waqt PPE sequence ka important purpose kya hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Time bachana",
+      "Patient ko impress karna",
+      "Documentation avoid karna",
+      "Cross infection prevent karna"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Cross infection prevent karna",
+    explanation: "PPE healthcare worker aur patient dono ko infection se protect karta hai. Correct sequence contamination risk ko reduce karta hai. Infection control standards ka strict follow-up zaroori hai.",
+    topic: "Isolation Techniques",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Nursing Foundations ke Nursing Process & Care Plan topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Agar patient pain score 8/10 report kare to nurse ki priority kya honi chahiye?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Pain ignore karna",
+      "Sirf document karna",
+      "Pain assess karke intervention dena",
+      "Patient ko wait karne bolna"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Pain assess karke intervention dena",
+    explanation: "Severe pain immediate assessment aur management demand karta hai. Pain fifth vital sign mana jata hai. Effective pain control recovery improve karta hai. Documentation alone sufficient nahi hai.",
+    topic: "Pain Management",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nursing Foundations ke Nursing Process & Care Plan topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Confused elderly patient ke room me fall prevention ke liye sabse appropriate intervention kya hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Room dark rakhna",
+      "Bed ko low position me rakhna",
+      "Call bell hata dena",
+      "Patient ko akela chhod dena"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Bed ko low position me rakhna",
+    explanation: "Low bed position fall injury risk ko reduce karti hai. Confused patients high-risk category me aate hain. Environment ko safe banana nursing responsibility hai. Call bell accessible honi chahiye.",
+    topic: "Fall Prevention",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Nursing Foundations ke Nursing Process & Care Plan topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Nurse IV site assess karte waqt redness, swelling aur pain notice karti hai. Sabse likely complication kya hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Normal finding",
+      "Dehydration",
+      "Hypertension",
+      "Phlebitis"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Phlebitis",
+    explanation: "Redness, swelling aur tenderness phlebitis ke common signs hain. Early detection se complications prevent kiye ja sakte hain. IV site regular monitoring safe infusion therapy ka part hai.",
+    topic: "IV Therapy",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nursing Foundations ke Nursing Process & Care Plan topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Patient education effective hone ka best indicator kya hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Patient procedure ko correctly demonstrate kare",
+      "Patient sirf haan bole",
+      "Family smile kare",
+      "Nurse satisfied ho"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
+    answer: "Patient procedure ko correctly demonstrate kare",
+    explanation: "Return demonstration learning ka strongest evidence hota hai. Isse pata chalta hai ki patient ne knowledge ko apply karna seekh liya hai. Verbal agreement alone sufficient nahi hota.",
+    topic: "Patient Education",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Nursing Foundations ke Nursing Process & Care Plan topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Documentation me late entry karte waqt nurse ko kya karna chahiye?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Purani timing likh deni chahiye",
+      "Entry skip kar deni chahiye",
+      "Actual late entry mention karni chahiye",
+      "Dusre staff ka naam use karna chahiye"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Actual late entry mention karni chahiye",
+    explanation: "Legal aur ethical documentation accurate honi chahiye. Late entry ko clearly indicate karna professional standard hai. Incorrect timing legal issues create kar sakti hai.",
+    topic: "Documentation",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nursing Foundations ke Nursing Process & Care Plan topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Nurse patient confidentiality maintain karne ke liye kya karegi?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Case details public area me discuss karegi",
+      "Information sirf authorized persons ke saath share karegi",
+      "Social media par post karegi",
+      "Friends ko bata degi"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nursing Foundations ke Nursing Process & Care Plan topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nursing Foundations ke Nursing Process & Care Plan topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Nursing Foundations ke Nursing Process & Care Plan topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Nursing Foundations ke Nursing Process & Care Plan topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Nursing Foundations ke Nursing Process & Care Plan topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nursing Foundations ke Nursing Process & Care Plan topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Nursing Foundations ke Nursing Process & Care Plan topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nursing Foundations ke Nursing Process & Care Plan topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Nursing Foundations ke Nursing Process & Care Plan topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nursing Foundations ke Nursing Process & Care Plan topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Nursing Process & Care Plan me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nursing Process & Care Plan",
-
+    answer: "Information sirf authorized persons ke saath share karegi",
+    explanation: "Confidentiality nursing ethics ka core principle hai. Patient information ko sirf authorized individuals ke saath share kiya jana chahiye. Privacy violations legal aur professional consequences la sakte hain.",
+    topic: "Nursing Ethics",
     difficulty: "hard"
   }
 ];
 
 export default set1;
+
+// Answer Key:
+// [3,1,4,2,1,3,2,4,1,4,2,3,1,4,3,2,4,1,3,2]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

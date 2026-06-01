@@ -1,631 +1,282 @@
 const set1 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Computer Education ke Hospital Records & Data Safety topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Hospital me patient data ko unauthorized access se bachane ke liye sabse effective nursing practice kaunsi hai?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Password ko staff ke saath share karna",
+      "Strong password aur regular password change karna",
+      "Computer hamesha login chhod dena",
+      "Screen lock disable rakhna"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "medium"
+    answer: "Strong password aur regular password change karna",
+    explanation: "Strong password patient data security ka important part hai. Password share karna ya system login chhodna confidentiality ko risk me daalta hai. Nursing documentation me data protection bahut zaroori hai.",
+    topic: "Computer Security",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Computer Education ke Hospital Records & Data Safety topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Aapko patient ki report turant doctor ko bhejni hai. Kis device ka use document ki hard copy ko digital form me convert karne ke liye kiya jata hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Plotter",
+      "Scanner",
+      "Speaker",
+      "Projector"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "Scanner",
+    explanation: "Scanner physical document ko digital image ya file me convert karta hai. Plotter output device hai jabki speaker aur projector reporting ke liye suitable nahi hain.",
+    topic: "Input Devices",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Computer Education ke Hospital Records & Data Safety topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Nurse electronic health record me data enter kar rahi hai. CPU ka primary role kya hota hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Data print karna",
+      "Internet provide karna",
+      "Instructions ko process karna",
+      "Audio output dena"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "Instructions ko process karna",
+    explanation: "CPU computer ka processing center hota hai jo instructions execute karta hai. Printing, networking aur audio output alag hardware components handle karte hain.",
+    topic: "CPU",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Computer Education ke Hospital Records & Data Safety topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Hospital information system me agar electrical power chali jaye to temporary data loss se bachane ke liye kya use kiya jata hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "RAM",
+      "ROM",
+      "Pen Drive",
+      "UPS"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "medium"
+    answer: "UPS",
+    explanation: "UPS power failure ke samay temporary backup deta hai jisse system safely shutdown ho sakta hai. RAM aur ROM power backup devices nahi hain.",
+    topic: "Computer Hardware",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Computer Education ke Hospital Records & Data Safety topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Patient database me record search karte samay operating system ka kaunsa function sabse directly involve hota hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "File management",
+      "Paper printing",
+      "Monitor cleaning",
+      "Keyboard replacement"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "medium"
+    answer: "File management",
+    explanation: "Operating system files ko organize aur retrieve karta hai. Search operation file management ka hi hissa hai. Baaki options OS ke core functions nahi hain.",
+    topic: "Operating System",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Computer Education ke Hospital Records & Data Safety topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Nurse presentation bana rahi hai jisme charts aur patient education slides hain. Kaunsa software sabse suitable hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "MS Access",
+      "MS PowerPoint",
+      "MS Excel",
+      "Notepad"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "MS PowerPoint",
+    explanation: "PowerPoint presentations ke liye design kiya gaya hai. Excel calculation ke liye aur Access database management ke liye use hota hai.",
+    topic: "Application Software",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Computer Education ke Hospital Records & Data Safety topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Hospital network me malware infection detect hua hai. Sabse pehla preventive measure kya hona chahiye?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Antivirus update karna",
+      "Monitor replace karna",
+      "Printer disconnect karna",
+      "Mouse change karna"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "medium"
+    answer: "Antivirus update karna",
+    explanation: "Updated antivirus malware detection aur removal ke liye essential hai. Hardware replacement infection control ka direct solution nahi hai.",
+    topic: "Cyber Security",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Computer Education ke Hospital Records & Data Safety topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Patient census data ka statistical analysis karne ke liye kaunsa software sabse upyukt hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Paint",
+      "WordPad",
+      "MS Excel",
+      "Media Player"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "MS Excel",
+    explanation: "Excel formulas, charts aur data analysis tools provide karta hai. Statistical nursing reports ke liye ye commonly use hota hai.",
+    topic: "Spreadsheet",
     difficulty: "medium"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Computer Education ke Hospital Records & Data Safety topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Computer memory me RAM ki khasiyat kya hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Permanent storage dena",
+      "Data ko power off ke baad bhi rakhna",
+      "Temporary working memory provide karna",
+      "Virus remove karna"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "Temporary working memory provide karna",
+    explanation: "RAM temporary memory hai jisme active programs aur data store hote hain. Power off hone par iska data erase ho jata hai.",
+    topic: "Memory",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Computer Education ke Hospital Records & Data Safety topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Hospital ke alag-alag departments ko ek building ke andar connect karne ke liye kis network ka use hota hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "LAN",
+      "MAN",
+      "WAN",
+      "PAN"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "medium"
+    answer: "LAN",
+    explanation: "LAN ek limited geographical area jaise hospital building ko connect karta hai. WAN aur MAN larger areas ke liye hote hain.",
+    topic: "Networking",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Computer Education ke Hospital Records & Data Safety topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Electronic health record me patient ki confidential information ko protect karne ka ethical principle kya hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Confidentiality",
+      "Entertainment",
+      "Duplication",
+      "Formatting"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "medium"
+    answer: "Confidentiality",
+    explanation: "Confidentiality healthcare documentation ka core principle hai. Patient data sirf authorized personnel ke liye accessible hona chahiye.",
+    topic: "Health Informatics",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Computer Education ke Hospital Records & Data Safety topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Nurse ko monthly report type karni hai. Text document banane ke liye kaunsa software sabse suitable hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "MS Word",
+      "MS Access",
+      "Paint",
+      "Calculator"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "MS Word",
+    explanation: "MS Word text editing aur document formatting ke liye standard software hai. Access database management ke liye use hota hai.",
+    topic: "Word Processing",
     difficulty: "medium"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Computer Education ke Hospital Records & Data Safety topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Computer virus ka sabse common effect kya ho sakta hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "System performance slow hona",
+      "Monitor brightness badhna",
+      "Keyboard size badalna",
+      "Mouse wireless banna"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "System performance slow hona",
+    explanation: "Virus files corrupt kar sakta hai aur system ko slow kar sakta hai. Hardware size ya type par iska direct effect nahi hota.",
+    topic: "Computer Virus",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Computer Education ke Hospital Records & Data Safety topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Internet par data transmission ke liye commonly use hone wala protocol kaunsa hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "HTTP",
+      "RAM",
+      "CPU",
+      "ROM"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "HTTP",
+    explanation: "HTTP web communication ke liye use hota hai. RAM, CPU aur ROM hardware components hain, protocols nahi.",
+    topic: "Internet",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Computer Education ke Hospital Records & Data Safety topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Hospital me backup policy ka primary objective kya hota hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Data recovery ensure karna",
+      "Keyboard cleaning karna",
+      "Monitor resolution badhana",
+      "Internet speed kam karna"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "Data recovery ensure karna",
+    explanation: "Backup ka main purpose data loss ke baad information recover karna hai. Patient records ke liye ye bahut critical hai.",
+    topic: "Data Backup",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Computer Education ke Hospital Records & Data Safety topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Email bhejte samay multiple recipients ko address hide karke mail bhejne ke liye kis field ka use hota hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "To",
+      "CC",
+      "BCC",
+      "Subject"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "BCC",
+    explanation: "BCC recipients ki identity dusre recipients se hide rakhta hai. Healthcare communication me privacy maintain karne ke liye useful hai.",
+    topic: "Email",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Computer Education ke Hospital Records & Data Safety topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Nursing research data ko structured format me store karne ke liye sabse suitable software kaunsa hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "MS Access",
+      "Paint",
+      "Media Player",
+      "Calculator"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "MS Access",
+    explanation: "MS Access database creation aur record management ke liye use hota hai. Research data ko organize karne me madad karta hai.",
+    topic: "Database",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Computer Education ke Hospital Records & Data Safety topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Hospital me Wi-Fi network use karte samay sabse bada security risk kya ho sakta hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Unauthorized access",
+      "Printer ink khatam hona",
+      "Monitor dust",
+      "Mouse battery"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "Unauthorized access",
+    explanation: "Weakly secured Wi-Fi network unauthorized users ko access de sakta hai. Isse patient data breach ka risk badh jata hai.",
+    topic: "Network Security",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Computer Education ke Hospital Records & Data Safety topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Computer generation ke context me Artificial Intelligence based systems kis generation se sabse adhik associated hain?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "First generation",
+      "Second generation",
+      "Fifth generation",
+      "Third generation"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "Fifth generation",
+    explanation: "Fifth generation computers AI aur advanced processing concepts se jude hote hain. Earlier generations vacuum tubes, transistors aur ICs par based the.",
+    topic: "Computer Generations",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Computer Education ke Hospital Records & Data Safety topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Patient records ko cloud storage me rakhne ka ek major advantage kya hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Data ka remote access aur availability",
+      "Computer ko virus dena",
+      "RAM ko remove karna",
+      "Keyboard usage band karna"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Computer Education ke Hospital Records & Data Safety topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Computer Education ke Hospital Records & Data Safety topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Computer Education ke Hospital Records & Data Safety topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Computer Education ke Hospital Records & Data Safety topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Computer Education ke Hospital Records & Data Safety topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Computer Education ke Hospital Records & Data Safety topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Computer Education ke Hospital Records & Data Safety topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Computer Education ke Hospital Records & Data Safety topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Computer Education ke Hospital Records & Data Safety topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Computer Education ke Hospital Records & Data Safety topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Hospital Records & Data Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hospital Records & Data Safety",
-
+    answer: "Data ka remote access aur availability",
+    explanation: "Cloud storage authorized users ko alag locations se data access karne ki suvidha deta hai. Healthcare coordination me ye kaafi useful hota hai.",
+    topic: "Cloud Computing",
     difficulty: "hard"
   }
 ];

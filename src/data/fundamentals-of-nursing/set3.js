@@ -1,633 +1,292 @@
 const set3 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nursing Foundations ke Medication Safety topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Nurse ek patient ko passive range of motion exercises de rahi hai. Is intervention ka primary purpose kya hai?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Joint flexibility maintain karna",
+      "Blood pressure kam karna",
+      "Body temperature control karna",
+      "Vision improve karna"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Joint flexibility maintain karna",
+    explanation: "Passive ROM exercises un patients ke liye use ki jaati hain jo khud movement nahi kar sakte. Yeh joint stiffness aur contracture prevent karti hain. Blood circulation bhi improve hoti hai. Long-term immobilization ke complications ko reduce karne me madad milti hai.",
+    topic: "Mobility and Exercise",
     difficulty: "medium"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nursing Foundations ke Medication Safety topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Nurse ko IV infusion site par coolness aur swelling milti hai. Yeh kis complication ka sign hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Phlebitis",
+      "Infiltration",
+      "Hemorrhage",
+      "Infection"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "medium"
+    answer: "Infiltration",
+    explanation: "Infiltration tab hoti hai jab IV fluid vein ke bahar surrounding tissue me chala jata hai. Coolness aur swelling common signs hain. IV infusion turant stop karke site assess karni chahiye. Delay se tissue damage ho sakta hai.",
+    topic: "IV Therapy",
+    difficulty: "hard"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Nursing Foundations ke Medication Safety topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Nurse postoperative patient ko incentive spirometer use karne ke liye encourage karti hai. Iska main benefit kya hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Pain control karna",
+      "Urine output badhana",
+      "Lung expansion improve karna",
+      "Blood glucose reduce karna"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Lung expansion improve karna",
+    explanation: "Incentive spirometer deep breathing promote karta hai aur atelectasis prevent karta hai. Postoperative respiratory complications kam hoti hain. Yeh especially abdominal aur thoracic surgery patients ke liye important hai.",
+    topic: "Respiratory Care",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Nursing Foundations ke Medication Safety topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Nurse patient ko nasogastric tube ke through feeding de rahi hai. Feeding ke dauran patient ko kis position me rakhna chahiye?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Supine",
+      "Prone",
+      "Side lying",
+      "High Fowler's"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "medium"
+    answer: "High Fowler's",
+    explanation: "High Fowler's position aspiration risk ko significantly reduce karti hai. Feeding ke dauran aur baad me kuch samay tak patient ko upright rakhna chahiye. Yeh enteral feeding safety ka important principle hai.",
+    topic: "Enteral Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Nursing Foundations ke Medication Safety topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Agar patient ko latex allergy hai to nurse ka sabse important action kya hoga?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Latex-free supplies use karna",
+      "Patient ko gloves pehnana",
+      "Room change karna",
+      "Diet modify karna"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Latex-free supplies use karna",
+    explanation: "Latex allergy me exposure avoid karna sabse important intervention hai. Latex-containing gloves aur equipment allergic reaction trigger kar sakte hain. Severe cases me anaphylaxis bhi ho sakta hai.",
+    topic: "Patient Safety",
     difficulty: "medium"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nursing Foundations ke Medication Safety topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Nurse tracheostomy care kar rahi hai. Sterile technique use karne ka main reason kya hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Patient comfort badhana",
+      "Procedure fast karna",
+      "Respiratory infection prevent karna",
+      "Cost reduce karna"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "medium"
+    answer: "Respiratory infection prevent karna",
+    explanation: "Tracheostomy direct airway access provide karti hai. Infection ka risk high hota hai. Sterile technique microorganisms ko airway me enter hone se rokne me madad karti hai. Yeh patient safety ke liye essential hai.",
+    topic: "Tracheostomy Care",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Nursing Foundations ke Medication Safety topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Nurse ek confused patient ko repeatedly bed se uthte hue dekh rahi hai. Sabse appropriate nursing intervention kya hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Patient ko ignore karna",
+      "Physical restraint immediately lagana",
+      "Frequent observation aur safety measures lagana",
+      "Patient ko discharge karna"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "medium"
+    answer: "Frequent observation aur safety measures lagana",
+    explanation: "Confused patients me fall risk high hota hai. Frequent monitoring aur environmental safety measures first-line interventions hain. Restraints sirf last resort hone chahiye. Patient dignity aur safety dono maintain karni chahiye.",
+    topic: "Patient Safety",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nursing Foundations ke Medication Safety topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Nurse medication administration ke dauran patient medicine lene se mana kar deta hai. Nurse kya karegi?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Medicine forcefully degi",
+      "Refusal document karke physician ko inform karegi",
+      "Dose double karegi",
+      "Medicine secretly de degi"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "medium"
+    answer: "Refusal document karke physician ko inform karegi",
+    explanation: "Competent patient ko treatment refuse karne ka right hota hai. Nurse ko refusal document karna aur physician ko notify karna chahiye. Forcefully medication dena unethical aur illegal ho sakta hai.",
+    topic: "Medication Administration",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Nursing Foundations ke Medication Safety topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Patient ki skin pale, cold aur clammy hai. Nurse ko sabse pehle kis condition ka suspicion hona chahiye?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Shock",
+      "Hypertension",
+      "Hyperthyroidism",
+      "Obesity"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "medium"
+    answer: "Shock",
+    explanation: "Pale, cold aur clammy skin shock ke common signs hain. Peripheral perfusion reduce ho jati hai. Early recognition life-saving ho sakta hai. Vital signs aur circulation immediately assess karni chahiye.",
+    topic: "Emergency Nursing",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nursing Foundations ke Medication Safety topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Aseptic dressing change ke dauran sterile glove accidentally non-sterile surface ko touch kar le to kya karna chahiye?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Procedure continue karna",
+      "Sirf hand wash karna",
+      "Glove ko alcohol se clean karna",
+      "Sterile glove replace karna"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "medium"
+    answer: "Sterile glove replace karna",
+    explanation: "Sterile glove non-sterile surface touch karte hi contaminated mani jati hai. Infection prevention ke liye nayi sterile glove use karni chahiye. Aseptic technique me compromise acceptable nahi hai.",
+    topic: "Aseptic Technique",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nursing Foundations ke Medication Safety topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Nurse patient ke pain assessment ke liye numeric rating scale use karti hai. Yeh nursing process ke kis step ka part hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Assessment",
+      "Planning",
+      "Implementation",
+      "Evaluation"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Assessment",
+    explanation: "Pain assessment subjective data collection ka part hai. Accurate assessment se appropriate interventions plan ki ja sakti hain. Nursing process ka pehla step assessment hi hota hai.",
+    topic: "Nursing Process",
     difficulty: "medium"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nursing Foundations ke Medication Safety topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Bedridden patient me foot drop prevent karne ke liye nurse kya use kar sakti hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Ice pack",
+      "Foot board",
+      "Hot water bag",
+      "Abdominal binder"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "medium"
+    answer: "Foot board",
+    explanation: "Foot board feet ko proper alignment me rakhta hai aur plantar flexion prevent karta hai. Long-term immobilized patients me foot drop common complication hai. Prevention nursing care ka important aspect hai.",
+    topic: "Mobility and Positioning",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Nursing Foundations ke Medication Safety topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Nurse urinary catheter removal ke baad kis finding ko priority se monitor karegi?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Patient ki voiding ability",
+      "Hair growth",
+      "Vision changes",
+      "Skin color only"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
+    answer: "Patient ki voiding ability",
+    explanation: "Catheter removal ke baad spontaneous urination assess karna zaroori hai. Urinary retention complication ho sakti hai. Early identification se timely intervention possible hota hai.",
+    topic: "Urinary Elimination",
+    difficulty: "medium"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Nursing Foundations ke Medication Safety topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Patient ko chest pain aur sweating ho rahi hai. Nurse ka first action kya hoga?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Pain ignore karna",
+      "Patient ko walk karwana",
+      "Immediate assessment aur help bulana",
+      "Discharge papers tayyar karna"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Immediate assessment aur help bulana",
+    explanation: "Chest pain potentially life-threatening condition ka sign ho sakta hai. Rapid assessment aur emergency response zaroori hai. Delay patient outcome ko negatively affect kar sakta hai.",
+    topic: "Emergency Nursing",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Nursing Foundations ke Medication Safety topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Nurse patient education ke baad puchti hai ki patient ne kya samjha. Yeh kis technique ka example hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Teach-back method",
+      "Isolation technique",
+      "Aseptic technique",
+      "Delegation"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
+    answer: "Teach-back method",
+    explanation: "Teach-back method patient understanding verify karne ka effective way hai. Patient apne words me information repeat karta hai. Isse learning gaps identify kiye ja sakte hain.",
+    topic: "Patient Education",
+    difficulty: "medium"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nursing Foundations ke Medication Safety topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Nurse oxygen therapy de rahi hai. Oxygen humidification ka main purpose kya hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Oxygen color improve karna",
+      "Airway mucosa drying prevent karna",
+      "Cylinder weight kam karna",
+      "Pulse rate increase karna"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Airway mucosa drying prevent karna",
+    explanation: "Dry oxygen airway mucosa ko irritate aur dry kar sakta hai. Humidification comfort aur secretion management improve karti hai. Long-term oxygen therapy me yeh especially important hai.",
+    topic: "Oxygen Therapy",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Nursing Foundations ke Medication Safety topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Nurse ko patient ke sacral area par non-blanchable redness milti hai. Yeh pressure injury ka kaunsa stage indicate karta hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Stage I",
+    explanation: "Non-blanchable erythema Stage I pressure injury ki hallmark finding hai. Early detection se progression prevent ki ja sakti hai. Repositioning aur skin care immediately implement karni chahiye.",
+    topic: "Pressure Injury Care",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nursing Foundations ke Medication Safety topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Nurse sterile field prepare kar rahi hai. Sterile field ka 1-inch border kaisa mana jata hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Completely sterile",
+      "Partially sterile",
+      "Contaminated",
+      "Highly sterile"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Contaminated",
+    explanation: "Sterile field ka outer 1-inch border contaminated mana jata hai. Instruments aur supplies ko is area se door rakhna chahiye. Yeh aseptic principles ka important rule hai.",
+    topic: "Sterile Technique",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Nursing Foundations ke Medication Safety topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Nurse fluid overload patient me sabse pehle kis sign ko monitor karegi?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Crackles in lungs",
+      "Hair texture",
+      "Eye color",
+      "Nail length"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Crackles in lungs",
+    explanation: "Fluid overload me pulmonary congestion develop ho sakti hai. Crackles early respiratory compromise ka sign hain. Timely assessment severe complications prevent kar sakta hai.",
+    topic: "Fluid and Electrolyte Balance",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nursing Foundations ke Medication Safety topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Patient ki confidential report galti se unauthorized person ko mil jati hai. Yeh kis ethical principle ka violation hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Beneficence",
+      "Justice",
+      "Autonomy",
+      "Confidentiality"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nursing Foundations ke Medication Safety topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nursing Foundations ke Medication Safety topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Nursing Foundations ke Medication Safety topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Nursing Foundations ke Medication Safety topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Nursing Foundations ke Medication Safety topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nursing Foundations ke Medication Safety topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Nursing Foundations ke Medication Safety topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nursing Foundations ke Medication Safety topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Nursing Foundations ke Medication Safety topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nursing Foundations ke Medication Safety topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Medication Safety me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Medication Safety",
-
+    answer: "Confidentiality",
+    explanation: "Patient information ko secure rakhna nursing ethical responsibility hai. Unauthorized disclosure privacy rights violate karta hai. Isse legal aur professional consequences ho sakte hain.",
+    topic: "Nursing Ethics",
     difficulty: "hard"
   }
 ];
 
 export default set3;
+
+// Answer Key:
+// [1,2,3,4,1,3,3,2,1,4,1,2,1,3,1,2,1,3,1,4]
+
+// Option 1 = 6
+// Option 2 = 4
+// Option 3 = 5
+// Option 4 = 5

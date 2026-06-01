@@ -1,633 +1,312 @@
 const set2 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Psychology ke Stress & Coping topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Ek patient hospital admission ke baad baar-baar bell bajata hai aur nurse se har chhoti baat me help maangta hai. Is behavior ka sabse sambhavit psychological explanation kya hai?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Dependency need",
+      "Delusion",
+      "Insight learning",
+      "Intelligence deficit"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Dependency need",
+    explanation:
+      "Hospitalization ke dauran patient insecure feel kar sakta hai aur support ki zarurat badh sakti hai. Dependency need ke karan patient baar-baar reassurance maangta hai. Nurse ko patience ke saath independence encourage karni chahiye. Ye behavior psychosis se alag hai.",
+    topic: "Motivation and Needs",
     difficulty: "medium"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Psychology ke Stress & Coping topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Ek patient apni serious illness ke bawajood kehta hai ki 'Mere saath kuch galat nahi ho sakta'. Ye kis defense mechanism ko darshata hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Projection",
+      "Denial",
+      "Displacement",
+      "Sublimation"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "medium"
+    answer: "Denial",
+    explanation:
+      "Denial me vyakti reality ko accept karne se mana karta hai. Serious diagnosis ke initial stage me ye common response hai. Isse temporary emotional protection mil sakti hai. Lekin prolonged denial treatment ko affect kar sakta hai.",
+    topic: "Defense Mechanisms",
+    difficulty: "hard"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Psychology ke Stress & Coping topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Nurse patient ko diabetic diet ke baare me sikhati hai aur patient turant us knowledge ko meal selection me apply karta hai. Ye learning ka kaunsa domain hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Affective domain",
+      "Psychomotor domain",
+      "Cognitive domain",
+      "Behavioral inhibition"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Cognitive domain",
+    explanation:
+      "Cognitive domain knowledge, understanding aur problem solving se related hota hai. Patient ne information ko samjha aur practical decision me use kiya. Ye sirf emotional ya motor skill response nahi hai. Nursing education me cognitive learning bahut important hai.",
+    topic: "Learning",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Psychology ke Stress & Coping topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Ek patient treatment ke dauran nurse ko apni maa ki tarah treat karne lagta hai. Is phenomenon ko kya kaha jata hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Suppression",
+      "Perception",
+      "Transference",
+      "Repression"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "medium"
+    answer: "Transference",
+    explanation:
+      "Transference me patient apni purani feelings ya relationships ko healthcare provider par project karta hai. Therapeutic relationship me is concept ko samajhna zaroori hai. Nurse ko professional boundaries maintain karni chahiye.",
+    topic: "Therapeutic Relationship",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Psychology ke Stress & Coping topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Ek nursing student exam me fail hone ke baad aur mehnat karke next attempt me top karta hai. Ye kis defense mechanism ka healthy example hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Compensation",
+      "Regression",
+      "Denial",
+      "Projection"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "medium"
+    answer: "Compensation",
+    explanation:
+      "Compensation me individual weakness ya failure ko kisi positive effort se balance karta hai. Student ne failure ko motivation bana kar performance improve ki. Ye adaptive coping ka example hai. Nursing students me ye commonly dekha jata hai.",
+    topic: "Defense Mechanisms",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Psychology ke Stress & Coping topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Patient discharge instructions ko dhyan se sun raha hai, lekin TV chalne ke karan baar-baar distract ho raha hai. Kaunsa psychological factor sabse adhik affect hua hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Memory",
+      "Perception",
+      "Attention",
+      "Personality"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Attention",
+    explanation:
+      "Attention information par focus karne ki capacity hai. Environmental distractions attention ko reduce kar sakte hain. Effective patient teaching ke liye quiet environment zaroori hota hai. Attention ke bina learning bhi poor ho sakti hai.",
+    topic: "Attention",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Psychology ke Stress & Coping topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Ek adolescent apni identity ko lekar confused hai aur career choices ko lekar struggle kar raha hai. Erikson ke anusaar ye kis developmental conflict se related hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Trust vs Mistrust",
+      "Identity vs Role Confusion",
+      "Generativity vs Stagnation",
+      "Integrity vs Despair"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "medium"
+    answer: "Identity vs Role Confusion",
+    explanation:
+      "Adolescence me identity formation major developmental task hota hai. Is stage me role confusion common hota hai. Successful resolution se strong self-identity develop hoti hai. Erikson theory me ye important concept hai.",
+    topic: "Developmental Psychology",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Psychology ke Stress & Coping topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Ek patient kehta hai ki usse awaazein sunai deti hain jabki room me koi nahi hai. Ye kis condition ka example hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Illusion",
+      "Delusion",
+      "Insight",
+      "Hallucination"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "medium"
+    answer: "Hallucination",
+    explanation:
+      "Hallucination bina kisi external stimulus ke sensory perception hoti hai. Auditory hallucinations psychiatric disorders me common hain. Illusion me real stimulus hota hai, jabki hallucination me nahi. Nursing assessment me iska documentation zaroori hai.",
+    topic: "Perception",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Psychology ke Stress & Coping topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Patient apne treatment goals khud set karta hai aur unhe achieve karne ke liye actively participate karta hai. Iska sambandh kis concept se hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Self-determination",
+      "Repression",
+      "Extinction",
+      "Transference"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Self-determination",
+    explanation:
+      "Self-determination autonomy aur personal control ko reflect karta hai. Jab patient care decisions me participate karta hai to compliance improve hoti hai. Modern nursing patient-centered care par focus karti hai.",
+    topic: "Motivation",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Psychology ke Stress & Coping topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Ek patient smoking continue karta hai aur kehta hai, 'Mere dadaji bhi smoke karte the aur 90 saal jiye'. Ye kis defense mechanism ka udaharan hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Projection",
+      "Regression",
+      "Reaction formation",
+      "Rationalization"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "medium"
+    answer: "Rationalization",
+    explanation:
+      "Rationalization me individual apne behavior ke liye socially acceptable excuses banata hai. Patient smoking ke risk ko justify kar raha hai. Isse reality temporarily less threatening lagti hai. Health education me is barrier ko identify karna zaroori hai.",
+    topic: "Defense Mechanisms",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Psychology ke Stress & Coping topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Nurse patient ko injection lagane ka demonstration deti hai aur phir patient practice karta hai. Ye learning ka kaunsa domain primarily involve karta hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Affective",
+      "Psychomotor",
+      "Cognitive",
+      "Perceptual"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Psychomotor",
+    explanation:
+      "Psychomotor domain physical skills aur coordinated movements se related hai. Demonstration aur return demonstration nursing education ki common techniques hain. Skill mastery practice se develop hoti hai.",
+    topic: "Learning Domains",
     difficulty: "medium"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Psychology ke Stress & Coping topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Ek patient stressful situation me bahut zyada polite aur friendly behave karta hai, jabki andar se gussa feel kar raha hota hai. Ye kis defense mechanism ka example hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Compensation",
+      "Suppression",
+      "Reaction formation",
+      "Displacement"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "medium"
+    answer: "Reaction formation",
+    explanation:
+      "Reaction formation me vyakti apni actual feelings ke opposite behavior display karta hai. Yahan patient gusse ki jagah excessive friendliness dikha raha hai. Ye anxiety ko manage karne ka unconscious tareeka hai.",
+    topic: "Defense Mechanisms",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Psychology ke Stress & Coping topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Ek patient har baar medicine lene ke baad recovery feel karta hai aur treatment par bharosa badh jata hai. Isse motivation kis factor se influence ho rahi hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Past success experience",
+      "Intelligence",
+      "Defense mechanism",
+      "Perception error"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
+    answer: "Past success experience",
+    explanation:
+      "Positive outcomes future motivation ko strengthen karte hain. Jab patient improvement dekhta hai to treatment adherence badh jati hai. Previous success confidence aur cooperation dono improve karti hai.",
+    topic: "Motivation",
+    difficulty: "medium"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Psychology ke Stress & Coping topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Patient IV stand ki shadow ko raat me kisi insaan ki tarah samajh leta hai. Ye kis psychological phenomenon ka example hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Hallucination",
+      "Delusion",
+      "Insight",
+      "Illusion"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Illusion",
+    explanation:
+      "Illusion me real stimulus ki galat interpretation hoti hai. Shadow actual stimulus tha lekin patient ne uska meaning galat samjha. Hallucination me koi real stimulus hota hi nahi hai.",
+    topic: "Perception",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Psychology ke Stress & Coping topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Ek patient ICU admission ke baad bachchon ki tarah rokar attention maangta hai. Ye kis defense mechanism ko indicate karta hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Projection",
+      "Denial",
+      "Regression",
+      "Sublimation"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Regression",
+    explanation:
+      "Regression me vyakti stress ke samay earlier developmental behaviors dikhata hai. ICU jaise stressful environment me ye dekha ja sakta hai. Nurse ko supportive approach rakhni chahiye.",
+    topic: "Defense Mechanisms",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Psychology ke Stress & Coping topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Ek patient apni frustration ko exercise aur sports me convert karta hai. Ye kis defense mechanism ka example hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Displacement",
+      "Sublimation",
+      "Denial",
+      "Projection"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Sublimation",
+    explanation:
+      "Sublimation unhealthy impulses ko socially acceptable activities me transform karta hai. Ye mature defense mechanism mana jata hai. Stress management me iska positive role hota hai.",
+    topic: "Defense Mechanisms",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Psychology ke Stress & Coping topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Maslow hierarchy ke anusaar severe dehydration wale patient me sabse pehle kis need par focus karna chahiye?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Physiological need",
+      "Esteem need",
+      "Love and belonging need",
+      "Self-actualization need"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Physiological need",
+    explanation:
+      "Maslow hierarchy me physiological needs sabse basic hoti hain. Dehydration life-threatening ho sakti hai isliye pehle fluid balance correct karna zaroori hai. Higher level needs baad me address ki jati hain.",
+    topic: "Maslow Hierarchy",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Psychology ke Stress & Coping topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Patient ko apni disease ke baare me complete knowledge hai aur wo apni condition ko realistically samajhta hai. Isse kya kaha jata hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Delusion",
+      "Insight",
+      "Hallucination",
+      "Projection"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
+    answer: "Insight",
+    explanation:
+      "Insight apni condition aur reality ko accurately samajhne ki ability hai. Good insight treatment adherence improve karti hai. Psychiatric assessment me insight evaluate ki jati hai.",
+    topic: "Mental Status",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Psychology ke Stress & Coping topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Patient ko ek hi room me alag-alag smells ke beech medicine ki smell identify karni hai. Isme sabse adhik kis process ka role hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Memory",
+      "Motivation",
+      "Perception",
+      "Conflict"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Perception",
+    explanation:
+      "Perception sensory information ko organize aur interpret karti hai. Smell ko identify karna sirf sensation nahi balki perception ka bhi kaam hai. Accurate perception environment ko samajhne me help karti hai.",
+    topic: "Perception",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Psychology ke Stress & Coping topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Ek nursing student ko promotion milega lekin uske saath workload bhi badhega. Ye kis type ka conflict hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Approach-Approach",
+      "Avoidance-Avoidance",
+      "Double Approach-Avoidance",
+      "Approach-Avoidance"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Psychology ke Stress & Coping topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Psychology ke Stress & Coping topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Psychology ke Stress & Coping topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Psychology ke Stress & Coping topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Psychology ke Stress & Coping topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Psychology ke Stress & Coping topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Psychology ke Stress & Coping topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Psychology ke Stress & Coping topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Psychology ke Stress & Coping topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Psychology ke Stress & Coping topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Stress & Coping me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Stress & Coping",
-
+    answer: "Approach-Avoidance",
+    explanation:
+      "Approach-avoidance conflict me ek hi goal ke positive aur negative dono aspects hote hain. Promotion desirable hai lekin workload undesirable hai. Isliye decision making difficult ho jati hai.",
+    topic: "Conflict",
     difficulty: "hard"
   }
 ];
 
 export default set2;
+
+// Answer Key:
+// [1,2,3,3,1,3,2,4,1,4,2,3,1,4,3,2,1,2,3,4]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

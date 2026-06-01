@@ -1,633 +1,312 @@
 const set2 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Nutritional Deficiency Disorders topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Liver cirrhosis patient me ascites develop ho gaya hai. Nurse ko diet planning me sabse pehle kis restriction par focus karna chahiye?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Sodium restriction",
+      "Vitamin C restriction",
+      "Carbohydrate restriction",
+      "Iron restriction"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Sodium restriction",
+    explanation:
+      "Ascites me body fluid retention hota hai. Sodium water retention ko badhata hai isliye sodium restriction important nursing intervention hai. Carbohydrate, iron aur vitamin C restriction directly ascites management ka primary goal nahi hote. Clinical practice me low-salt diet routinely advise ki jati hai.",
+    topic: "Liver Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Nutritional Deficiency Disorders topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Antenatal clinic me ek pregnant woman ka Hb 8 g/dL hai. Iron absorption improve karne ke liye nurse kis beverage ki salah degi?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Tea",
+      "Orange juice",
+      "Coffee",
+      "Soft drink"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Orange juice",
+    explanation:
+      "Orange juice me Vitamin C hota hai jo iron absorption ko enhance karta hai. Tea aur coffee iron absorption ko reduce kar sakte hain. Severe anemia prevention ke liye iron-rich foods ke saath Vitamin C lena evidence-based recommendation hai.",
+    topic: "Maternal Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Nutritional Deficiency Disorders topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Community survey me ek preschool child ka weight-for-age bahut low mila. Yeh kis nutritional indicator ko suggest karta hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Overnutrition",
+      "Obesity",
+      "Underweight",
+      "Normal growth"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Underweight",
+    explanation:
+      "Weight-for-age low hona underweight ko indicate karta hai. Yeh chronic ya acute malnutrition dono ka signal ho sakta hai. Growth monitoring community nutrition assessment ka important part hai. Early identification se timely intervention possible hota hai.",
+    topic: "Nutritional Assessment",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Nutritional Deficiency Disorders topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Patient ko peptic ulcer disease hai. Nurse kis dietary advice ko sabse appropriate maane gi?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Highly spicy foods lena",
+      "Long fasting periods rakhna",
+      "Frequent balanced meals lena",
+      "Excess coffee consume karna"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Frequent balanced meals lena",
+    explanation:
+      "Peptic ulcer patient me frequent small meals gastric irritation kam kar sakte hain. Excess spicy foods aur coffee symptoms worsen kar sakte hain. Long fasting se gastric discomfort badh sakta hai. Therapeutic nutrition symptom management me important role nibhati hai.",
+    topic: "Therapeutic Diet",
     difficulty: "medium"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Nutritional Deficiency Disorders topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Severe burns wale patient me nitrogen balance maintain karne ke liye kis nutrient ki requirement sabse zyada badh jati hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Protein",
+      "Fluoride",
+      "Sodium",
+      "Iodine"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "medium"
+    answer: "Protein",
+    explanation:
+      "Burns ke baad protein breakdown increase ho jata hai aur tissue repair ke liye high protein intake zaroori hota hai. Nitrogen balance maintain karne me protein key role play karta hai. Isliye burn patients ko protein-rich diet di jati hai.",
+    topic: "Clinical Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Nutritional Deficiency Disorders topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Nurse ek elderly patient ko osteoporosis prevention ke liye counseling de rahi hai. Kaunsa nutrient sabse zyada emphasize kiya jana chahiye?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Vitamin K",
+      "Calcium",
+      "Iron",
+      "Vitamin B12"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Calcium",
+    explanation:
+      "Calcium bone health ke liye essential hai aur osteoporosis prevention me major role rakhta hai. Vitamin D bhi important hai lekin bone mineralization ka primary mineral calcium hai. Elderly patients me adequate calcium intake critical hota hai.",
+    topic: "Geriatric Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Nutritional Deficiency Disorders topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Type 1 diabetes wale child ko insulin diya gaya hai. Meal delay hone par sabse immediate nutritional risk kya hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Hypercalcemia",
+      "Hypoglycemia",
+      "Hypernatremia",
+      "Goiter"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "medium"
+    answer: "Hypoglycemia",
+    explanation:
+      "Insulin administration ke baad meal delay hone se blood glucose dangerously low ho sakta hai. Hypoglycemia ek emergency condition hai. Nurse ko meal timing aur insulin coordination par dhyan dena chahiye. Patient safety ke liye yeh critical concept hai.",
+    topic: "Diabetic Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Nutritional Deficiency Disorders topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Parenteral nutrition receive kar rahe patient me catheter site redness aur fever develop ho gaya hai. Sabse likely complication kya hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Vitamin deficiency",
+      "Constipation",
+      "Dehydration",
+      "Catheter-related infection"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "medium"
+    answer: "Catheter-related infection",
+    explanation:
+      "Parenteral nutrition central venous catheter ke through diya jata hai. Redness aur fever infection ke warning signs hain. Aseptic technique maintain karna bahut important hai. Infection ko early identify karna nurse ki responsibility hai.",
+    topic: "Parenteral Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Nutritional Deficiency Disorders topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "School health program me nurse ko child ke diet history me sirf polished rice aur bahut kam pulses milti hain. Kaunsi deficiency ka risk sabse zyada hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Protein deficiency",
+      "Vitamin K excess",
+      "Fluorosis",
+      "Hyperthyroidism"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "medium"
+    answer: "Protein deficiency",
+    explanation:
+      "Diet me protein-rich foods ki kami hone par protein deficiency ka risk badh jata hai. Pulses important plant protein source hain. Long-term inadequate intake growth aur immunity dono ko affect kar sakta hai. Community nutrition assessment me dietary pattern evaluate karna zaroori hai.",
+    topic: "Protein Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Nutritional Deficiency Disorders topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Renal failure patient ko potassium restricted diet prescribe ki gayi hai. Nurse kis food ko avoid karne ki salah degi?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Apple",
+      "Rice",
+      "Cabbage",
+      "Banana"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "medium"
+    answer: "Banana",
+    explanation:
+      "Banana potassium-rich food hai. Renal failure me potassium accumulation life-threatening arrhythmias ka risk badha sakta hai. Isliye high-potassium foods ko limit karna important hai. Dietary counseling patient safety ka important part hai.",
+    topic: "Renal Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Nutritional Deficiency Disorders topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Kwashiorkor wale child me edema ka primary reason kya hota hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "High hemoglobin",
+      "Protein deficiency",
+      "Excess Vitamin C",
+      "High calcium"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "medium"
+    answer: "Protein deficiency",
+    explanation:
+      "Protein deficiency se plasma oncotic pressure decrease hota hai jisse fluid tissues me leak karta hai aur edema develop hota hai. Yeh kwashiorkor ki hallmark feature hai. Clinical assessment me edema aur growth failure dono evaluate kiye jate hain.",
+    topic: "Protein Energy Malnutrition",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Nutritional Deficiency Disorders topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Patient me bleeding gums aur poor wound healing dekhi gayi. Kaunsi deficiency sabse likely hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Vitamin D deficiency",
+      "Vitamin A deficiency",
+      "Vitamin C deficiency",
+      "Vitamin K deficiency"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "medium"
+    answer: "Vitamin C deficiency",
+    explanation:
+      "Vitamin C collagen synthesis ke liye important hai. Iski deficiency se scurvy, bleeding gums aur delayed wound healing ho sakti hai. Clinical nutrition me deficiency signs ko identify karna important nursing skill hai.",
+    topic: "Vitamin Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Nutritional Deficiency Disorders topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Enteral feeding shuru karne se pehle nasogastric tube placement verify karne ka sabse important reason kya hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Aspiration prevent karna",
+      "Digestion improve karna",
+      "Weight gain badhana",
+      "Vitamin absorption badhana"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Aspiration prevent karna",
+    explanation:
+      "Incorrect tube placement se feed lungs me ja sakta hai aur aspiration pneumonia ho sakti hai. Placement verification patient safety ka critical step hai. Enteral nutrition administration se pehle nurse ko iski confirmation karni chahiye.",
+    topic: "Enteral Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Nutritional Deficiency Disorders topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Antenatal mother ko iodine deficiency ke consequences samjhate waqt nurse kis risk ka mention karegi?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Night blindness only",
+      "Neural tube defect only",
+      "Scurvy",
+      "Impaired fetal brain development"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Impaired fetal brain development",
+    explanation:
+      "Iodine fetal neurological development ke liye essential hai. Deficiency cognitive impairment aur developmental issues ka risk badha sakti hai. Maternal nutrition counseling me iodized salt ka use strongly recommend kiya jata hai.",
+    topic: "Maternal Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Nutritional Deficiency Disorders topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Obese patient ko weight reduction program me nurse kaunsi dietary strategy recommend karegi?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Balanced calorie deficit diet",
+      "Unlimited fruit juice",
+      "Frequent sugary snacks",
+      "High trans-fat diet"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Balanced calorie deficit diet",
+    explanation:
+      "Weight reduction ke liye calorie deficit scientifically proven strategy hai. Crash diets sustainable nahi hoti. Balanced nutrition maintain karte hue calorie reduction karna safest approach hai. Long-term lifestyle modification important hai.",
+    topic: "Weight Management",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Nutritional Deficiency Disorders topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Infant feeding counseling ke dauran nurse complementary feeding kab start karne ki salah degi?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Birth ke turant baad",
+      "6 months ke baad",
+      "3 months par",
+      "1 saal ke baad"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
+    answer: "6 months ke baad",
+    explanation:
+      "WHO recommendations ke anusaar pehle 6 mahine exclusive breastfeeding aur uske baad complementary feeding start ki jati hai. Isse growth aur development support hota hai. Early ya delayed introduction dono problems create kar sakte hain.",
+    topic: "Infant Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Nutritional Deficiency Disorders topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "A patient receiving long-term alcohol consumption history presents with neuropathy. Kaunsi vitamin deficiency sabse likely hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Vitamin D",
+      "Vitamin K",
+      "Thiamine (Vitamin B1)",
+      "Vitamin C"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Thiamine (Vitamin B1)",
+    explanation:
+      "Chronic alcoholism me Thiamine deficiency common hoti hai aur neuropathy ya neurological symptoms produce kar sakti hai. Early recognition important hai. Vitamin supplementation treatment ka important part hota hai.",
+    topic: "Vitamin Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Nutritional Deficiency Disorders topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Community health nurse ko fluorosis prevalent area me kaunsi preventive advice deni chahiye?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "High fluoride water continue karna",
+      "Safe low-fluoride drinking water use karna",
+      "Extra iodine lena",
+      "Extra sodium lena"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Safe low-fluoride drinking water use karna",
+    explanation:
+      "Fluorosis excessive fluoride exposure se hota hai. Prevention ke liye safe water source ka use sabse effective measure hai. Community-level interventions public health nutrition ka important part hain.",
+    topic: "Community Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Nutritional Deficiency Disorders topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Constipation se suffer kar rahe bedridden patient ke liye sabse appropriate dietary modification kya hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Fiber-rich diet",
+      "Protein-free diet",
+      "Fluid restriction",
+      "Fat-free diet"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
+    answer: "Fiber-rich diet",
+    explanation:
+      "Fiber stool bulk increase karta hai aur bowel movement improve karta hai. Adequate hydration ke saath fiber constipation management ka cornerstone hai. Bedridden patients me bowel care nursing management ka important aspect hai.",
+    topic: "Dietary Fiber",
+    difficulty: "medium"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Nutritional Deficiency Disorders topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Rickets prevention ke liye child nutrition counseling me kis nutrient ko sabse zyada emphasize kiya jata hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Vitamin K",
+      "Vitamin B12",
+      "Iron",
+      "Vitamin D"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Nutritional Deficiency Disorders topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Nutritional Deficiency Disorders topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Nutritional Deficiency Disorders topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Nutritional Deficiency Disorders topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Nutritional Deficiency Disorders topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Nutritional Deficiency Disorders topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Nutritional Deficiency Disorders topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Nutritional Deficiency Disorders topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Nutritional Deficiency Disorders topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Nutritional Deficiency Disorders topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Nutritional Deficiency Disorders me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nutritional Deficiency Disorders",
-
+    answer: "Vitamin D",
+    explanation:
+      "Vitamin D calcium absorption aur bone mineralization ke liye essential hai. Deficiency se rickets develop ho sakta hai. Sunlight exposure aur Vitamin D rich foods dono prevention me important role play karte hain.",
+    topic: "Child Nutrition",
     difficulty: "hard"
   }
 ];
 
 export default set2;
+
+// Answer Key:
+// [1,2,3,4,1,2,2,4,1,4,2,3,1,4,1,2,3,2,1,4]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 3
+// Option 4 = 7

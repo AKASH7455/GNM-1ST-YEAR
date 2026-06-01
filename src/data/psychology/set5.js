@@ -1,633 +1,292 @@
 const set5 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Psychology ke Mental Health Basics topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Ek patient baar-baar apni illness ke baare me negative thoughts karta hai aur recovery ke chances ko ignore karta hai. Nurse ko sabse pehle kis psychological aspect ka assessment karna chahiye?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Memory",
+      "Perception",
+      "Thought content",
+      "Intelligence"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "medium"
+    answer: "Thought content",
+    explanation: "Thought content assessment se pata chalta hai ki patient ke beliefs aur soch uski recovery ko kaise affect kar rahe hain. Negative thinking anxiety aur depression ko badha sakti hai. Nursing intervention plan karne se pehle thought pattern samajhna zaroori hai. Memory aur intelligence yahan primary issue nahi hain.",
+    topic: "Thinking",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Psychology ke Mental Health Basics topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Ek nursing student practical me fail ho jata hai lekin agli baar zyada mehnat karke distinction laata hai. Ye kis defense mechanism ka example hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Compensation",
+      "Projection",
+      "Denial",
+      "Regression"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Compensation",
+    explanation: "Compensation me vyakti apni weakness ya failure ko extra effort se overcome karta hai. Student ne failure ko positive motivation me convert kiya. Ye healthy adjustment ka example hai. Nursing students me ye adaptive coping mana jata hai.",
+    topic: "Defense Mechanisms",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Psychology ke Mental Health Basics topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Patient ko lagta hai ki hospital ke loudspeaker announcements specifically uske liye secret messages hain. Ye kis condition ka example hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Illusion",
+      "Insight",
+      "Hallucination",
+      "Delusion of reference"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "medium"
+    answer: "Delusion of reference",
+    explanation: "Delusion of reference me patient normal events ko personally related maanta hai. Loudspeaker announcements ko secret message samajhna irrational belief hai. Ye psychotic thinking ka indicator ho sakta hai. Assessment aur documentation important hai.",
+    topic: "Thought Disorders",
+    difficulty: "hard"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Psychology ke Mental Health Basics topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Ek patient ko surgery karani hai jisse benefit bhi milega lekin operation ka dar bhi hai. Ye kis type ka conflict hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Approach-Approach",
+      "Approach-Avoidance",
+      "Avoidance-Avoidance",
+      "Double Approach-Avoidance"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "medium"
+    answer: "Approach-Avoidance",
+    explanation: "Approach-avoidance conflict me ek hi goal ke positive aur negative dono aspects hote hain. Surgery benefit bhi degi aur fear bhi create kar rahi hai. Isliye patient decision ko lekar conflicted hai. Clinical settings me ye common situation hai.",
+    topic: "Conflict",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Psychology ke Mental Health Basics topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Maslow hierarchy ke anusaar severe dehydration wale patient me sabse pehle kis need ko address karna chahiye?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Physiological need",
+      "Safety need",
+      "Esteem need",
+      "Belonging need"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Physiological need",
+    explanation: "Dehydration survival ko directly affect karta hai. Physiological needs Maslow hierarchy ki sabse basic needs hain. Jab tak ye satisfy nahi hoti, higher needs par focus nahi kiya ja sakta. Nursing priority bhi isi order ko follow karti hai.",
+    topic: "Maslow Hierarchy",
     difficulty: "medium"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Psychology ke Mental Health Basics topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Child apne father ko hand hygiene follow karte dekhkar same habit develop kar leta hai. Ye kis learning theory ko support karta hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Classical conditioning",
+      "Trial and error",
+      "Observational learning",
+      "Insight learning"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Observational learning",
+    explanation: "Observational learning me vyakti dusron ko dekhkar behavior adopt karta hai. Bandura ne is theory ko explain kiya tha. Child ne modeling ke through habit seekhi. Health education me ye approach bahut effective hai.",
+    topic: "Learning",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Psychology ke Mental Health Basics topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Patient discharge instructions sun raha hai lekin ward ke noise ki wajah se baar-baar distract ho raha hai. Kaunsa process sabse adhik affect hua hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Memory",
+      "Attention",
+      "Perception",
+      "Insight"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Attention",
+    explanation: "Attention kisi information par focus karne ki ability hai. Noise distraction create karke learning ko affect kar sakta hai. Effective patient teaching ke liye quiet environment zaroori hota hai. Attention ke bina retention bhi kam ho jati hai.",
+    topic: "Attention",
     difficulty: "medium"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Psychology ke Mental Health Basics topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Patient ko bina kisi external sound ke awaazein sunai deti hain. Ye kis symptom ka example hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Illusion",
+      "Delusion",
+      "Insight",
+      "Auditory hallucination"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "medium"
+    answer: "Auditory hallucination",
+    explanation: "Auditory hallucination bina real stimulus ke sound perceive karna hai. Ye schizophrenia aur kuch psychiatric disorders me dekha jata hai. Illusion me real stimulus hota hai. Nursing assessment me hallucination ke content ko bhi note kiya jata hai.",
+    topic: "Perception",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Psychology ke Mental Health Basics topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Ek patient realistic goals set karta hai aur recovery ke liye actively participate karta hai. Is behavior ka sabse achha indicator kya hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "High motivation",
+      "Projection",
+      "Regression",
+      "Illusion"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "High motivation",
+    explanation: "Motivation goal-directed behavior ko drive karti hai. Recovery me active participation strong motivation ko reflect karta hai. Motivated patients generally treatment adherence bhi achhi dikhate hain. Rehabilitation outcomes bhi better hote hain.",
+    topic: "Motivation",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Psychology ke Mental Health Basics topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Patient apni smoking habit ko justify karte hue kehta hai ki 'Mere relative ne bhi smoke kiya aur unhe kuch nahi hua'. Ye kis defense mechanism ka example hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Projection",
+      "Denial",
+      "Regression",
+      "Rationalization"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "medium"
+    answer: "Rationalization",
+    explanation: "Rationalization me vyakti apne behavior ke liye logical lagne wale excuses deta hai. Patient smoking ke risks ko minimize kar raha hai. Ye defense mechanism reality ke emotional impact ko kam karta hai. Health counseling me ye barrier ban sakta hai.",
+    topic: "Defense Mechanisms",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Psychology ke Mental Health Basics topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Patient ko discharge ke baad medicine schedule yaad rakhne me dikkat hai. Nurse chart aur color coding use karti hai. Ye kis process ko improve karega?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Perception",
+      "Encoding",
+      "Insight",
+      "Hallucination"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "medium"
+    answer: "Encoding",
+    explanation: "Encoding information ko memory me store karne ki initial process hai. Organized presentation learning aur recall ko improve karti hai. Patient education me charts aur color coding useful tools hain. Isse adherence bhi improve hoti hai.",
+    topic: "Memory",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Psychology ke Mental Health Basics topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Ek patient stressful admission ke baad bachpan ki tarah thumb sucking karne lagta hai. Ye kis defense mechanism ka example hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Projection",
+      "Compensation",
+      "Regression",
+      "Sublimation"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "medium"
+    answer: "Regression",
+    explanation: "Regression me stress ke samay vyakti earlier developmental behaviors dikhata hai. Thumb sucking childhood behavior hai. Ye anxiety ko handle karne ka unconscious tareeka hai. Hospitalization me kabhi-kabhi dekha ja sakta hai.",
+    topic: "Defense Mechanisms",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Psychology ke Mental Health Basics topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Ek patient apni strengths aur weaknesses dono ko realistically accept karta hai. Ye kis concept ko reflect karta hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Positive self-concept",
+      "Delusion",
+      "Projection",
+      "Hallucination"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
+    answer: "Positive self-concept",
+    explanation: "Positive self-concept me vyakti apne aap ko realistically evaluate karta hai. Sirf strengths ya weaknesses par focus nahi karta. Isse adjustment aur confidence improve hote hain. Mental well-being ke liye ye important hai.",
+    topic: "Self Concept",
+    difficulty: "medium"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Psychology ke Mental Health Basics topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Patient raat me curtain ki shadow ko kisi aadmi ki tarah samajh leta hai. Ye kis phenomenon ka example hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Hallucination",
+      "Delusion",
+      "Insight",
+      "Illusion"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Illusion",
+    explanation: "Illusion me real stimulus ki galat interpretation hoti hai. Curtain aur shadow real stimuli the. Hallucination se fark ye hai ki hallucination me koi external stimulus nahi hota. Clinical assessment me dono ko differentiate karna zaroori hai.",
+    topic: "Perception",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Psychology ke Mental Health Basics topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Patient apni aggressive feelings ko sports activities me convert karta hai. Ye kis defense mechanism ka example hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Projection",
+      "Regression",
+      "Sublimation",
+      "Denial"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Sublimation",
+    explanation: "Sublimation mature defense mechanism hai jisme unacceptable impulses ko socially acceptable activities me convert kiya jata hai. Sports aur exercise healthy outlets hain. Ye adaptive coping ko promote karta hai.",
+    topic: "Defense Mechanisms",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Psychology ke Mental Health Basics topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Ek patient ko do unpleasant treatment options me se ek choose karna hai. Ye kis type ka conflict hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Approach-Approach",
+      "Avoidance-Avoidance",
+      "Approach-Avoidance",
+      "Double Approach-Avoidance"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Avoidance-Avoidance",
+    explanation: "Avoidance-avoidance conflict me dono options undesirable hote hain. Patient kisi bhi option ko choose nahi karna chahta. Is type ka conflict anxiety increase kar sakta hai. Decision support zaroori ho sakta hai.",
+    topic: "Conflict",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Psychology ke Mental Health Basics topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Erikson ke anusaar old age me apni life ko acceptance aur satisfaction ke saath dekhna kis outcome ko darshata hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Ego integrity",
+      "Role confusion",
+      "Mistrust",
+      "Shame"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Ego integrity",
+    explanation: "Ego integrity successful aging ka positive outcome hai. Vyakti apni life ko meaningful aur worthwhile maanta hai. Isse peace aur satisfaction milti hai. Iska opposite despair hota hai.",
+    topic: "Developmental Psychology",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Psychology ke Mental Health Basics topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Patient ko apni illness aur treatment ki reality ka accurate understanding hai. Isse kya kaha jata hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Perception",
+      "Insight",
+      "Delusion",
+      "Hallucination"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
+    answer: "Insight",
+    explanation: "Insight apni condition ko realistically samajhne ki ability hai. Good insight treatment adherence aur cooperation ko improve karti hai. Psychiatric assessment me iska evaluation kiya jata hai.",
+    topic: "Mental Status Examination",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Psychology ke Mental Health Basics topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Medication ke benefits aur risks ko evaluate karke decision lena kis learning domain ka example hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Affective domain",
+      "Psychomotor domain",
+      "Cognitive domain",
+      "Social domain"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Cognitive domain",
+    explanation: "Cognitive domain thinking, analysis aur decision-making se related hai. Patient available information ka logical use kar raha hai. Nursing education me cognitive learning ka central role hota hai.",
+    topic: "Learning Domains",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Psychology ke Mental Health Basics topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Ek nurse ko do equally attractive promotions milti hain aur use ek select karni hai. Ye kis type ka conflict hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Avoidance-Avoidance",
+      "Approach-Approach",
+      "Double Approach-Avoidance",
+      "Approach-Avoidance"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Psychology ke Mental Health Basics topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Psychology ke Mental Health Basics topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Psychology ke Mental Health Basics topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Psychology ke Mental Health Basics topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Psychology ke Mental Health Basics topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Psychology ke Mental Health Basics topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Psychology ke Mental Health Basics topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Psychology ke Mental Health Basics topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Psychology ke Mental Health Basics topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Psychology ke Mental Health Basics topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Mental Health Basics me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Mental Health Basics",
-
+    answer: "Approach-Approach",
+    explanation: "Approach-approach conflict me dono alternatives desirable hote hain. Nurse ko do positive options me se ek choose karna hai. Ye conflict relatively less stressful mana jata hai kyunki dono outcomes beneficial hain.",
+    topic: "Conflict",
     difficulty: "hard"
   }
 ];
 
 export default set5;
+
+// Answer Key:
+// [3,1,4,2,1,3,2,4,1,4,2,3,1,4,3,2,1,2,3,2]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

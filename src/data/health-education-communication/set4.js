@@ -2,20 +2,21 @@ const set4 = [
   {
     id: 1,
 
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke Counselling & Behaviour Change topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
+    question: "Community me leprosy awareness session ke dauran kuch log patient ke paas baithne se mana kar dete hain. Nurse ko sabse pehle kis communication strategy ka use karna chahiye?",
 
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Scientific facts aur misconceptions clarification",
+      "Un logon ko session se nikal dena",
+      "Sirf pamphlet baant dena",
+      "Discussion ko ignore karna"
     ],
 
-    answer: "focused assessment karke priority nursing intervention start karna",
+    answer: "Scientific facts aur misconceptions clarification",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Leprosy se jude myths aur stigma ko dur karna health educator ki responsibility hai. Scientific facts ke through misconceptions clear karne se fear kam hota hai. Direct punishment ya ignorance attitude change nahi karta. Effective communication evidence-based aur respectful honi chahiye.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Health Beliefs and Misconceptions",
 
     difficulty: "medium"
   },
@@ -23,20 +24,21 @@ const set4 = [
   {
     id: 2,
 
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
+    question: "Nurse tuberculosis patient ko treatment adherence samjha rahi hai. Patient baar-baar topic badal deta hai kyunki use diagnosis accept nahi ho raha. Ye kis barrier ka example hai?",
 
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Semantic barrier",
+      "Psychological barrier",
+      "Physical barrier",
+      "Environmental barrier"
     ],
 
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
+    answer: "Psychological barrier",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Denial, anxiety aur fear psychological barriers hote hain jo communication ko affect karte hain. Patient emotionally ready nahi hai isliye information accept karne me difficulty ho rahi hai. Nurse ko empathy aur counseling ka use karna chahiye.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Communication Barriers",
 
     difficulty: "medium"
   },
@@ -44,20 +46,21 @@ const set4 = [
   {
     id: 3,
 
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
+    question: "Health educator session ke shuruaat me learners se unke previous knowledge ke baare me sawal poochta hai. Iska mukhya uddeshya kya hai?",
 
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Attendance lena",
+      "Teaching needs assess karna",
+      "Session shorten karna",
+      "Budget calculate karna"
     ],
 
-    answer: "standard protocol follow karke finding accurately document karna",
+    answer: "Teaching needs assess karna",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Pre-assessment se educator ko learners ka existing knowledge level pata chalta hai. Iske basis par content aur methods select kiye ja sakte hain. Need-based education zyada effective aur relevant hoti hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Teaching-Learning Process",
 
     difficulty: "medium"
   },
@@ -65,20 +68,21 @@ const set4 = [
   {
     id: 4,
 
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke Counselling & Behaviour Change topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
+    question: "Village me vaccination awareness ke liye loudspeaker announcements kiye gaye. Is method ki sabse badi limitation kya hai?",
 
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Bahut zyada cost",
+      "Audience tak nahi pahuchta",
+      "Immediate feedback ki kami",
+      "Message repeat nahi ho sakta"
     ],
 
-    answer: "therapeutic communication se concern clarify karke teaching dena",
+    answer: "Immediate feedback ki kami",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Loudspeaker mass communication ka example hai. Isme message bahut logon tak pahunchta hai lekin receiver ki understanding verify karna mushkil hota hai. Immediate feedback na milna iska major limitation hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Mass Communication",
 
     difficulty: "medium"
   },
@@ -86,20 +90,21 @@ const set4 = [
   {
     id: 5,
 
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
+    question: "Patient kehta hai, 'Mujhe operation ke baad kya hoga samajh nahi aa raha.' Nurse ka sabse appropriate response kya hoga?",
 
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Operation ke baare me aapko kis baat ki sabse zyada chinta hai?",
+      "Aap unnecessary tension le rahe hain",
+      "Sab thik ho jayega, bas sochiye mat",
+      "Doctor se pooch lijiye"
     ],
 
-    answer: "risk factors identify karke prevention-focused counselling dena",
+    answer: "Operation ke baare me aapko kis baat ki sabse zyada chinta hai?",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Open-ended questions patient ko feelings express karne ka mauka dete hain. Therapeutic communication patient ki concerns explore karti hai. False reassurance ya avoidance trust ko kam kar sakta hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Therapeutic Communication",
 
     difficulty: "medium"
   },
@@ -107,20 +112,21 @@ const set4 = [
   {
     id: 6,
 
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke Counselling & Behaviour Change topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
+    question: "School health nurse students ko balanced diet par role play karwati hai. Is teaching method ka major advantage kya hai?",
 
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Sirf theory sikhana",
+      "Real-life situation practice karwana",
+      "Documentation reduce karna",
+      "Attendance improve karna"
     ],
 
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
+    answer: "Real-life situation practice karwana",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Role play experiential learning ka effective method hai. Students real situations ko enact karte hain aur communication skills develop karte hain. Isse retention aur confidence dono improve hote hain.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Teaching Methods",
 
     difficulty: "medium"
   },
@@ -128,146 +134,153 @@ const set4 = [
   {
     id: 7,
 
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke Counselling & Behaviour Change topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
+    question: "Health worker dengue prevention session me participants ko mosquito breeding sites identify karne ke liye involve karti hai. Ye kis principle ko reflect karta hai?",
 
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Participation",
+      "Motivation",
+      "Reinforcement",
+      "Evaluation"
     ],
 
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
+    answer: "Participation",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Participation learning process ko active banata hai. Jab learners khud involve hote hain to understanding aur behavior change dono improve hote hain. Passive listening ke mukable ye zyada effective approach hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Principles of Health Education",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 8,
 
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
+    question: "Nurse handwashing technique sikhane ke baad learners se same procedure perform karwati hai. Ye kis evaluation technique ka example hai?",
 
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Interview",
+      "Observation",
+      "Teach-back",
+      "Return demonstration"
     ],
 
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
+    answer: "Return demonstration",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Return demonstration practical skill assessment ke liye use ki jati hai. Learner khud procedure perform karta hai jisse competency verify hoti hai. Health education me ye highly reliable method mana jata hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Evaluation Methods",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 9,
 
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
+    question: "Nurse patient ki baat sunte waqt uski taraf jhukkar baithti hai aur eye contact maintain karti hai. Ye kis communication component ko strengthen karta hai?",
 
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Non-verbal communication",
+      "Written communication",
+      "Mass communication",
+      "Formal communication"
     ],
 
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
+    answer: "Non-verbal communication",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Body posture, eye contact aur gestures non-verbal communication ke important parts hain. Ye empathy aur attention convey karte hain. Therapeutic relationship me inka bahut mahatva hota hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Non-Verbal Communication",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 10,
 
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke Counselling & Behaviour Change topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
+    question: "Community health nurse local language me health talk deti hai. Iska sabse important benefit kya hai?",
 
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Budget kam ho jata hai",
+      "Audience ki understanding improve hoti hai",
+      "Documentation kam hoti hai",
+      "Session formal ho jata hai"
     ],
 
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
+    answer: "Audience ki understanding improve hoti hai",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Local language audience ke liye familiar hoti hai. Isse message clearly samajh aata hai aur communication barriers kam hote hain. Health education me simple aur familiar language preferred hoti hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Communication Skills",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 11,
 
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke Counselling & Behaviour Change topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
+    question: "Health education program ke baad participants ke attitude me positive change dekha gaya. Ye kis learning domain ka outcome hai?",
 
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Psychomotor domain",
+      "Cognitive domain",
+      "Affective domain",
+      "Physical domain"
     ],
 
-    answer: "nursing process ke according intervention evaluate aur modify karna",
+    answer: "Affective domain",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Affective domain beliefs, attitudes aur values se sambandhit hota hai. Positive attitude change isi domain ka indicator hai. Knowledge cognitive domain aur skills psychomotor domain me aate hain.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Domains of Learning",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 12,
 
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
+    question: "Patient discharge instructions repeat nahi kar pata. Nurse ko kya karna chahiye?",
 
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Patient ko discharge kar dena",
+      "Instructions ko simpler form me dubara explain karna",
+      "Family ko blame karna",
+      "Teaching stop kar dena"
     ],
 
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
+    answer: "Instructions ko simpler form me dubara explain karna",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Patient understanding verify karna zaruri hai. Agar patient instructions repeat nahi kar pa raha to re-teaching ki zarurat hai. Simpler language aur examples comprehension improve karte hain.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Patient Education",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 13,
 
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
+    question: "Antenatal mothers ko nutrition sikhane ke liye charts aur pictures use ki gayi. Ye kis type ke teaching aids hain?",
 
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Visual aids",
+      "Audio aids",
+      "Mass media",
+      "Folk media"
     ],
 
-    answer: "prescribed order verify karke safest nursing action implement karna",
+    answer: "Visual aids",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Charts aur pictures visual aids ke examples hain. Ye concepts ko simple aur attractive tarike se present karte hain. Visual memory learning retention ko improve karti hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Audio Visual Aids",
 
     difficulty: "hard"
   },
@@ -275,20 +288,21 @@ const set4 = [
   {
     id: 14,
 
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke Counselling & Behaviour Change topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
+    question: "Nurse smoking cessation program me patient ko achievable goals set karne me help karti hai. Ye kis communication role ka example hai?",
 
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Documentation",
+      "Motivation",
+      "Delegation",
+      "Supervision"
     ],
 
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
+    answer: "Motivation",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Motivation behavior change ka key component hai. Realistic goals patient ko confidence dete hain aur adherence improve karte hain. Nurse ka supportive role successful lifestyle modification me madad karta hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Behavior Change Communication",
 
     difficulty: "hard"
   },
@@ -296,20 +310,21 @@ const set4 = [
   {
     id: 15,
 
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
+    question: "Community awareness campaign ke liye puppet show organize kiya gaya. Iska sabse bada advantage kya hai?",
 
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Clinical diagnosis karna",
+      "Documentation improve karna",
+      "Audience engagement aur cultural relevance badhana",
+      "Medication adherence assess karna"
     ],
 
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
+    answer: "Audience engagement aur cultural relevance badhana",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Puppet show folk media ka example hai. Ye local culture ke kareeb hota hai aur audience ka attention attract karta hai. Health messages ko memorable banane me madad karta hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Folk Media",
 
     difficulty: "hard"
   },
@@ -317,20 +332,21 @@ const set4 = [
   {
     id: 16,
 
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke Counselling & Behaviour Change topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
+    question: "Nurse patient ko diabetes management samjhane ke baad usse apne words me repeat karne ko kehti hai. Ye kis method ka example hai?",
 
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Observation",
+      "Role play",
+      "Lecture",
+      "Teach-back method"
     ],
 
-    answer: "objective data ke basis par nursing priority set karna",
+    answer: "Teach-back method",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Teach-back method patient understanding assess karne ka effective tool hai. Patient apne shabdon me information repeat karta hai. Isse misconceptions identify karne me madad milti hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Evaluation of Learning",
 
     difficulty: "hard"
   },
@@ -338,20 +354,21 @@ const set4 = [
   {
     id: 17,
 
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke Counselling & Behaviour Change topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
+    question: "Health education planning se pehle baseline survey karne ka primary purpose kya hai?",
 
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Audience ki needs aur knowledge level assess karna",
+      "Attendance badhana",
+      "Budget reduce karna",
+      "Media selection avoid karna"
     ],
 
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
+    answer: "Audience ki needs aur knowledge level assess karna",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Baseline survey planning ka important step hai. Isse target group ki actual needs aur existing knowledge ka pata chalta hai. Effective educational interventions isi information par based hote hain.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Planning Health Education",
 
     difficulty: "hard"
   },
@@ -359,20 +376,21 @@ const set4 = [
   {
     id: 18,
 
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
+    question: "Community meeting me participants actively questions poochte hain aur educator unka jawab deta hai. Ye kis type ki communication hai?",
 
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Formal communication",
+      "Mass communication",
+      "Two-way communication",
+      "Written communication"
     ],
 
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
+    answer: "Two-way communication",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Two-way communication me feedback aur interaction dono present hote hain. Isse understanding aur participation improve hoti hai. Health education me ye one-way communication se zyada effective hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Types of Communication",
 
     difficulty: "hard"
   },
@@ -380,20 +398,21 @@ const set4 = [
   {
     id: 19,
 
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
+    question: "Malaria awareness campaign ke baad mosquito net usage significantly badh gaya. Ye kis evaluation indicator ko represent karta hai?",
 
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Behavioral outcome",
+      "Attendance outcome",
+      "Financial outcome",
+      "Structural outcome"
     ],
 
-    answer: "cultural belief respect karte hue evidence-based advice dena",
+    answer: "Behavioral outcome",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Health education ka objective positive behavior change lana hota hai. Mosquito net use me increase actual practice change ko show karta hai. Ye successful intervention ka important indicator hai.",
 
-    topic: "Counselling & Behaviour Change",
+    topic: "Program Evaluation",
 
     difficulty: "hard"
   },
@@ -401,233 +420,32 @@ const set4 = [
   {
     id: 20,
 
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke Counselling & Behaviour Change topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
+    question: "Health education program ki success ka sabse strong evidence kya mana jayega?",
 
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "High attendance",
+      "Pamphlets ki zyada distribution",
+      "Long session duration",
+      "Health outcomes me measurable improvement"
     ],
 
-    answer: "SBAR format me relevant assessment aur action handover karna",
+    answer: "Health outcomes me measurable improvement",
 
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Outcome indicators program effectiveness ka sabse strong evidence provide karte hain. Attendance aur material distribution sirf process indicators hain. Real success health status aur behavior change se measure ki jati hai.",
 
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke Counselling & Behaviour Change topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke Counselling & Behaviour Change topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke Counselling & Behaviour Change topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke Counselling & Behaviour Change topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke Counselling & Behaviour Change topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke Counselling & Behaviour Change topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Counselling & Behaviour Change me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Counselling & Behaviour Change",
+    topic: "Program Evaluation",
 
     difficulty: "hard"
   }
 ];
 
 export default set4;
+
+// Answer Key:
+// [1,2,2,3,1,2,1,4,1,2,3,2,1,2,3,4,1,3,1,4]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

@@ -1,633 +1,312 @@
 const set3 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Maternal & Child Nutrition topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "ICU me ventilator par admitted patient ko enteral feeding di ja rahi hai. Feeding intolerance ka sabse early indicator kya ho sakta hai?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Abdominal distension",
+      "Weight gain",
+      "Improved appetite",
+      "Increased hemoglobin"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "medium"
+    answer: "Abdominal distension",
+    explanation:
+      "Abdominal distension enteral feeding intolerance ka early sign ho sakta hai. Iske saath nausea, vomiting aur high gastric residual volume bhi dekha ja sakta hai. Nurse ko feeding continue karne se pehle assessment karni chahiye. Early detection aspiration aur complications ko prevent karta hai.",
+    topic: "Enteral Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Maternal & Child Nutrition topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Megaloblastic anemia wale patient ke diet plan me kis nutrient par sabse zyada focus kiya jayega?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Vitamin K",
+      "Vitamin B12",
+      "Fluoride",
+      "Sodium"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Vitamin B12",
+    explanation:
+      "Vitamin B12 deficiency megaloblastic anemia ka common cause hai. Iski kami RBC maturation ko affect karti hai. Dietary counseling aur supplementation treatment ka important part hai. Folate deficiency bhi similar picture de sakti hai lekin yahan B12 key nutrient hai.",
+    topic: "Vitamin Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Maternal & Child Nutrition topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Community health nurse ko ek village me multiple children me bow legs aur delayed walking milta hai. Sabse likely nutritional deficiency kya hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Vitamin C deficiency",
+      "Iron deficiency",
+      "Vitamin D deficiency",
+      "Vitamin K deficiency"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Vitamin D deficiency",
+    explanation:
+      "Bow legs aur delayed bone development rickets ki taraf indicate karte hain jo Vitamin D deficiency se hota hai. Vitamin D calcium metabolism ke liye essential hai. Child nutrition programs me sunlight exposure aur dietary intake dono important hote hain.",
+    topic: "Child Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Maternal & Child Nutrition topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Post-MI patient ko cardiac diet di gayi hai. Nurse kis food item ko avoid karne ki advice degi?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Fresh fruits",
+      "Oats",
+      "Boiled vegetables",
+      "Deep-fried snacks"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "medium"
+    answer: "Deep-fried snacks",
+    explanation:
+      "Deep-fried foods me saturated aur trans fats zyada ho sakte hain jo cardiovascular risk ko badhate hain. Cardiac diet ka goal heart workload aur lipid levels ko control karna hota hai. Fresh fruits aur vegetables generally beneficial hote hain.",
+    topic: "Cardiac Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Maternal & Child Nutrition topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Marasmus se affected child me sabse prominent clinical feature kya hota hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Severe muscle wasting",
+      "Generalized edema",
+      "Moon face",
+      "Hypertension"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "medium"
+    answer: "Severe muscle wasting",
+    explanation:
+      "Marasmus severe calorie deficiency ka result hota hai jisme marked muscle wasting aur fat loss dekha jata hai. Edema usually kwashiorkor me prominent hota hai. Child extremely thin appearance show karta hai. Growth monitoring early diagnosis me help karti hai.",
+    topic: "Protein Energy Malnutrition",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Maternal & Child Nutrition topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Pregnancy ke first trimester me neural tube defect prevention ke liye kaunsi supplementation sabse important hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Calcium",
+      "Folic Acid",
+      "Vitamin K",
+      "Potassium"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Folic Acid",
+    explanation:
+      "Folic acid neural tube development ke liye essential hai. Early pregnancy me deficiency congenital anomalies ka risk badha sakti hai. Isliye conception se pehle aur first trimester me supplementation recommend ki jati hai.",
+    topic: "Maternal Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Maternal & Child Nutrition topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Burn unit me admitted patient ke nutritional management ka primary objective kya hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Protein aur calorie requirements ko meet karna",
+      "Fluid completely restrict karna",
+      "Carbohydrate eliminate karna",
+      "Vitamin intake stop karna"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "medium"
+    answer: "Protein aur calorie requirements ko meet karna",
+    explanation:
+      "Burn patients me hypermetabolic state develop hoti hai. Tissue repair aur healing ke liye high protein aur high calorie intake required hota hai. Inadequate nutrition se recovery delay ho sakti hai.",
+    topic: "Clinical Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Maternal & Child Nutrition topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Chronic kidney disease patient me hyperkalemia prevent karne ke liye kis food ko limit karna chahiye?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Rice",
+      "Apple",
+      "Banana",
+      "Cabbage"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "medium"
+    answer: "Banana",
+    explanation:
+      "Banana potassium-rich food hai. CKD me potassium excretion reduce ho sakta hai jisse hyperkalemia ka risk badhta hai. Nurse ko dietary potassium restriction par education deni chahiye.",
+    topic: "Renal Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Maternal & Child Nutrition topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "A child presents with bleeding gums and delayed wound healing. Kaunsi deficiency sabse likely hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Vitamin C deficiency",
+      "Vitamin D deficiency",
+      "Iodine deficiency",
+      "Protein excess"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Vitamin C deficiency",
+    explanation:
+      "Vitamin C collagen synthesis ke liye essential hai. Iski deficiency se scurvy develop ho sakta hai jisme bleeding gums aur poor wound healing common findings hain. Dietary correction primary management hai.",
+    topic: "Vitamin Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Maternal & Child Nutrition topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Parenteral nutrition receive kar rahe patient me sabse serious complication kaunsa ho sakta hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Constipation",
+      "Mild hunger",
+      "Dry lips",
+      "Bloodstream infection"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "medium"
+    answer: "Bloodstream infection",
+    explanation:
+      "Parenteral nutrition central venous access se diya jata hai. Catheter-related bloodstream infection life-threatening complication ho sakta hai. Strict aseptic technique prevention ka main method hai.",
+    topic: "Parenteral Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Maternal & Child Nutrition topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Iron deficiency anemia wale patient ko nurse kis combination ki advice degi?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Iron-rich foods with Vitamin C",
+      "Iron tablet with tea",
+      "Iron tablet with coffee",
+      "Iron-rich food with soft drinks"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Iron-rich foods with Vitamin C",
+    explanation:
+      "Vitamin C iron absorption ko improve karta hai. Tea aur coffee absorption ko reduce kar sakte hain. Anemia management me dietary modification aur supplementation dono important hote hain.",
+    topic: "Mineral Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Maternal & Child Nutrition topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Goiter prevention ke liye public health nutrition program me kis intervention ko priority di jati hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Vitamin A supplementation",
+      "Calcium tablets",
+      "Use of iodized salt",
+      "High protein diet"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Use of iodized salt",
+    explanation:
+      "Iodine deficiency goiter ka major cause hai. Iodized salt use karna deficiency prevention ka sabse effective community strategy hai. Public health programs isi intervention par focus karte hain.",
+    topic: "Community Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Maternal & Child Nutrition topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Type 2 diabetes patient ke meal planning ka primary goal kya hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Maintain blood glucose control",
+      "Increase sugar intake",
+      "Avoid all vegetables",
+      "Increase trans-fat intake"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Maintain blood glucose control",
+    explanation:
+      "Diabetic diet ka main objective blood glucose levels ko stable rakhna hai. Balanced meals, portion control aur lifestyle modification management ke key components hain.",
+    topic: "Diabetic Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Maternal & Child Nutrition topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Osteoporosis risk wali postmenopausal woman ke liye kaunsa nutrient sabse important hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Iron",
+      "Potassium",
+      "Vitamin C",
+      "Calcium"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
+    answer: "Calcium",
+    explanation:
+      "Calcium bone mineral density maintain karne ke liye essential hai. Postmenopausal women me osteoporosis ka risk zyada hota hai. Adequate calcium intake fracture prevention me help karta hai.",
+    topic: "Geriatric Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Maternal & Child Nutrition topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Kwashiorkor me edema develop hone ka primary mechanism kya hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Low serum protein levels",
+      "Excess calcium",
+      "High sodium intake",
+      "Vitamin C deficiency"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Low serum protein levels",
+    explanation:
+      "Protein deficiency serum albumin ko reduce karti hai jisse oncotic pressure kam ho jata hai. Result me fluid tissues me accumulate hota hai aur edema develop hota hai. Yeh kwashiorkor ki hallmark finding hai.",
+    topic: "Protein Energy Malnutrition",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Maternal & Child Nutrition topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Exclusive breastfeeding ke baare me WHO recommendation kya hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "2 months",
+      "4 months",
+      "12 months",
+      "6 months"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
+    answer: "6 months",
+    explanation:
+      "WHO ke anusaar pehle 6 mahine tak sirf breast milk dena recommend kiya jata hai. Isse infant ki nutritional aur immunological needs adequately meet hoti hain. Early supplementation generally recommended nahi hoti.",
+    topic: "Infant Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Maternal & Child Nutrition topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Liver disease patient me ammonia production reduce karne ke liye severe hepatic encephalopathy me kis dietary modification ki zarurat ho sakti hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Protein restriction",
+      "Vitamin C restriction",
+      "Calcium restriction",
+      "Water restriction"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Protein restriction",
+    explanation:
+      "Severe hepatic encephalopathy me excess protein ammonia production badha sakta hai. Temporary protein restriction physician order ke according ki ja sakti hai. Individualized nutrition planning zaroori hoti hai.",
+    topic: "Liver Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Maternal & Child Nutrition topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Nutrition assessment ke dauran BMI 18.5 se kam milta hai. Yeh kis condition ko indicate karta hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Obesity",
+      "Overweight",
+      "Underweight",
+      "Normal weight"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
+    answer: "Underweight",
+    explanation:
+      "BMI 18.5 se kam hona underweight category me aata hai. Yeh inadequate nutritional status ka indicator ho sakta hai. Further dietary assessment aur intervention ki zarurat hoti hai.",
+    topic: "Nutritional Assessment",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Maternal & Child Nutrition topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Constipation prevention ke liye sabse effective dietary advice kya hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Increase dietary fiber intake",
+      "Avoid fluids completely",
+      "Increase refined sugar",
+      "Reduce vegetables"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
+    answer: "Increase dietary fiber intake",
+    explanation:
+      "Fiber stool bulk badhata hai aur bowel movements ko facilitate karta hai. Adequate fluid intake ke saath fiber constipation prevention ka cornerstone hai. Long-term bowel health ke liye bhi beneficial hai.",
+    topic: "Dietary Fiber",
+    difficulty: "medium"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Maternal & Child Nutrition topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Severe dehydration ke baad patient me potassium replacement ke liye kaunsa food useful hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "White bread",
+      "Butter",
+      "Sugar candy",
+      "Banana"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Maternal & Child Nutrition topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Maternal & Child Nutrition topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Maternal & Child Nutrition topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Maternal & Child Nutrition topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Maternal & Child Nutrition topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Maternal & Child Nutrition topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Maternal & Child Nutrition topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Maternal & Child Nutrition topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Maternal & Child Nutrition topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Maternal & Child Nutrition topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Nutrition",
-
+    answer: "Banana",
+    explanation:
+      "Banana potassium ka rich source hai. Diarrhea ya dehydration ke baad potassium losses ko replace karne me madad karta hai. Electrolyte balance maintain karna patient recovery ke liye important hai.",
+    topic: "Mineral Nutrition",
     difficulty: "hard"
   }
 ];
 
 export default set3;
+
+// Answer Key:
+// [1,2,3,4,1,2,1,3,1,4,1,3,1,4,1,4,1,3,1,4]
+
+// Option 1 = 8
+// Option 2 = 2
+// Option 3 = 4
+// Option 4 = 6

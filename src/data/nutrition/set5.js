@@ -1,633 +1,312 @@
 const set5 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Diet Planning & Assessment topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Severe burn patient ke nutritional management me sabse important priority kya hai?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Low calorie diet dena",
+      "High protein aur high calorie diet dena",
+      "Fluid restriction karna",
+      "Fat completely avoid karna"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "medium"
+    answer: "High protein aur high calorie diet dena",
+    explanation:
+      "Burn patient me metabolic rate bahut increase ho jata hai aur tissue repair ki demand bhi badh jati hai. High protein aur calorie intake wound healing aur recovery ko support karta hai. Low calorie diet healing delay kar sakti hai. Isliye nutritional support burn management ka major component hai.",
+    topic: "Clinical Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Diet Planning & Assessment topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Night blindness se bachav ke liye kaunsa nutrient sabse adhik zaroori hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin A",
+      "Vitamin K"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Vitamin A",
+    explanation:
+      "Vitamin A retina ke normal function ke liye zaroori hai. Iski deficiency se night blindness develop ho sakti hai. Carrot, green leafy vegetables aur liver iske important sources hain. Community nutrition me yeh high-yield topic hai.",
+    topic: "Vitamin Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Diet Planning & Assessment topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Iron deficiency anemia wale patient ko iron absorption improve karne ke liye kya advise karna chahiye?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Tea ke saath iron lena",
+      "Coffee ke saath iron lena",
+      "Iron ke saath Vitamin C rich food lena",
+      "Milk ke saath iron lena"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Iron ke saath Vitamin C rich food lena",
+    explanation:
+      "Vitamin C iron absorption ko significantly increase karta hai. Tea aur coffee iron absorption ko reduce kar sakte hain. Orange juice ya lemon water ke saath iron lena beneficial hota hai. Yeh anemia management ka important principle hai.",
+    topic: "Mineral Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Diet Planning & Assessment topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Enteral feeding ke dauran aspiration risk kam karne ke liye patient ko kis position me rakhna chahiye?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Flat supine position",
+      "Prone position",
+      "Trendelenburg position",
+      "Head end 30–45 degree elevate"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "medium"
+    answer: "Head end 30–45 degree elevate",
+    explanation:
+      "Head elevation aspiration risk ko reduce karti hai aur feeding tolerance improve karti hai. Flat position aspiration pneumonia ka risk badha sakti hai. Enteral feeding safety protocols me yeh standard intervention hai.",
+    topic: "Enteral Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Diet Planning & Assessment topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Kwashiorkor me edema develop hone ka mukhya karan kya hota hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Low serum albumin",
+      "Excess Vitamin C",
+      "High calcium level",
+      "Excess carbohydrate intake"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "medium"
+    answer: "Low serum albumin",
+    explanation:
+      "Protein deficiency ke karan serum albumin kam ho jata hai. Isse oncotic pressure reduce hota hai aur fluid tissues me accumulate hone lagta hai. Edema kwashiorkor ki hallmark finding hai.",
+    topic: "Protein Energy Malnutrition",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Diet Planning & Assessment topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Pregnancy ke early weeks me neural tube defects prevent karne ke liye kis nutrient ki supplementation sabse important hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Calcium",
+      "Folic Acid",
+      "Sodium",
+      "Vitamin E"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Folic Acid",
+    explanation:
+      "Folic acid fetal neural tube development ke liye essential hai. Deficiency neural tube defects ka risk badha sakti hai. Isliye pregnancy planning aur first trimester me supplementation recommend ki jati hai.",
+    topic: "Maternal Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Diet Planning & Assessment topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Type 2 diabetes patient ke diet plan ka primary goal kya hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Maintain blood glucose control",
+      "Increase sugar intake",
+      "Avoid all carbohydrates",
+      "Increase saturated fat intake"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "medium"
+    answer: "Maintain blood glucose control",
+    explanation:
+      "Diabetic diet ka main objective blood glucose levels ko target range me rakhna hota hai. Balanced meals aur portion control isme important role play karte hain. Complete carbohydrate avoidance recommended nahi hai.",
+    topic: "Diabetic Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Diet Planning & Assessment topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Parenteral nutrition receive kar rahe patient me sabse serious complication kya ho sakta hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Constipation",
+      "Catheter-related bloodstream infection",
+      "Mild nausea",
+      "Temporary hunger"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "medium"
+    answer: "Catheter-related bloodstream infection",
+    explanation:
+      "Parenteral nutrition central venous access ke through diya jata hai. Infection life-threatening ho sakta hai. Strict aseptic technique aur catheter care infection prevention ke liye essential hain.",
+    topic: "Parenteral Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Diet Planning & Assessment topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Scurvy kis nutrient ki deficiency se hota hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K",
+      "Vitamin B12"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Vitamin C",
+    explanation:
+      "Vitamin C collagen synthesis ke liye zaroori hai. Iski deficiency se bleeding gums, poor wound healing aur scurvy develop ho sakta hai. Citrus fruits iske major dietary sources hain.",
+    topic: "Vitamin Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Diet Planning & Assessment topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Goiter prevention ke liye sabse effective public health measure kya hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Iron supplementation",
+      "Protein supplementation",
+      "Vitamin A supplementation",
+      "Use of iodized salt"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "medium"
+    answer: "Use of iodized salt",
+    explanation:
+      "Iodine deficiency goiter ka major cause hai. Universal salt iodization public health level par iodine deficiency disorders prevent karne ka proven method hai. Yeh community nutrition ka important intervention hai.",
+    topic: "Community Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Diet Planning & Assessment topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Constipation se bachav ke liye diet me kya increase karna chahiye?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Dietary fiber",
+      "Refined sugar",
+      "Trans-fat",
+      "Processed snacks"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Dietary fiber",
+    explanation:
+      "Fiber stool bulk badhata hai aur bowel movements ko improve karta hai. Adequate water intake ke saath fiber constipation prevention me effective hota hai. Fruits aur vegetables iske achhe sources hain.",
+    topic: "Dietary Fiber",
     difficulty: "medium"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Diet Planning & Assessment topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Osteoporosis prevention ke liye elderly patient ko kis nutrient par focus karna chahiye?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Iron",
+      "Potassium",
+      "Calcium",
+      "Sodium"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Calcium",
+    explanation:
+      "Calcium bone strength maintain karne ke liye essential hai. Elderly patients me osteoporosis ka risk zyada hota hai. Adequate calcium intake fractures ke risk ko reduce karta hai.",
+    topic: "Geriatric Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Diet Planning & Assessment topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Marasmus ka sabse characteristic feature kya hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Severe wasting and loss of fat",
+      "Generalized edema",
+      "Moon face",
+      "Hypertension"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Severe wasting and loss of fat",
+    explanation:
+      "Marasmus severe calorie deficiency ka result hai. Isme marked wasting aur subcutaneous fat loss dekha jata hai. Edema usually kwashiorkor me prominent hota hai.",
+    topic: "Protein Energy Malnutrition",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Diet Planning & Assessment topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Chronic kidney disease patient me hyperkalemia prevent karne ke liye kis food ko limit karna chahiye?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Rice",
+      "Apple",
+      "Cabbage",
+      "Banana"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Banana",
+    explanation:
+      "Banana potassium-rich food hai. CKD patients me potassium excretion kam ho sakta hai aur hyperkalemia life-threatening arrhythmias ka risk badha sakta hai. Dietary counseling bahut important hai.",
+    topic: "Renal Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Diet Planning & Assessment topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Liver cirrhosis patient me ascites control karne ke liye kis dietary restriction ki zarurat hoti hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Sodium restriction",
+      "Vitamin C restriction",
+      "Iron restriction",
+      "Calcium restriction"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Sodium restriction",
+    explanation:
+      "Sodium water retention ko increase karta hai. Ascites aur edema management me sodium restriction ek standard dietary intervention hai. Nurse ko low-salt diet ke baare me education deni chahiye.",
+    topic: "Liver Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Diet Planning & Assessment topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Exclusive breastfeeding kitne mahine tak recommend ki jati hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "3 months",
+      "6 months",
+      "9 months",
+      "12 months"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
+    answer: "6 months",
+    explanation:
+      "WHO ke anusaar pehle 6 mahine tak sirf breast milk dena recommend kiya jata hai. Isse infant ki nutritional aur hydration needs adequately meet hoti hain. Uske baad complementary feeding start ki jati hai.",
+    topic: "Infant Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Diet Planning & Assessment topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Severe diarrhea ke baad potassium replacement ke liye kaunsa food sabse useful hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Banana",
+      "Butter",
+      "Sugar candy",
+      "White bread"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
+    answer: "Banana",
+    explanation:
+      "Banana potassium ka rich source hai aur diarrhea ke baad electrolyte losses ko replace karne me madad karta hai. Potassium cardiac aur muscular function ke liye essential hai.",
+    topic: "Mineral Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Diet Planning & Assessment topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Obese patient ke weight reduction plan ka sabse important principle kya hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Unlimited fruit juice",
+      "Frequent sugary snacks",
+      "High trans-fat intake",
+      "Calorie deficit with balanced diet"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
+    answer: "Calorie deficit with balanced diet",
+    explanation:
+      "Weight reduction ke liye calorie expenditure ko intake se zyada rakhna zaroori hai. Balanced diet nutritional deficiencies se bachati hai. Crash diets long-term effective nahi hoti.",
+    topic: "Weight Management",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Diet Planning & Assessment topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Rickets se bachav ke liye sabse important nutrient kaunsa hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Vitamin D",
+      "Vitamin K",
+      "Vitamin C",
+      "Iron"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
+    answer: "Vitamin D",
+    explanation:
+      "Vitamin D calcium absorption aur bone mineralization ke liye essential hai. Deficiency se rickets develop ho sakta hai. Sunlight exposure aur Vitamin D rich foods prevention me important hain.",
+    topic: "Child Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Diet Planning & Assessment topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Lactating mother ki calorie requirement pregnancy ke baad bhi kyun badhi rehti hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Vision improve karne ke liye",
+      "Blood pressure control ke liye",
+      "Bone growth ke liye",
+      "Breast milk production ke liye"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Diet Planning & Assessment topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Diet Planning & Assessment topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Diet Planning & Assessment topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Diet Planning & Assessment topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Diet Planning & Assessment topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Diet Planning & Assessment topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Diet Planning & Assessment topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Diet Planning & Assessment topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Diet Planning & Assessment topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Diet Planning & Assessment topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Diet Planning & Assessment me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Diet Planning & Assessment",
-
-    difficulty: "hard"
+    answer: "Breast milk production ke liye",
+    explanation:
+      "Breast milk synthesis ke liye additional energy aur nutrients ki zarurat hoti hai. Adequate maternal nutrition infant growth aur health ko directly support karti hai. Lactation period me calorie requirement increase ho jati hai.",
+    topic: "Lactation Nutrition",
+    difficulty: "medium"
   }
 ];
 
 export default set5;
+
+// Answer Key:
+// [2,3,3,4,1,2,1,2,1,4,1,3,1,4,1,2,1,4,1,4]
+
+// Option 1 = 8
+// Option 2 = 4
+// Option 3 = 3
+// Option 4 = 5

@@ -1,631 +1,272 @@
 const set1 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Community Health Nursing I ke Maternal & Child Health topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
-    options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "medium"
+    question: "Ek gaon me Diarrhea ke cases achanak badh gaye hain. Community Health Nurse ki sabse pehli priority kya hogi?",
+    options: ["Hospital referral list banana", "Source of contamination identify karna", "Naye staff recruit karna", "School survey karna"],
+    answer: "Source of contamination identify karna",
+    explanation: "Outbreak management me sabse pehla step source identify karna hota hai. Isse transmission chain todne me madad milti hai. Baaki options baad ke steps ho sakte hain.",
+    topic: "Disease Prevention",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Community Health Nursing I ke Maternal & Child Health topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
-    options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "medium"
+    question: "Home visit ke dauran Nurse dekhti hai ki TB patient dawa irregular le raha hai. Sabse appropriate action kya hai?",
+    options: ["Patient ko ignore karna", "DOTS adherence reinforce karna", "Treatment turant band karna", "Family ko alag kar dena"],
+    answer: "DOTS adherence reinforce karna",
+    explanation: "TB control me treatment adherence bahut important hai. Irregular treatment drug resistance ka risk badhata hai. DOTS strategy isliye use ki jati hai.",
+    topic: "Tuberculosis Control",
+    difficulty: "hard"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Community Health Nursing I ke Maternal & Child Health topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "High-risk pregnancy identify karne ka primary objective kya hai?",
+    options: ["Delivery cost kam karna", "Hospital workload kam karna", "Maternal aur fetal complications prevent karna", "Record maintain karna"],
+    answer: "Maternal aur fetal complications prevent karna",
+    explanation: "High-risk cases ki early identification se timely intervention possible hota hai. Isse maternal aur neonatal morbidity kam hoti hai.",
+    topic: "Maternal Health",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Community Health Nursing I ke Maternal & Child Health topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
-    ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "medium"
+    question: "Community diagnosis karte waqt sabse pehle kis cheez ka assessment kiya jata hai?",
+    options: ["Health needs aur problems", "Medicine stock", "Building design", "Nurse ki duty roster"],
+    answer: "Health needs aur problems",
+    explanation: "Community diagnosis ka base community ki health needs aur problems hoti hain. Isi ke basis par planning aur intervention hota hai.",
+    topic: "Community Assessment",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Community Health Nursing I ke Maternal & Child Health topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
-    options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
-    ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "ASHA worker ka mukhya role kis se sambandhit hai?",
+    options: ["Community aur health system ke beech link", "Hospital administration", "Medical college management", "Drug manufacturing"],
+    answer: "Community aur health system ke beech link",
+    explanation: "ASHA community level par awareness, referral aur follow-up me important role nibhati hai. Yeh health services tak pahunch badhati hai.",
+    topic: "National Health Mission",
     difficulty: "medium"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Community Health Nursing I ke Maternal & Child Health topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
-    options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "medium"
+    question: "Ek village survey me IMR zyada paya gaya. Sabse pehle kis factor ka analysis karna chahiye?",
+    options: ["Road construction", "Infant care practices", "Crop production", "Market availability"],
+    answer: "Infant care practices",
+    explanation: "IMR directly infant care, immunization, nutrition aur infection control se related hota hai. In factors ka assessment priority hota hai.",
+    topic: "Child Health",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Community Health Nursing I ke Maternal & Child Health topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
-    ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Primary prevention ka best example kaunsa hai?",
+    options: ["Rehabilitation therapy", "Immunization", "Disability pension", "Physiotherapy"],
+    answer: "Immunization",
+    explanation: "Primary prevention disease hone se pehle protection provide karta hai. Immunization iska classic example hai.",
+    topic: "Levels of Prevention",
     difficulty: "medium"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Community Health Nursing I ke Maternal & Child Health topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Community Health Nursing ka focus kis par hota hai?",
+    options: ["Sirf individual patient", "Sirf hospital care", "Population-based care", "Operation theatre management"],
+    answer: "Population-based care",
+    explanation: "Community Health Nursing individual ke sath-sath family aur community level par health promotion par focus karti hai.",
+    topic: "Community Health Nursing",
     difficulty: "medium"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Community Health Nursing I ke Maternal & Child Health topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
-    options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
-    ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "medium"
+    question: "Cold chain maintain na hone par sabse adhik prabhav kis par padega?",
+    options: ["Vaccines ki potency", "Hospital furniture", "Patient records", "Water supply"],
+    answer: "Vaccines ki potency",
+    explanation: "Cold chain break hone par vaccine effectiveness kam ho sakti hai. Isliye recommended temperature maintain karna zaruri hai.",
+    topic: "Immunization",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Community Health Nursing I ke Maternal & Child Health topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
-    options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "medium"
+    question: "Health education session ke baad learning evaluate karne ka sabse achha method kya hai?",
+    options: ["Attendance count", "Return demonstration", "Room inspection", "Budget analysis"],
+    answer: "Return demonstration",
+    explanation: "Return demonstration se pata chalta hai ki learner ne skill ko sahi samjha aur apply kar sakta hai ya nahi.",
+    topic: "Health Education",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Community Health Nursing I ke Maternal & Child Health topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
-    ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Epidemiological triad me kaunsa component shamil nahi hota?",
+    options: ["Agent", "Host", "Environment", "Finance"],
+    answer: "Finance",
+    explanation: "Epidemiological triad me agent, host aur environment shamil hote hain. Finance disease causation model ka part nahi hai.",
+    topic: "Epidemiology",
     difficulty: "medium"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Community Health Nursing I ke Maternal & Child Health topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "medium"
+    question: "Agar ek area me Measles outbreak ho jaye to sabse pehla public health measure kya hoga?",
+    options: ["Mass screening aur surveillance", "School band karna", "Road block karna", "Migration karwana"],
+    answer: "Mass screening aur surveillance",
+    explanation: "Outbreak control ke liye surveillance aur case detection bahut important hai. Isse spread ko monitor aur control kiya jata hai.",
+    topic: "Outbreak Investigation",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Community Health Nursing I ke Maternal & Child Health topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
-    options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Family planning counseling me informed choice ka matlab kya hai?",
+    options: ["Nurse method decide kare", "Family method decide kare bina jankari", "Client ko puri jankari dekar decision lene dena", "Doctor hi decision le"],
+    answer: "Client ko puri jankari dekar decision lene dena",
+    explanation: "Informed choice patient autonomy ko support karta hai. Counseling unbiased aur complete honi chahiye.",
+    topic: "Family Planning",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Community Health Nursing I ke Maternal & Child Health topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
-    ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "hard"
+    question: "Secondary prevention ka example kaunsa hai?",
+    options: ["Health promotion", "Screening test", "Rehabilitation", "Vocational training"],
+    answer: "Screening test",
+    explanation: "Secondary prevention disease ki early detection aur treatment par focus karta hai. Screening iska mukhya example hai.",
+    topic: "Levels of Prevention",
+    difficulty: "medium"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Community Health Nursing I ke Maternal & Child Health topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Community survey me prevalence rate kis cheez ko darshata hai?",
+    options: ["Naye cases", "Maujood total cases", "Deaths only", "Births only"],
+    answer: "Maujood total cases",
+    explanation: "Prevalence kisi samay par disease ke total existing cases ko darshata hai. Incidence naye cases ko batata hai.",
+    topic: "Biostatistics",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Community Health Nursing I ke Maternal & Child Health topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
-    options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "hard"
+    question: "Safe drinking water ensure karne ke liye sabse commonly use ki jane wali chemical method kya hai?",
+    options: ["Chlorination", "Radiation", "Freezing", "Filtration cloth"],
+    answer: "Chlorination",
+    explanation: "Chlorination economical aur effective water disinfection method hai. Yeh disease transmission kam karta hai.",
+    topic: "Environmental Health",
+    difficulty: "medium"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Community Health Nursing I ke Maternal & Child Health topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
-    options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Antenatal mother me severe anemia detect hota hai. Community Nurse ka priority action kya hoga?",
+    options: ["Referral aur treatment initiation", "Home isolation", "Vaccination stop karna", "Delivery postpone karna"],
+    answer: "Referral aur treatment initiation",
+    explanation: "Severe anemia maternal aur fetal risk badhata hai. Timely referral aur management zaruri hai.",
+    topic: "Maternal Health",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Community Health Nursing I ke Maternal & Child Health topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Health indicator ke roop me IMR ka upyog kyon kiya jata hai?",
+    options: ["Adult literacy batata hai", "Community health status reflect karta hai", "Income level batata hai", "Migration batata hai"],
+    answer: "Community health status reflect karta hai",
+    explanation: "IMR ek sensitive health indicator hai jo nutrition, maternal care aur health services ki quality ko indirectly reflect karta hai.",
+    topic: "Health Indicators",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Community Health Nursing I ke Maternal & Child Health topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
-    ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "hard"
+    question: "Community participation ka sabse bada fayda kya hai?",
+    options: ["Program acceptance aur sustainability", "Budget reduction only", "Nurse workload increase", "Record duplication"],
+    answer: "Program acceptance aur sustainability",
+    explanation: "Jab community involve hoti hai to ownership badhta hai aur health programs zyada effective rehte hain.",
+    topic: "Community Participation",
+    difficulty: "medium"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Community Health Nursing I ke Maternal & Child Health topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
-    options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
-    ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Home visit ka sabse important principle kya hai?",
+    options: ["Nurse convenience", "Planned aur purposeful approach", "Short duration only", "Unannounced visit always"],
+    answer: "Planned aur purposeful approach",
+    explanation: "Home visit systematic aur goal-oriented honi chahiye. Isse assessment aur intervention effective hote hain.",
+    topic: "Home Visit",
     difficulty: "hard"
   },
-
   {
     id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Community Health Nursing I ke Maternal & Child Health topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "hard"
+    question: "Tertiary prevention kis par focus karta hai?",
+    options: ["Disability limitation aur rehabilitation", "Vaccination", "Health promotion", "Case finding"],
+    answer: "Disability limitation aur rehabilitation",
+    explanation: "Tertiary prevention disease ke baad disability ko kam karne aur rehabilitation par focus karta hai.",
+    topic: "Levels of Prevention",
+    difficulty: "medium"
   },
-
   {
     id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Community Health Nursing I ke Maternal & Child Health topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Vector-borne disease control me sabse effective community strategy kya hai?",
+    options: ["Breeding sites elimination", "School closure", "Food restriction", "Migration control"],
+    answer: "Breeding sites elimination",
+    explanation: "Mosquito breeding sites hatane se vector population kam hoti hai aur disease transmission control hota hai.",
+    topic: "Vector Control",
     difficulty: "hard"
   },
-
   {
     id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Community Health Nursing I ke Maternal & Child Health topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Demographic data collect karte waqt dependency ratio kis liye useful hai?",
+    options: ["Economic burden assess karne ke liye", "Blood group assess karne ke liye", "Disease diagnosis ke liye", "Drug calculation ke liye"],
+    answer: "Economic burden assess karne ke liye",
+    explanation: "Dependency ratio working aur dependent population ke relation ko darshata hai. Planning me iska upyog hota hai.",
+    topic: "Demography",
     difficulty: "hard"
   },
-
   {
     id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Community Health Nursing I ke Maternal & Child Health topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "hard"
+    question: "School health program ka major objective kya hai?",
+    options: ["Student health promotion", "School income badhana", "Teacher recruitment", "Building expansion"],
+    answer: "Student health promotion",
+    explanation: "School health services physical, mental aur social well-being ko improve karne par focus karti hain.",
+    topic: "School Health Services",
+    difficulty: "medium"
   },
-
   {
     id: 25,
-
-    question: "Home visit ke time family batati hai ki Community Health Nursing I ke Maternal & Child Health topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Community health record maintain karne ka mukhya uddeshya kya hai?",
+    options: ["Continuity of care", "Decoration", "Marketing", "Revenue generation"],
+    answer: "Continuity of care",
+    explanation: "Accurate records se follow-up, evaluation aur continuity of care ensure hoti hai.",
+    topic: "Records and Reports",
     difficulty: "hard"
   },
-
   {
     id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Community Health Nursing I ke Maternal & Child Health topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Malnutrition survey me MUAC measurement kis group ke liye adhik upyogi hai?",
+    options: ["Under-five children", "Pregnant women only", "Elderly only", "Adolescents only"],
+    answer: "Under-five children",
+    explanation: "MUAC under-five children me acute malnutrition identify karne ka simple aur reliable tool hai.",
+    topic: "Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Community Health Nursing I ke Maternal & Child Health topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Health planning cycle ka pehla step kya mana jata hai?",
+    options: ["Situation analysis", "Implementation", "Evaluation", "Budget approval"],
+    answer: "Situation analysis",
+    explanation: "Health planning assessment se shuru hoti hai. Situation analysis ke bina effective planning sambhav nahi hai.",
+    topic: "Health Planning",
     difficulty: "hard"
   },
-
   {
     id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Community Health Nursing I ke Maternal & Child Health topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Community me behavioral change lane ke liye sabse zaruri factor kya hai?",
+    options: ["Active participation aur motivation", "Forceful orders", "Punishment", "Political pressure"],
+    answer: "Active participation aur motivation",
+    explanation: "Long-term behavioral change tabhi hota hai jab log actively participate karein aur motivate hon.",
+    topic: "Behavior Change Communication",
     difficulty: "hard"
   },
-
   {
     id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Community Health Nursing I ke Maternal & Child Health topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
-    difficulty: "hard"
+    question: "Incidence rate kis cheez ko measure karta hai?",
+    options: ["Disease ke naye cases", "Total existing cases", "Death rate only", "Birth rate only"],
+    answer: "Disease ke naye cases",
+    explanation: "Incidence disease ke naye cases ko measure karta hai aur risk assess karne me useful hota hai.",
+    topic: "Biostatistics",
+    difficulty: "medium"
   },
-
   {
     id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Community Health Nursing I ke Maternal & Child Health topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Maternal & Child Health me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Maternal & Child Health",
-
+    question: "Community Health Nurse ko disaster situation me sabse pehle kya karna chahiye?",
+    options: ["Triage aur priority assessment", "Detailed record filing", "Research survey", "Routine vaccination"],
+    answer: "Triage aur priority assessment",
+    explanation: "Disaster management me limited resources ke beech sabse critical patients ko identify karna priority hoti hai. Triage life-saving step hai.",
+    topic: "Disaster Management",
     difficulty: "hard"
   }
 ];

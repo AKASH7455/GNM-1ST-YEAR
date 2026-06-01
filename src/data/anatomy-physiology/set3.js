@@ -1,631 +1,272 @@
 const set3 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Digestive & Urinary System topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
-    options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Patient ko smell identify karne me dikkat ho rahi hai. Sabse adhik kaunsi cranial nerve affected hai?",
+    options: ["Optic Nerve", "Olfactory Nerve", "Facial Nerve", "Vagus Nerve"],
+    answer: "Olfactory Nerve",
+    explanation: "Olfactory Nerve smell sensation carry karti hai. Iske damage se anosmia develop hoti hai.",
+    topic: "Nervous System",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Digestive & Urinary System topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
-    options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Exercise ke dauran cardiac output badhne ka mukhya reason kya hai?",
+    options: ["Platelet increase", "RBC destruction", "Heart rate aur stroke volume dono badhna", "Blood viscosity increase"],
+    answer: "Heart rate aur stroke volume dono badhna",
+    explanation: "Exercise me sympathetic stimulation se heart rate aur stroke volume dono increase hote hain.",
+    topic: "Cardiovascular Physiology",
+    difficulty: "hard"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Digestive & Urinary System topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Alveolar macrophages ka primary function kya hai?",
+    options: ["Foreign particles ko remove karna", "Surfactant production", "Oxygen storage", "Gas exchange"],
+    answer: "Foreign particles ko remove karna",
+    explanation: "Alveolar macrophages lungs ko infection aur debris se protect karte hain.",
+    topic: "Respiratory System",
+    difficulty: "hard"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Digestive & Urinary System topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
-    ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Kidney me protein filtration ko rokne wala sabse important structure kaunsa hai?",
+    options: ["Loop of Henle", "Collecting Duct", "Distal Tubule", "Glomerular Basement Membrane"],
+    answer: "Glomerular Basement Membrane",
+    explanation: "Glomerular Basement Membrane filtration barrier ka major component hai.",
+    topic: "Urinary System",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Digestive & Urinary System topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
-    options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
-    ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Vagus nerve cut hone par heart rate par kya effect hoga?",
+    options: ["Heart rate badhega", "Heart rate kam hoga", "Koi effect nahi", "Heart stop ho jayega"],
+    answer: "Heart rate badhega",
+    explanation: "Vagus nerve parasympathetic effect deti hai. Iske remove hone se heart rate badhta hai.",
+    topic: "Nervous System",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Digestive & Urinary System topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
-    options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Vitamin K deficiency ka sabse direct effect kya hoga?",
+    options: ["Bone growth kam hona", "Blood clotting me kami", "Vision loss", "Muscle weakness"],
+    answer: "Blood clotting me kami",
+    explanation: "Vitamin K clotting factors ke synthesis ke liye zaroori hai.",
+    topic: "Hematology",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Digestive & Urinary System topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
-    ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Hyperthyroidism me sabse common finding kya hoti hai?",
+    options: ["Weight gain", "Bradycardia", "Hypothermia", "Weight loss"],
+    answer: "Weight loss",
+    explanation: "Thyroid hormone excess se metabolism badhta hai aur weight loss hota hai.",
+    topic: "Endocrine System",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Digestive & Urinary System topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Body ki sabse chhoti bone kaunsi hai?",
+    options: ["Femur", "Stapes", "Ulna", "Radius"],
+    answer: "Stapes",
+    explanation: "Stapes middle ear me present hoti hai aur body ki sabse chhoti bone hai.",
+    topic: "Skeletal System",
     difficulty: "medium"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Digestive & Urinary System topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
-    options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
-    ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Atrial fibrillation me sabse bada risk kya hota hai?",
+    options: ["Thrombus formation", "Kidney failure", "Bone fracture", "Hypoglycemia"],
+    answer: "Thrombus formation",
+    explanation: "Blood stasis ke karan clot formation aur stroke ka risk badhta hai.",
+    topic: "Cardiovascular System",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Digestive & Urinary System topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
-    options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Neuromuscular junction par calcium ka role kya hai?",
+    options: ["ATP synthesis", "Glucose transport", "Acetylcholine release facilitate karna", "Protein digestion"],
+    answer: "Acetylcholine release facilitate karna",
+    explanation: "Calcium influx neurotransmitter release ko trigger karta hai.",
+    topic: "Muscular System",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Digestive & Urinary System topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
-    ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "medium"
+    question: "Hypoxia ke response me erythropoietin ka primary source kya hai?",
+    options: ["Liver", "Kidney", "Heart", "Pancreas"],
+    answer: "Kidney",
+    explanation: "Kidney hypoxia detect karke erythropoietin release karti hai.",
+    topic: "Urinary Physiology",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Digestive & Urinary System topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Synovial joints ki khasiyat kya hai?",
+    options: ["Immovable", "Slightly movable", "Fusion of bones", "Freely movable"],
+    answer: "Freely movable",
+    explanation: "Synovial joints body me maximum movement allow karte hain.",
+    topic: "Skeletal System",
     difficulty: "medium"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Digestive & Urinary System topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
-    options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Pancreatic lipase kis nutrient ki digestion karta hai?",
+    options: ["Fat", "Protein", "Minerals", "Vitamins"],
+    answer: "Fat",
+    explanation: "Pancreatic lipase fats ko fatty acids aur glycerol me todta hai.",
+    topic: "Digestive System",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Digestive & Urinary System topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
-    ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Vision center brain ke kis lobe me hota hai?",
+    options: ["Frontal", "Parietal", "Occipital", "Temporal"],
+    answer: "Occipital",
+    explanation: "Occipital lobe visual information processing ke liye responsible hai.",
+    topic: "Nervous System",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Digestive & Urinary System topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "AB blood group ko universal recipient kyu kaha jata hai?",
+    options: ["Hemoglobin zyada hota hai", "Anti-A aur Anti-B antibodies absent hoti hain", "RBC kam hote hain", "Platelets zyada hote hain"],
+    answer: "Anti-A aur Anti-B antibodies absent hoti hain",
+    explanation: "AB group wale sabhi ABO blood groups ka blood receive kar sakte hain.",
+    topic: "Hematology",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Digestive & Urinary System topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
-    options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Glucagon ka primary action kya hai?",
+    options: ["BP kam karna", "Blood glucose badhana", "Calcium kam karna", "Urine output kam karna"],
+    answer: "Blood glucose badhana",
+    explanation: "Glucagon glycogen breakdown ko stimulate karta hai.",
+    topic: "Endocrine System",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Digestive & Urinary System topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
-    options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Surfactant deficiency ka direct effect kya hoga?",
+    options: ["Lung collapse", "Anemia", "Hyperglycemia", "Hypertension"],
+    answer: "Lung collapse",
+    explanation: "Surfactant alveoli ko collapse hone se bachata hai.",
+    topic: "Respiratory System",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Digestive & Urinary System topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Parasitic infection me kaunsi WBC sabse adhik badhti hai?",
+    options: ["Basophils", "Neutrophils", "Monocytes", "Eosinophils"],
+    answer: "Eosinophils",
+    explanation: "Eosinophils parasites aur allergies ke against important role nibhate hain.",
+    topic: "Hematology",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Digestive & Urinary System topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
-    ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Parasympathetic stimulation digestion par kya effect karti hai?",
+    options: ["Digestion increase", "Digestion stop", "Pupil dilation", "Heart rate increase"],
+    answer: "Digestion increase",
+    explanation: "Parasympathetic system rest-and-digest response ko promote karta hai.",
+    topic: "Nervous System",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Digestive & Urinary System topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
-    options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
-    ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "hard"
+    question: "Mitral valve kin chambers ke beech present hota hai?",
+    options: ["RA-RV", "LV-Aorta", "RV-Pulmonary Artery", "LA-LV"],
+    answer: "LA-LV",
+    explanation: "Mitral valve left atrium aur left ventricle ke beech hota hai.",
+    topic: "Cardiovascular System",
+    difficulty: "medium"
   },
-
   {
     id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Digestive & Urinary System topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "ADH ki kami me urine kaisa hoga?",
+    options: ["Dilute aur zyada quantity me", "Concentrated aur kam quantity me", "Protein rich", "Blood mixed"],
+    answer: "Dilute aur zyada quantity me",
+    explanation: "ADH water reabsorption badhata hai. Kami me polyuria hoti hai.",
+    topic: "Urinary System",
     difficulty: "hard"
   },
-
   {
     id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Digestive & Urinary System topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "hard"
+    question: "Bone formation ke liye kaunsi cell responsible hai?",
+    options: ["Osteoclast", "Chondrocyte", "Osteoblast", "Fibroblast"],
+    answer: "Osteoblast",
+    explanation: "Osteoblast nayi bone matrix banate hain.",
+    topic: "Skeletal System",
+    difficulty: "medium"
   },
-
   {
     id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Digestive & Urinary System topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Portal circulation ka blood sabse pehle kis organ me enter karta hai?",
+    options: ["Liver", "Heart", "Lung", "Kidney"],
+    answer: "Liver",
+    explanation: "Portal vein intestine se absorbed nutrients ko liver tak le jati hai.",
+    topic: "Digestive System",
     difficulty: "hard"
   },
-
   {
     id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Digestive & Urinary System topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Medulla oblongata ka major function kya hai?",
+    options: ["Memory", "Vision", "Speech", "Respiration aur cardiovascular control"],
+    answer: "Respiration aur cardiovascular control",
+    explanation: "Medulla me vital centers present hote hain jo breathing aur circulation control karte hain.",
+    topic: "Nervous System",
     difficulty: "hard"
   },
-
   {
     id: 25,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Digestive & Urinary System topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Carbon monoxide poisoning me tissue hypoxia ka reason kya hai?",
+    options: ["Hemoglobin se strong binding", "Platelet decrease", "WBC increase", "RBC destruction"],
+    answer: "Hemoglobin se strong binding",
+    explanation: "CO hemoglobin se oxygen ki tulna me bahut zyada affinity se bind karta hai.",
+    topic: "Respiratory Physiology",
     difficulty: "hard"
   },
-
   {
     id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Digestive & Urinary System topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Renin release ka sabse powerful stimulus kya hai?",
+    options: ["High calcium", "Low renal blood pressure", "High glucose", "High oxygen"],
+    answer: "Low renal blood pressure",
+    explanation: "Kidney perfusion kam hone par renin release hota hai.",
+    topic: "Urinary System",
     difficulty: "hard"
   },
-
   {
     id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Digestive & Urinary System topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "SA Node ko natural pacemaker kyu kaha jata hai?",
+    options: ["Natural pacemaker ka role", "Valve control", "Coronary circulation", "RBC production"],
+    answer: "Natural pacemaker ka role",
+    explanation: "SA Node sabse fast spontaneous depolarization karta hai.",
+    topic: "Cardiovascular System",
     difficulty: "hard"
   },
-
   {
     id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Digestive & Urinary System topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
-    difficulty: "hard"
+    question: "Patella kis type ki bone hai?",
+    options: ["Long Bone", "Flat Bone", "Sesamoid Bone", "Irregular Bone"],
+    answer: "Sesamoid Bone",
+    explanation: "Patella tendon ke andar develop hone wali sabse badi sesamoid bone hai.",
+    topic: "Skeletal System",
+    difficulty: "medium"
   },
-
   {
     id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Digestive & Urinary System topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Small intestine me absorption badhane wali structure kaunsi hai?",
+    options: ["Villi aur Microvilli", "Thick wall", "Mucus absence", "Low blood supply"],
+    answer: "Villi aur Microvilli",
+    explanation: "Ye surface area ko bahut zyada increase karti hain.",
+    topic: "Digestive System",
     difficulty: "hard"
   },
-
   {
     id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Digestive & Urinary System topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Digestive & Urinary System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Digestive & Urinary System",
-
+    question: "Right ventricular failure ka classic consequence kya hai?",
+    options: ["Pulmonary edema", "Metabolic alkalosis", "Hyperthyroidism", "Systemic venous congestion"],
+    answer: "Systemic venous congestion",
+    explanation: "Right ventricular failure se peripheral edema aur venous congestion develop hoti hai.",
+    topic: "Cardiovascular System",
     difficulty: "hard"
   }
 ];

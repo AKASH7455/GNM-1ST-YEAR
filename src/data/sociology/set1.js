@@ -1,633 +1,292 @@
 const set1 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Sociology ke Family & Social Institutions topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Ek urban slum survey me nurse dekhti hai ki kai parivaron me bachchon ka school dropout rate bahut zyada hai. Is situation ko samajhne ke liye sabse pehle kis sociological factor ka assessment karna chahiye?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Parivar ki social aur economic condition",
+      "Bachche ka blood group",
+      "Parivar ka favourite food",
+      "Ghar ka paint color"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Parivar ki social aur economic condition",
+    explanation: "School dropout aksar poverty, parental education aur social environment se juda hota hai. Sociology me social determinants ko assess karna important hai. Blood group, food preference aur paint color ka direct relation nahi hota. Community assessment me socio-economic factors priority hote hain.",
+    topic: "Social Factors",
     difficulty: "medium"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Sociology ke Family & Social Institutions topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Ek patient treatment follow nahi kar raha kyunki uske community ke log traditional healer par zyada trust karte hain. Nurse ko is behavior ko kis concept se relate karna chahiye?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Social mobility",
+      "Culture aur belief system",
+      "Industrialization",
+      "Urbanization"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Culture aur belief system",
+    explanation: "Health behavior par culture aur beliefs ka strong influence hota hai. Patient ka decision uske community norms se affect ho raha hai. Social mobility aur urbanization yahan primary factor nahi hain. Culturally sensitive nursing care zaroori hai.",
+    topic: "Culture",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Sociology ke Family & Social Institutions topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Ek adolescent apne peer group ke pressure me smoking start kar deta hai. Ye kis sociological process ka example hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Social isolation",
+      "Social conflict",
+      "Socialization",
+      "Migration"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Socialization",
+    explanation: "Socialization ke dauran individual society aur group se behaviors seekhta hai. Peer influence adolescence me bahut powerful hota hai. Smoking behavior social learning ka example hai. Isliye socialization sabse sahi answer hai.",
+    topic: "Socialization",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Sociology ke Family & Social Institutions topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Community health nurse ko pata chalta hai ki ek family me decision-making sirf sabse bade male member dwara hoti hai. Ye kis family pattern ko indicate karta hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Matriarchal family",
+      "Nuclear family",
+      "Egalitarian family",
+      "Patriarchal family"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Patriarchal family",
+    explanation: "Patriarchal family me authority male head ke paas hoti hai. Healthcare decisions bhi aksar wahi leta hai. Matriarchal me female authority hoti hai. Community visits me family structure ko samajhna nursing planning ke liye important hai.",
+    topic: "Family",
     difficulty: "medium"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Sociology ke Family & Social Institutions topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Ek gaon ki ladki higher education ke baad government officer ban jaati hai. Ye kis sociological concept ka example hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Social change",
+      "Social mobility",
+      "Social control",
+      "Social isolation"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Social mobility",
+    explanation: "Social mobility ka matlab social status me change hona hai. Education upward mobility ka major factor hai. Is case me individual lower status se higher social position tak pahunchi hai. Sociology me ye classic example mana jata hai.",
+    topic: "Social Mobility",
     difficulty: "medium"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Sociology ke Family & Social Institutions topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Ek hospital me alag-alag religion ke patients admit hain. Nurse sabko equal respect deti hai. Ye kis sociological principle ko support karta hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Ethnocentrism",
+      "Discrimination",
+      "Cultural diversity ka respect",
+      "Social exclusion"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "medium"
+    answer: "Cultural diversity ka respect",
+    explanation: "Professional nursing practice me cultural diversity ko respect karna essential hai. Har patient ko equal care milni chahiye. Ethnocentrism aur discrimination ethical principles ke opposite hain. Patient-centered care isi approach par based hoti hai.",
+    topic: "Cultural Diversity",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Sociology ke Family & Social Institutions topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Ek community me vaccination ke khilaf afwaah failne se log vaccine nahi lagwa rahe. Nurse ke liye sabse effective sociological intervention kya hoga?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Community leaders ko involve karna",
+      "Sab logon ko force karna",
+      "Health services band kar dena",
+      "Rumors ko ignore karna"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "medium"
+    answer: "Community leaders ko involve karna",
+    explanation: "Community leaders logon par social influence rakhte hain. Unko involve karne se trust build hota hai aur behavior change aasaan hota hai. Force ya ignore karna effective nahi hai. Sociology community participation ko promote karti hai.",
+    topic: "Community Influence",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Sociology ke Family & Social Institutions topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Ek patient apni illness ke baare me family se chhupa raha hai kyunki use social rejection ka dar hai. Ye kis concept se sabse adhik related hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Acculturation",
+      "Socialization",
+      "Role conflict",
+      "Social stigma"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "medium"
+    answer: "Social stigma",
+    explanation: "Social stigma tab hota hai jab society kisi condition ko negative nazariye se dekhti hai. Fear of rejection patient ko information chhupane par majboor kar sakta hai. Stigma treatment adherence aur mental health dono ko affect karta hai.",
+    topic: "Social Stigma",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Sociology ke Family & Social Institutions topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Rapid urbanization ke baad ek area me lifestyle diseases badh rahi hain. Iska primary sociological reason kya ho sakta hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Badalte social aur lifestyle patterns",
+      "Blood group distribution",
+      "Genetics ka complete absence",
+      "Climate ka koi effect nahi"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "medium"
+    answer: "Badalte social aur lifestyle patterns",
+    explanation: "Urbanization ke saath diet, physical activity aur stress patterns badalte hain. Ye NCDs ke risk ko increase karte hain. Sociology environment aur behavior ke relation ko explain karti hai. Isi wajah se option 1 sahi hai.",
+    topic: "Urbanization",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Sociology ke Family & Social Institutions topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Ek patient simultaneously employee, father aur caregiver ki responsibilities nibha raha hai aur stress me hai. Ye kis concept ka example hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Social stratification",
+      "Cultural lag",
+      "Role conflict",
+      "Social control"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "medium"
+    answer: "Role conflict",
+    explanation: "Jab ek vyakti ki multiple social roles ek doosre se takraati hain to role conflict hota hai. Isse stress aur adjustment problems develop ho sakti hain. Nurses ko psychosocial assessment me is factor ko identify karna chahiye.",
+    topic: "Role Conflict",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Sociology ke Family & Social Institutions topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Ek society me log laws aur norms follow karte hain kyunki violation par punishment mil sakti hai. Ye kis mechanism ka example hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Social mobility",
+      "Social control",
+      "Social change",
+      "Cultural diffusion"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "medium"
+    answer: "Social control",
+    explanation: "Social control society me order maintain karta hai. Laws, norms aur sanctions iska hissa hain. Ye acceptable behavior ko encourage karta hai. Healthcare settings me bhi institutional rules social control ka example hain.",
+    topic: "Social Control",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Sociology ke Family & Social Institutions topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Ek migrant family naye shehar me settle hone ke baad dheere-dheere local customs apnane lagti hai. Ye kis process ko darshata hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Social exclusion",
+      "Deviance",
+      "Acculturation",
+      "Role strain"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "medium"
+    answer: "Acculturation",
+    explanation: "Acculturation me individuals ya groups doosri culture ke elements adopt karte hain. Migration ke baad ye process common hota hai. Health beliefs aur practices bhi isse influence ho sakte hain. Community nursing me ye concept important hai.",
+    topic: "Acculturation",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Sociology ke Family & Social Institutions topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Ek village me women self-help groups ke baad health awareness aur income dono improve hue. Ye kis phenomenon ko indicate karta hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Social empowerment",
+      "Social isolation",
+      "Cultural shock",
+      "Deviant behavior"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Social empowerment",
+    explanation: "Empowerment se individuals aur groups apne decisions aur resources par control badhate hain. Women groups community development me major role play karte hain. Health outcomes bhi empowerment se improve hote hain.",
+    topic: "Empowerment",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Sociology ke Family & Social Institutions topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Hospital survey me pata chalta hai ki low-income groups ko healthcare access me zyada problems aa rahi hain. Ye kis sociological issue ko reflect karta hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Socialization",
+      "Cultural integration",
+      "Family cycle",
+      "Social inequality"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Social inequality",
+    explanation: "Social inequality resources aur opportunities ke unequal distribution ko darshati hai. Healthcare access bhi iska ek major indicator hai. Nurses ko vulnerable populations ki needs identify karni chahiye. Health equity public health ka important goal hai.",
+    topic: "Social Inequality",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Sociology ke Family & Social Institutions topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Ek adolescent online communities se behavior aur attitudes seekh raha hai. Sociology ke hisab se ye kaunsa agent hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Legal system",
+      "Religious institution",
+      "Mass media",
+      "Economic class"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
+    answer: "Mass media",
+    explanation: "Mass media aur digital platforms modern socialization agents hain. Ye beliefs, attitudes aur behavior ko influence karte hain. Adolescents par iska impact especially strong hota hai. Health education me bhi media ka use hota hai.",
+    topic: "Agents of Socialization",
+    difficulty: "medium"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Sociology ke Family & Social Institutions topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Ek nurse observe karti hai ki kuch families health decisions me elders ki advice ko doctor se bhi zyada importance deti hain. Iska best sociological explanation kya hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Biological inheritance",
+      "Traditional social norms",
+      "Climate effect",
+      "Genetic dominance"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Traditional social norms",
+    explanation: "Traditional societies me elders authority figures hote hain. Unki advice ko social acceptance milti hai. Health-seeking behavior par family norms ka strong impact hota hai. Effective nursing care ke liye is influence ko samajhna zaroori hai.",
+    topic: "Social Norms",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Sociology ke Family & Social Institutions topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Ek community me sanitation campaign ke baad open defecation me kami aati hai. Ye kis process ka outcome hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Migration",
+      "Role conflict",
+      "Social stratification",
+      "Social change"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
+    answer: "Social change",
+    explanation: "Social change society ke behavior aur practices me transformation ko darshata hai. Health campaigns aksar positive social change laate hain. Sanitation improvement community health outcomes ko directly affect karta hai.",
+    topic: "Social Change",
+    difficulty: "medium"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Sociology ke Family & Social Institutions topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Ek patient ko HIV diagnosis ke baad job aur social relations dono me discrimination face karni pad rahi hai. Nurse ko sabse pehle kis issue ko identify karna chahiye?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Economic planning",
+      "Social stigma aur discrimination",
+      "Migration trend",
+      "Urban growth"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Social stigma aur discrimination",
+    explanation: "HIV patients ke saath stigma aur discrimination common social issues hain. Ye mental health aur treatment adherence ko affect kar sakte hain. Nurse ko advocacy aur counseling provide karni chahiye. Patient rights ka protection bhi zaroori hai.",
+    topic: "Discrimination",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Sociology ke Family & Social Institutions topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Ek society me occupation, income aur education ke basis par log alag social levels me divide hain. Is concept ko kya kaha jata hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Acculturation",
+      "Social control",
+      "Social stratification",
+      "Role strain"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Social stratification",
+    explanation: "Social stratification society ko different hierarchical groups me divide karti hai. Income, education aur occupation common indicators hain. Health outcomes bhi social class ke hisab se vary kar sakte hain. Ye sociology ka core concept hai.",
+    topic: "Social Stratification",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Sociology ke Family & Social Institutions topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Community health program me local residents ko planning aur implementation me shamil kiya gaya. Is approach ka sabse bada benefit kya hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Community trust aur participation badhna",
+      "Nurse ki responsibility khatam hona",
+      "Disease automatically cure hona",
+      "Assessment ki zaroorat khatam hona"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Sociology ke Family & Social Institutions topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Sociology ke Family & Social Institutions topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Sociology ke Family & Social Institutions topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Sociology ke Family & Social Institutions topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Sociology ke Family & Social Institutions topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Sociology ke Family & Social Institutions topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Sociology ke Family & Social Institutions topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Sociology ke Family & Social Institutions topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Sociology ke Family & Social Institutions topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Sociology ke Family & Social Institutions topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Family & Social Institutions me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Family & Social Institutions",
-
+    answer: "Community trust aur participation badhna",
+    explanation: "Community participation sustainable health programs ka foundation hai. Jab log planning me shamil hote hain to ownership aur trust badhta hai. Program acceptance aur effectiveness dono improve hote hain. Public health nursing me ye key principle hai.",
+    topic: "Community Participation",
     difficulty: "hard"
   }
 ];
 
 export default set1;
+
+// Answer Key:
+// [1,2,3,4,2,3,1,4,1,3,2,3,1,4,3,2,4,2,3,1]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

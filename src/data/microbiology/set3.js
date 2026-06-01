@@ -1,633 +1,312 @@
 const set3 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Microbiology ke Immunity & Vaccination topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "ICU patient me central venous catheter lagne ke 5 din baad fever develop hua. Blood culture me Gram-positive cocci in clusters mile. Sabse likely source kya hai?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Contaminated food",
+      "Skin flora contamination",
+      "Airborne infection",
+      "Vector bite"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "medium"
+    answer: "Skin flora contamination",
+    explanation:
+      "Central line associated bloodstream infection (CLABSI) me skin flora, especially Staphylococcus species common source hote hain. Catheter insertion aur maintenance ke dauran aseptic technique bahut important hai. Food, airborne aur vector transmission is situation me less likely hain.",
+    topic: "Hospital Acquired Infection",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Microbiology ke Immunity & Vaccination topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Patient ko severe diarrhea ke baad dehydration ho gaya. Stool sample me comma-shaped bacteria identify hua. Sabse likely organism kaunsa hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Salmonella typhi",
+      "Escherichia coli",
+      "Vibrio cholerae",
+      "Staphylococcus aureus"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Vibrio cholerae",
+    explanation:
+      "Comma-shaped Gram-negative bacillus Vibrio cholerae ki characteristic morphology hai. Ye cholera cause karta hai jisme rice-water stool aur severe dehydration dekha jata hai. Rapid fluid replacement patient survival ke liye essential hai.",
+    topic: "Bacteriology",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Microbiology ke Immunity & Vaccination topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Autoclave validation ke liye sabse reliable indicator kaunsa mana jata hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Chemical indicator tape",
+      "Biological indicator",
+      "Color change strip",
+      "Temperature chart"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "medium"
+    answer: "Biological indicator",
+    explanation:
+      "Biological indicators spores ka use karte hain aur sterilization effectiveness ka gold standard assessment provide karte hain. Chemical indicators sirf process exposure batate hain. Patient safety ke liye biological monitoring important hai.",
+    topic: "Sterilization",
+    difficulty: "hard"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Microbiology ke Immunity & Vaccination topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Healthcare worker ko blood splash aankh me lag gaya. Sabse pehla action kya hona chahiye?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Eye ko immediately water se flush karna",
+      "Antibiotic start karna",
+      "Bandage laga dena",
+      "Duty continue karna"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Eye ko immediately water se flush karna",
+    explanation:
+      "Mucous membrane exposure ke baad immediate irrigation infection risk ko kam karta hai. Iske baad reporting aur post-exposure protocol follow kiya jata hai. Delay karna unsafe hai.",
+    topic: "Occupational Safety",
     difficulty: "medium"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Microbiology ke Immunity & Vaccination topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Patient me pseudomembranous colitis develop hua hai. Ye kis situation se sabse zyada associated hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Long-term antibiotic use",
+      "Vitamin deficiency",
+      "Excess exercise",
+      "Dehydration only"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "medium"
+    answer: "Long-term antibiotic use",
+    explanation:
+      "Clostridioides difficile infection prolonged antibiotic therapy ke baad develop ho sakti hai. Antibiotics normal gut flora ko destroy kar dete hain. Ye nosocomial infection ka important example hai.",
+    topic: "Antimicrobial Therapy",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Microbiology ke Immunity & Vaccination topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "AIDS patient me oral candidiasis ka major reason kya hota hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Increased RBC count",
+      "Reduced immune defense",
+      "High calcium level",
+      "Excess platelet count"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "medium"
+    answer: "Reduced immune defense",
+    explanation:
+      "HIV infection CD4 cells ko reduce karta hai jisse immunity weak ho jati hai. Candida opportunistic fungus hai jo low immunity me rapidly grow karta hai. Ye AIDS patients me common finding hai.",
+    topic: "Immunology",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Microbiology ke Immunity & Vaccination topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Tuberculosis transmission rokne ke liye patient room me kaunsi facility sabse important hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Negative pressure ventilation",
+      "Bright lighting",
+      "Warm room temperature",
+      "High humidity"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "medium"
+    answer: "Negative pressure ventilation",
+    explanation:
+      "TB airborne disease hai. Negative pressure room infectious particles ko doosre areas me spread hone se rokta hai. Infection control guidelines me iska special importance hai.",
+    topic: "Airborne Infection Control",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Microbiology ke Immunity & Vaccination topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Postoperative wound infection me pus sample Gram stain par Gram-positive cocci in chains dikhata hai. Sabse likely organism kaunsa hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Staphylococcus aureus",
+      "Pseudomonas aeruginosa",
+      "Streptococcus pyogenes",
+      "Klebsiella pneumoniae"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "medium"
+    answer: "Streptococcus pyogenes",
+    explanation:
+      "Gram-positive cocci in chains Streptococcus species ki characteristic finding hai. Streptococcus pyogenes wound infections aur soft tissue infections ka common cause ho sakta hai.",
+    topic: "Gram Staining",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Microbiology ke Immunity & Vaccination topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Rabies prevention me dog bite ke baad wound washing ka primary benefit kya hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Virus load kam karna",
+      "Antibody banana",
+      "Fever reduce karna",
+      "Pain completely khatam karna"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Virus load kam karna",
+    explanation:
+      "Immediate wound washing rabies virus ki local quantity ko reduce karta hai. Ye post-exposure prophylaxis ka important first step hai. Vaccine aur immunoglobulin iske baad diye ja sakte hain.",
+    topic: "Virology",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Microbiology ke Immunity & Vaccination topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Community outbreak me contaminated water se spread hone wali disease kaunsi hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Rabies",
+      "Tetanus",
+      "Measles",
+      "Typhoid"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Typhoid",
+    explanation:
+      "Typhoid Salmonella typhi ke karan hota hai aur contaminated food-water se spread karta hai. Safe sanitation aur clean drinking water prevention ke main measures hain.",
+    topic: "Water-Borne Diseases",
     difficulty: "medium"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Microbiology ke Immunity & Vaccination topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Hospital me hand rub use karne ka major advantage kya hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Rapid reduction of transient flora",
+      "Permanent sterilization of skin",
+      "Removal of all normal flora",
+      "Replacement of handwashing forever"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Rapid reduction of transient flora",
+    explanation:
+      "Alcohol-based hand rub transient microorganisms ko quickly reduce karta hai. Ye healthcare-associated infections prevent karne me effective hai. Normal flora completely remove nahi hoti.",
+    topic: "Hand Hygiene",
     difficulty: "medium"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Microbiology ke Immunity & Vaccination topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Malaria diagnosis confirm karne ke liye kaunsa specimen sabse appropriate hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Urine sample",
+      "Sputum sample",
+      "Blood smear",
+      "CSF sample"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Blood smear",
+    explanation:
+      "Peripheral blood smear me Plasmodium parasite directly identify kiya ja sakta hai. Ye malaria diagnosis ka classic laboratory method hai. Species identification bhi possible hoti hai.",
+    topic: "Parasitology",
     difficulty: "medium"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Microbiology ke Immunity & Vaccination topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Agar kisi organism par multiple antibiotics ka effect na ho to is condition ko kya kaha jata hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Virulence",
+      "Pathogenicity",
+      "Multidrug resistance",
+      "Attenuation"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Multidrug resistance",
+    explanation:
+      "Multidrug resistant organisms treatment ko difficult bana dete hain. Inappropriate antibiotic use resistance development ka major factor hai. Infection control aur stewardship zaroori hai.",
+    topic: "Antimicrobial Resistance",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Microbiology ke Immunity & Vaccination topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Patient ke sputum me Acid Fast Bacilli detect hue. Sabse likely disease kya hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Pneumonia",
+      "Tuberculosis",
+      "Influenza",
+      "Diphtheria"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Tuberculosis",
+    explanation:
+      "Acid Fast Bacilli (AFB) Mycobacterium tuberculosis ki characteristic laboratory finding hai. Sputum examination TB diagnosis ka important part hai. Airborne precautions zaroori hote hain.",
+    topic: "Mycobacteriology",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Microbiology ke Immunity & Vaccination topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Food poisoning ke case me canned food consumption ke baad paralysis develop hua. Sabse likely pathogen kaunsa hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Clostridium botulinum",
+      "Shigella dysenteriae",
+      "Salmonella typhi",
+      "Vibrio cholerae"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Clostridium botulinum",
+    explanation:
+      "Botulinum toxin neuromuscular paralysis cause karta hai. Improperly canned food iska major source hota hai. Early diagnosis aur antitoxin treatment life-saving ho sakte hain.",
+    topic: "Food Microbiology",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Microbiology ke Immunity & Vaccination topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Vaccination ke baad antibody production kis type ki immunity ka example hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Passive natural immunity",
+      "Innate immunity",
+      "Artificial active immunity",
+      "Passive artificial immunity"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Artificial active immunity",
+    explanation:
+      "Vaccines immune system ko stimulate karke antibodies banwati hain. Is process ko artificial active immunity kehte hain. Long-term protection provide karne me iska role important hai.",
+    topic: "Immunization",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Microbiology ke Immunity & Vaccination topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Urinary catheter patient me infection prevention ke liye sabse important principle kya hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Closed drainage system maintain karna",
+      "Daily catheter replacement",
+      "Frequent tubing opening",
+      "Bag ko bed par rakhna"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Closed drainage system maintain karna",
+    explanation:
+      "Closed drainage system microorganisms ke entry risk ko reduce karta hai. Catheter associated urinary tract infection prevention me ye key intervention hai.",
+    topic: "Nosocomial Infection",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Microbiology ke Immunity & Vaccination topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Oral thrush ka common causative organism kaunsa hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Aspergillus fumigatus",
+      "Candida albicans",
+      "Cryptococcus neoformans",
+      "Rhizopus species"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
+    answer: "Candida albicans",
+    explanation:
+      "Candida albicans oral candidiasis ka most common cause hai. White removable patches aur immunocompromised status important clues hote hain.",
+    topic: "Mycology",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Microbiology ke Immunity & Vaccination topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Blood culture collect karte waqt contamination prevent karne ke liye sabse important kya hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Sample ko freeze karna",
+      "Tube shake karna",
+      "Strict aseptic technique",
+      "Antibiotic ke baad sample lena"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
+    answer: "Strict aseptic technique",
+    explanation:
+      "Blood culture contamination false-positive results ka major cause hai. Proper skin preparation aur aseptic technique accurate diagnosis ke liye essential hain.",
+    topic: "Specimen Collection",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Microbiology ke Immunity & Vaccination topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Community vaccination coverage badhne se disease transmission kam hone ko kya kehte hain?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Incubation",
+      "Mutation",
+      "Pathogenicity",
+      "Herd immunity"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Microbiology ke Immunity & Vaccination topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Microbiology ke Immunity & Vaccination topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Microbiology ke Immunity & Vaccination topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Microbiology ke Immunity & Vaccination topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Microbiology ke Immunity & Vaccination topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Microbiology ke Immunity & Vaccination topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Microbiology ke Immunity & Vaccination topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Microbiology ke Immunity & Vaccination topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Microbiology ke Immunity & Vaccination topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Microbiology ke Immunity & Vaccination topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Immunity & Vaccination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Immunity & Vaccination",
-
-    difficulty: "hard"
+    answer: "Herd immunity",
+    explanation:
+      "Jab population ka bada hissa immune ho jata hai to disease spread significantly reduce ho jata hai. Is indirect protection ko herd immunity kehte hain aur ye public health ka major goal hai.",
+    topic: "Community Immunology",
+    difficulty: "medium"
   }
 ];
 
 export default set3;
+
+// Answer Key:
+// [2,3,2,1,1,2,1,3,1,4,1,3,3,2,1,3,1,2,3,4]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

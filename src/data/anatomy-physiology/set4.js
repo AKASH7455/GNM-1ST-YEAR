@@ -1,631 +1,422 @@
 const set4 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Reproductive System topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Patient me intracranial pressure badhne par sabse pehle kis physiological parameter me change dekha ja sakta hai?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Urine output increase",
+      "Level of consciousness me change",
+      "Blood glucose decrease",
+      "Hemoglobin increase"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Level of consciousness me change",
+    explanation: "Increased intracranial pressure ka sabse early sign altered level of consciousness hota hai. Nurse ko neurological assessment par close monitoring karni chahiye.",
+    topic: "Nervous System",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Reproductive System topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Coronary artery blockage ke turant baad myocardium me sabse pehla effect kya hota hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Permanent necrosis",
+      "Loss of contractility",
+      "Valve rupture",
+      "RBC destruction"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Loss of contractility",
+    explanation: "Ischemia ke kuch seconds ke andar myocardial contractility reduce ho jati hai. Necrosis baad me develop hoti hai.",
+    topic: "Cardiovascular System",
+    difficulty: "hard"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Reproductive System topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Agar surfactant completely absent ho jaye to sabse adhik kya hoga?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Alveolar collapse",
+      "Hyperglycemia",
+      "Hypertension",
+      "Polycythemia"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Alveolar collapse",
+    explanation: "Surfactant surface tension ko kam karta hai. Iski absence me alveoli collapse ho sakte hain.",
+    topic: "Respiratory System",
+    difficulty: "hard"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Reproductive System topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Glomerular filtration ke liye sabse important force kaunsi hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Osmotic pressure",
+      "Capsular pressure",
+      "Oncotic pressure",
+      "Glomerular hydrostatic pressure"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Glomerular hydrostatic pressure",
+    explanation: "Ye filtration ko drive karne wali primary force hai. Baaki pressures filtration ko oppose karte hain.",
+    topic: "Urinary System",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Reproductive System topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Spinal cord ke dorsal root ka main function kya hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Sensory impulses carry karna",
+      "Motor impulses carry karna",
+      "Hormone secretion",
+      "CSF production"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Sensory impulses carry karna",
+    explanation: "Dorsal root sensory information ko spinal cord tak le jata hai. Ventral root motor impulses carry karta hai.",
+    topic: "Nervous System",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Reproductive System topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Iron deficiency anemia me RBC ka typical appearance kaisa hota hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Macrocytic",
+      "Normocytic",
+      "Microcytic hypochromic",
+      "Sickle shaped"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Microcytic hypochromic",
+    explanation: "Iron deficiency me RBC chhote aur pale dikhte hain kyunki hemoglobin synthesis kam hoti hai.",
+    topic: "Hematology",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Reproductive System topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Aldosterone ka direct effect kis electrolyte par sabse zyada hota hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Calcium",
+      "Magnesium",
+      "Potassium",
+      "Sodium"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Sodium",
+    explanation: "Aldosterone sodium reabsorption increase karta hai aur potassium excretion badhata hai.",
+    topic: "Endocrine System",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Reproductive System topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Fracture healing me callus formation kis stage me hoti hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Inflammatory stage",
+      "Callus stage",
+      "Remodeling stage",
+      "Necrosis stage"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Callus stage",
+    explanation: "Soft aur hard callus formation fracture healing ka important intermediate phase hai.",
+    topic: "Skeletal System",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Reproductive System topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Left ventricular hypertrophy ka sabse common physiological cause kya hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Systemic hypertension",
+      "Anemia",
+      "Hypoglycemia",
+      "Leukopenia"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Systemic hypertension",
+    explanation: "High systemic pressure ke against pump karne se left ventricle hypertrophy develop karta hai.",
+    topic: "Cardiovascular System",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Reproductive System topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Muscle contraction ke dauran ATP ka primary role kya hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Oxygen transport",
+      "Actin-myosin cross bridge cycle",
+      "Calcium storage",
+      "Nerve conduction"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Actin-myosin cross bridge cycle",
+    explanation: "ATP muscle contraction aur relaxation dono ke liye essential hai.",
+    topic: "Muscular System",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Reproductive System topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Blood group O negative ko universal donor kyu mana jata hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Antigen absent hote hain",
+      "Hemoglobin zyada hota hai",
+      "Platelets absent hote hain",
+      "Plasma kam hota hai"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "medium"
+    answer: "Antigen absent hote hain",
+    explanation: "O negative RBCs par A, B aur Rh antigen nahi hote, isliye compatibility sabse adhik hoti hai.",
+    topic: "Hematology",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Reproductive System topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Parathyroid hormone ka secretion kab badhta hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "High calcium level",
+      "Low calcium level",
+      "High glucose level",
+      "Low sodium level"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Low calcium level",
+    explanation: "PTH serum calcium ko maintain karne ke liye low calcium par release hota hai.",
+    topic: "Endocrine System",
     difficulty: "medium"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Reproductive System topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Pepsin enzyme ka primary function kya hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Fat digestion",
+      "Protein digestion",
+      "Carbohydrate digestion",
+      "Vitamin synthesis"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "hard"
+    answer: "Protein digestion",
+    explanation: "Pepsin stomach me proteins ko peptides me todna start karta hai.",
+    topic: "Digestive System",
+    difficulty: "medium"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Reproductive System topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Cerebrospinal fluid ka major production site kaunsa hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Hypothalamus",
+      "Pituitary",
+      "Choroid Plexus",
+      "Cerebellum"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Choroid Plexus",
+    explanation: "CSF mainly brain ventricles ke choroid plexus dwara produce hota hai.",
+    topic: "Nervous System",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Reproductive System topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Carbon dioxide ka blood me sabse adhik transport kis form me hota hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Dissolved gas",
+      "Carbaminohemoglobin",
+      "Bicarbonate ion",
+      "Carbonic acid"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Bicarbonate ion",
+    explanation: "Lagbhag 70% CO2 bicarbonate form me transport hoti hai.",
+    topic: "Respiratory Physiology",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Reproductive System topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Nephron ka kaunsa part maximum water reabsorption karta hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Proximal Convoluted Tubule",
+      "Distal Tubule",
+      "Collecting Duct",
+      "Bowman Capsule"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Proximal Convoluted Tubule",
+    explanation: "Filtered water ka adhiktar hissa PCT me reabsorb hota hai.",
+    topic: "Urinary System",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Reproductive System topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Sympathetic stimulation ke dauran bronchial tubes par kya effect hota hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Bronchoconstriction",
+      "Bronchodilation",
+      "No change",
+      "Airway collapse"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Bronchodilation",
+    explanation: "Fight-or-flight response me oxygen supply badhane ke liye bronchi dilate hoti hain.",
+    topic: "Respiratory System",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Reproductive System topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Platelets ka normal physiological role kya hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Oxygen transport",
+      "Immunity",
+      "Blood clotting",
+      "Hormone production"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "hard"
+    answer: "Blood clotting",
+    explanation: "Platelets hemostasis aur clot formation ke liye essential hote hain.",
+    topic: "Hematology",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Reproductive System topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Hypothalamus ka sabse important endocrine function kya hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Releasing hormones banana",
+      "RBC banana",
+      "Bile secretion",
+      "Insulin storage"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Releasing hormones banana",
+    explanation: "Hypothalamus pituitary gland ko regulate karne wale hormones produce karta hai.",
+    topic: "Endocrine System",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Reproductive System topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Shoulder joint kis type ka synovial joint hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Hinge joint",
+      "Pivot joint",
+      "Condyloid joint",
+      "Ball and socket joint"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "hard"
+    answer: "Ball and socket joint",
+    explanation: "Shoulder body ka sabse mobile joint hai jo ball and socket category me aata hai.",
+    topic: "Skeletal System",
+    difficulty: "medium"
   },
-
   {
     id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Reproductive System topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
+    question: "Myocardial infarction me sabse pehle kis biomarker ka level badhta hai?",
     options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Troponin",
+      "Albumin",
+      "Bilirubin",
+      "Hemoglobin"
     ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Troponin",
+    explanation: "Troponin myocardial injury ka sabse sensitive aur specific marker hai.",
+    topic: "Cardiovascular System",
     difficulty: "hard"
   },
-
   {
     id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Reproductive System topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
+    question: "Muscle fatigue ka ek major physiological cause kya hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
+      "ATP depletion",
+      "Excess calcium",
+      "Excess oxygen",
+      "Increased glycogen"
     ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "ATP depletion",
+    explanation: "Prolonged activity ke dauran ATP availability kam hone se fatigue develop hoti hai.",
+    topic: "Muscular System",
     difficulty: "hard"
   },
-
   {
     id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Reproductive System topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
+    question: "Intrinsic pathway of coagulation kis factor ke activation se start hota hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Factor XII",
+      "Factor II",
+      "Factor VII",
+      "Factor X"
     ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Factor XII",
+    explanation: "Contact activation ke baad Factor XII intrinsic pathway ko initiate karta hai.",
+    topic: "Hematology",
     difficulty: "hard"
   },
-
   {
     id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Reproductive System topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
+    question: "Calcitonin ka primary effect kya hai?",
     options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
+      "Blood calcium badhana",
+      "Blood calcium kam karna",
+      "Blood glucose badhana",
+      "Blood pressure badhana"
     ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Blood calcium kam karna",
+    explanation: "Calcitonin osteoclast activity ko suppress karke calcium level reduce karta hai.",
+    topic: "Endocrine System",
     difficulty: "hard"
   },
-
   {
     id: 25,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Reproductive System topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
+    question: "Small intestine me iron absorption sabse adhik kahan hoti hai?",
     options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
+      "Duodenum",
+      "Jejunum",
+      "Ileum",
+      "Colon"
     ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Duodenum",
+    explanation: "Iron absorption ka major site duodenum hota hai.",
+    topic: "Digestive System",
     difficulty: "hard"
   },
-
   {
     id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Reproductive System topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
+    question: "Cerebellum ka primary function kya hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
+      "Language",
+      "Vision",
+      "Coordination aur balance",
+      "Hormone secretion"
     ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "hard"
+    answer: "Coordination aur balance",
+    explanation: "Cerebellum posture, balance aur smooth movement maintain karta hai.",
+    topic: "Nervous System",
+    difficulty: "medium"
   },
-
   {
     id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Reproductive System topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
+    question: "Respiratory acidosis ka common cause kya hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Hyperventilation",
+      "Hypoventilation",
+      "Vomiting",
+      "Diarrhea"
     ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Hypoventilation",
+    explanation: "CO2 retention ke karan respiratory acidosis develop hoti hai.",
+    topic: "Respiratory Physiology",
     difficulty: "hard"
   },
-
   {
     id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Reproductive System topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
+    question: "Macula densa ka primary role kya hai?",
     options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Tubular sodium monitor karna",
+      "Insulin banana",
+      "Bile banana",
+      "RBC store karna"
     ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Tubular sodium monitor karna",
+    explanation: "Macula densa GFR aur renin release regulation me important role nibhati hai.",
+    topic: "Urinary System",
     difficulty: "hard"
   },
-
   {
     id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Reproductive System topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
+    question: "SA node normally kis chamber me located hota hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
+      "Right Atrium",
+      "Left Atrium",
+      "Right Ventricle",
+      "Left Ventricle"
     ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
-    difficulty: "hard"
+    answer: "Right Atrium",
+    explanation: "SA node superior vena cava ke opening ke paas right atrium me hota hai.",
+    topic: "Cardiovascular System",
+    difficulty: "medium"
   },
-
   {
     id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Reproductive System topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
+    question: "Osteoclast cells ka primary function kya hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Bone formation",
+      "Cartilage formation",
+      "Bone resorption",
+      "Collagen synthesis"
     ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Reproductive System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Reproductive System",
-
+    answer: "Bone resorption",
+    explanation: "Osteoclasts old bone ko break down karte hain jabki osteoblasts new bone banate hain.",
+    topic: "Skeletal System",
     difficulty: "hard"
   }
 ];

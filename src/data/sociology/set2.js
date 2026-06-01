@@ -1,633 +1,331 @@
 const set2 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Sociology ke Culture & Socialization topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Ek community health nurse dekhti hai ki gaon me ladkiyon ko school bhejne ke bajay ghar ke kaam karwaye ja rahe hain. Is situation ka sabse appropriate sociological analysis kya hoga?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Biological difference",
+      "Genetic behavior",
+      "Gender inequality",
+      "Climate effect"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Gender inequality",
+    explanation:
+      "Yah situation gender inequality ko darshati hai jahan ladko aur ladkiyon ko alag opportunities milti hain. Education se vanchit karna ek social issue hai. Genetics ya climate iska karan nahi hain. Community health me gender equity promote karna important hai.",
+    topic: "Gender Inequality",
     difficulty: "medium"
   },
 
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Sociology ke Culture & Socialization topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Ek patient ki health-seeking behavior uske parivar ke decisions par poori tarah depend karti hai. Sociology ke hisab se sabse prabhavshali institution kaunsa hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Family",
+      "Mass media",
+      "Market",
+      "Technology"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Family",
+    explanation:
+      "Family primary social institution hai jo health beliefs aur decisions ko influence karti hai. Kai communities me treatment decisions collective hote hain. Mass media influence kar sakti hai lekin direct decision making me family ka role zyada hota hai.",
+    topic: "Family",
     difficulty: "medium"
   },
 
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Sociology ke Culture & Socialization topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Ek village me naye hospital ke aane ke baad traditional practices aur modern healthcare ke beech conflict dikh raha hai. Isse kya kaha jayega?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Social mobility",
+      "Social control",
+      "Role conflict",
+      "Cultural lag"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "medium"
+    answer: "Cultural lag",
+    explanation:
+      "Cultural lag tab hota hai jab material development fast ho aur beliefs ya values dheere badle. Hospital aa gaya lekin purani soch abhi bhi bani hui hai. Healthcare acceptance par iska direct impact padta hai.",
+    topic: "Cultural Lag",
+    difficulty: "hard"
   },
 
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Sociology ke Culture & Socialization topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Ek nurse observe karti hai ki kuch log social norms ke khilaf jaakar substance abuse kar rahe hain. Sociology me ise kya kaha jata hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Socialization",
+      "Deviance",
+      "Adaptation",
+      "Acculturation"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "medium"
+    answer: "Deviance",
+    explanation:
+      "Deviance un behaviors ko kaha jata hai jo accepted social norms ke opposite hote hain. Substance abuse kai societies me deviant behavior mana jata hai. Iska health aur social functioning dono par effect hota hai.",
+    topic: "Deviance",
+    difficulty: "hard"
   },
 
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Sociology ke Culture & Socialization topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Ek shehar me migration ke baad alag-alag cultures ke log ek saath rehne lage hain. Iska sabse bada sociological outcome kya ho sakta hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Isolation",
+      "Disease elimination",
+      "Social stagnation",
+      "Cultural diversity"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Cultural diversity",
+    explanation:
+      "Migration se cultures ka interaction badhta hai aur diversity develop hoti hai. Isse naye ideas aur practices society me aate hain. Nursing care me culturally competent approach ki zarurat badh jati hai.",
+    topic: "Migration",
     difficulty: "medium"
   },
 
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Sociology ke Culture & Socialization topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Ek adolescent apne parents aur peer group ki opposite expectations ke beech pareshaan hai. Ye kis concept ka udaharan hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Role conflict",
+      "Social mobility",
+      "Social change",
+      "Social isolation"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "medium"
+    answer: "Role conflict",
+    explanation:
+      "Role conflict tab hota hai jab individual par alag groups ki expectations takraati hain. Adolescents me ye common hai. Isse stress aur decision-making problems develop ho sakti hain.",
+    topic: "Role Conflict",
+    difficulty: "hard"
   },
 
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Sociology ke Culture & Socialization topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Ek community me log swachhta abhiyan ko isliye follow karte hain kyunki poora gaon uska support karta hai. Ye kis factor ka prabhav hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Genetic pressure",
+      "Biological adaptation",
+      "Social norms",
+      "Economic crisis"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Social norms",
+    explanation:
+      "Social norms accepted behaviors ko define karte hain. Jab community kisi practice ko support karti hai to log usse follow karne lagte hain. Public health programs me norms ka role bahut important hota hai.",
+    topic: "Social Norms",
     difficulty: "medium"
   },
 
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Sociology ke Culture & Socialization topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Ek patient HIV diagnosis ke baad samaj se alag mehsoos kar raha hai aur log usse avoid kar rahe hain. Ye kis concept ko darshata hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Social mobility",
+      "Social stigma",
+      "Socialization",
+      "Urbanization"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "medium"
+    answer: "Social stigma",
+    explanation:
+      "Social stigma negative labeling aur discrimination ko darshata hai. HIV jaise conditions me stigma treatment aur mental health dono ko affect kar sakta hai. Nurse ko counseling aur support provide karna chahiye.",
+    topic: "Social Stigma",
+    difficulty: "hard"
   },
 
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Sociology ke Culture & Socialization topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Ek gareeb parivar ka bachcha doctor ban kar higher social status achieve karta hai. Isse kya kaha jayega?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Social mobility",
+      "Social control",
+      "Cultural lag",
+      "Role strain"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Social mobility",
+    explanation:
+      "Social mobility social position me change ko darshati hai. Education upward mobility ka important factor hai. Healthcare professionals ko social determinants samajhne me ye concept madad karta hai.",
+    topic: "Social Mobility",
     difficulty: "medium"
   },
 
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Sociology ke Culture & Socialization topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Ek community me naye health laws ke baad tobacco use me kami aati hai. Ye kis mechanism ka example hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Acculturation",
+      "Migration",
+      "Empowerment",
+      "Social control"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "medium"
+    answer: "Social control",
+    explanation:
+      "Laws aur regulations social control ke tools hain. Inka objective acceptable behavior ko promote karna hota hai. Tobacco restrictions public health protection ka example hain.",
+    topic: "Social Control",
+    difficulty: "hard"
   },
 
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Sociology ke Culture & Socialization topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Ek family me elderly members ke paas adhik authority hai aur sab unke decisions follow karte hain. Iska sambandh kis concept se hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Urbanization",
+      "Traditional authority",
+      "Social mobility",
+      "Mass communication"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "medium"
+    answer: "Traditional authority",
+    explanation:
+      "Traditional authority customs aur age-based respect par depend karti hai. Kai societies me elders decision-making ka center hote hain. Health-related choices bhi is authority se influence ho sakti hain.",
+    topic: "Authority",
+    difficulty: "hard"
   },
 
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Sociology ke Culture & Socialization topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Ek village me women self-help groups ke karan women apne health decisions khud lene lagi hain. Ye kis process ka result hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Isolation",
+      "Social control",
+      "Empowerment",
+      "Deviance"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "medium"
+    answer: "Empowerment",
+    explanation:
+      "Empowerment se individuals ko decisions aur resources par adhik control milta hai. Women empowerment health outcomes ko improve karta hai. Community development me iska bahut mahatva hai.",
+    topic: "Empowerment",
+    difficulty: "hard"
   },
 
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Sociology ke Culture & Socialization topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Ek shehar me income aur occupation ke basis par alag social groups bane hue hain. Ye kis concept ko represent karta hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Migration",
+      "Acculturation",
+      "Socialization",
+      "Social stratification"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Social stratification",
+    explanation:
+      "Social stratification society ko different layers me divide karti hai. Income, occupation aur education common indicators hain. Health inequalities bhi aksar isi structure se judi hoti hain.",
+    topic: "Social Stratification",
     difficulty: "hard"
   },
 
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Sociology ke Culture & Socialization topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Ek patient apni disease ko chhupa raha hai kyunki use naukri khone ka dar hai. Sabse appropriate sociological explanation kya hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Socialization",
+      "Stigma ka dar",
+      "Migration",
+      "Acculturation"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Stigma ka dar",
+    explanation:
+      "Disease disclosure se judi social rejection ki possibility patient ko information chhupane par majboor kar sakti hai. Isse treatment delay aur mental stress dono badh sakte hain. Nurse ko supportive environment provide karna chahiye.",
+    topic: "Stigma",
     difficulty: "hard"
   },
 
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Sociology ke Culture & Socialization topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Ek community awareness campaign ke baad logon ke health practices me permanent sudhar aata hai. Ye kis concept ka udaharan hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Social change",
+      "Role conflict",
+      "Social isolation",
+      "Cultural lag"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
+    answer: "Social change",
+    explanation:
+      "Social change society ke behaviors aur attitudes me long-term transformation ko darshata hai. Health education programs iska important source hote hain. Positive social change community health ko improve karta hai.",
+    topic: "Social Change",
+    difficulty: "medium"
   },
 
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Sociology ke Culture & Socialization topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Ek migrant family naye area me local language aur customs seekh leti hai. Is process ko kya kahenge?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Urbanization",
+      "Social control",
+      "Acculturation",
+      "Stratification"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Acculturation",
+    explanation:
+      "Acculturation me individuals dusri culture ke practices aur values ko adopt karte hain. Migration ke baad ye process common hota hai. Health beliefs bhi isse influence ho sakte hain.",
+    topic: "Acculturation",
     difficulty: "hard"
   },
 
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Sociology ke Culture & Socialization topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Ek school-going child social values aur discipline sabse pehle kis social institution se seekhta hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Government",
+      "Family",
+      "Industry",
+      "Hospital"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
+    answer: "Family",
+    explanation:
+      "Family primary agent of socialization hai. Child sabse pehle values, norms aur acceptable behavior family se hi seekhta hai. Baad me school aur peer groups iska expansion karte hain.",
+    topic: "Socialization",
+    difficulty: "medium"
   },
 
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Sociology ke Culture & Socialization topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Ek community me alag religions ke log milkar health camp organize karte hain. Isse kya promote hota hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Conflict",
+      "Isolation",
+      "Deviance",
+      "Social integration"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Social integration",
+    explanation:
+      "Social integration society ke alag groups ke beech cooperation aur unity ko promote karti hai. Community participation aur trust badhta hai. Health programs ki success ke liye integration zaroori hai.",
+    topic: "Social Integration",
     difficulty: "hard"
   },
 
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Sociology ke Culture & Socialization topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Ek adolescent ka behavior social media influencers se strongly affect ho raha hai. Yahan kaunsa agent of socialization kaam kar raha hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Family only",
+      "Religion only",
+      "Mass media",
+      "Occupation"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
+    answer: "Mass media",
+    explanation:
+      "Mass media modern socialization ka powerful agent hai. Social media attitudes, lifestyle aur health behaviors ko influence karta hai. Adolescents par iska impact especially strong hota hai.",
+    topic: "Agents of Socialization",
+    difficulty: "medium"
   },
 
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Sociology ke Culture & Socialization topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Community health planning me local logon ko decision-making me shamil karne ka sabse bada fayda kya hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Community ownership aur participation badhna",
+      "Assessment ki zarurat khatam hona",
+      "Nurse ki role khatam hona",
+      "Disease turant khatam hona"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Sociology ke Culture & Socialization topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Sociology ke Culture & Socialization topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Sociology ke Culture & Socialization topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Sociology ke Culture & Socialization topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Sociology ke Culture & Socialization topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Sociology ke Culture & Socialization topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Sociology ke Culture & Socialization topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Sociology ke Culture & Socialization topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Sociology ke Culture & Socialization topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Sociology ke Culture & Socialization topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Culture & Socialization me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Culture & Socialization",
-
+    answer: "Community ownership aur participation badhna",
+    explanation:
+      "Jab community planning me involve hoti hai to trust aur ownership badhta hai. Programs zyada sustainable aur acceptable bante hain. Public health nursing ka ye ek core principle hai.",
+    topic: "Community Participation",
     difficulty: "hard"
   }
 ];
 
 export default set2;
+
+// Answer Key:
+// [3,1,4,2,4,1,3,2,1,4,2,3,4,2,1,3,2,4,3,1]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

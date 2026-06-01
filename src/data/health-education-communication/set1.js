@@ -1,633 +1,292 @@
 const set1 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke Health Education Planning topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Village me diarrhea outbreak ke dauran ANM health talk deti hai. Communication effective hone ka sabse important indicator kya hoga?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Sirf attendance zyada hona",
+      "Pamphlet distribute ho jana",
+      "Log ORS banana aur use karna shuru kar den",
+      "Meeting ka duration lamba hona"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Log ORS banana aur use karna shuru kar den",
+    explanation: "Health education ka ultimate goal behavior change hota hai. Agar log ORS banana aur use karna shuru kar dete hain to communication successful mana jata hai. Attendance ya pamphlet distribution sirf process indicators hain. Clinical outcome aur practice change zyada important hote hain.",
+    topic: "Behavior Change Communication",
     difficulty: "medium"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke Health Education Planning topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Nurse diabetes patient ko insulin self-administration sikha rahi hai. Sabse pehla step kya hona chahiye?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Patient ki learning needs aur understanding assess karna",
+      "Injection technique demonstrate karna",
+      "Complications explain karna",
+      "Written instructions dena"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Patient ki learning needs aur understanding assess karna",
+    explanation: "Teaching se pehle assessment karna nursing process ka important part hai. Isse patient ka knowledge level aur learning barriers pata chalte hain. Bina assessment ke education individualized nahi hoti. Isliye pehla step assessment hai.",
+    topic: "Teaching-Learning Process",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke Health Education Planning topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Community meeting me speaker bol raha hai lekin audience confused lag rahi hai. Communication cycle me kis component ki kami sabse adhik sambhavit hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Channel",
+      "Sender",
+      "Message",
+      "Feedback"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Feedback",
+    explanation: "Feedback communication ko two-way banata hai. Audience ki understanding feedback se verify hoti hai. Feedback na hone par sender ko pata nahi chalta ki message samjha gaya ya nahi. Isi wajah se confusion continue reh sakta hai.",
+    topic: "Communication Process",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke Health Education Planning topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Aap tuberculosis awareness session me bahut technical medical terms use karte hain. Ye kis type ka communication barrier hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Environmental barrier",
+      "Semantic barrier",
+      "Physical barrier",
+      "Psychological barrier"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Semantic barrier",
+    explanation: "Jab language ya terminology audience ki understanding se match nahi karti to semantic barrier hota hai. Complex medical terms message ko unclear bana dete hain. Effective health education ke liye simple language use karni chahiye.",
+    topic: "Barriers to Communication",
     difficulty: "medium"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke Health Education Planning topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "School health program me adolescent girls ko anemia prevention sikhaya ja raha hai. Kis method se active participation sabse zyada milegi?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Group discussion",
+      "Lecture method",
+      "Poster display",
+      "Pamphlet distribution"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Group discussion",
+    explanation: "Group discussion learners ko actively involve karti hai. Participants questions pooch sakte hain aur apne experiences share kar sakte hain. Lecture aur posters comparatively passive methods hain. Participation learning ko improve karti hai.",
+    topic: "Methods of Health Education",
     difficulty: "medium"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke Health Education Planning topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Nurse patient ko smoking chhodne ke liye motivate kar rahi hai aur patient ke concerns dhyan se sun rahi hai. Kaunsi communication skill use ho rahi hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Criticism",
+      "Giving orders",
+      "Active listening",
+      "Avoidance"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Active listening",
+    explanation: "Active listening me nurse patient ki baat dhyan se sunti hai aur uski feelings ko samajhne ki koshish karti hai. Isse trust build hota hai. Criticism aur orders therapeutic communication ko kamzor karte hain.",
+    topic: "Therapeutic Communication",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke Health Education Planning topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Health worker ne vaccination ka message diya aur parents ne turant sawal poochna shuru kar diya. Ye kis communication pattern ka udaharan hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "One-way communication",
+      "Two-way communication",
+      "Mass communication",
+      "Formal communication"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Two-way communication",
+    explanation: "Jab sender aur receiver dono information exchange karte hain to two-way communication hoti hai. Questions aur responses feedback provide karte hain. Isse understanding aur retention improve hoti hai.",
+    topic: "Types of Communication",
     difficulty: "medium"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke Health Education Planning topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Community me dengue awareness ke liye TV campaign chalaya gaya. Ye kis method ka example hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Individual approach",
+      "Group approach",
+      "Interpersonal communication",
+      "Mass communication"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Mass communication",
+    explanation: "TV, radio aur newspapers ek samay me bahut bade audience tak message pahunchate hain. Isliye ise mass communication kaha jata hai. Ye awareness badhane ke liye useful hai lekin individual feedback limited hota hai.",
+    topic: "Mass Communication",
     difficulty: "medium"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke Health Education Planning topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Nurse patient ki aankhon me dekhkar baat karti hai aur supportive posture maintain karti hai. Ye kis communication aspect ko strengthen karta hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Non-verbal communication",
+      "Written communication",
+      "Formal reporting",
+      "Documentation"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "medium"
+    answer: "Non-verbal communication",
+    explanation: "Eye contact, facial expression aur body posture non-verbal communication ke parts hain. Ye trust aur empathy convey karte hain. Kai baar non-verbal cues words se bhi zyada impact dalte hain.",
+    topic: "Non-Verbal Communication",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke Health Education Planning topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Health education session ke baad nurse participants se practical demonstration karwati hai. Iska primary purpose kya hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Session ko lamba banana",
+      "Attendance record karna",
+      "Entertainment provide karna",
+      "Learning aur skill acquisition evaluate karna"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "medium"
+    answer: "Learning aur skill acquisition evaluate karna",
+    explanation: "Return demonstration se learner ki actual competency assess ki ja sakti hai. Sirf verbal response par depend karna kaafi nahi hota. Skill-based teaching me evaluation bahut important hai.",
+    topic: "Evaluation of Health Education",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke Health Education Planning topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Ek patient repeatedly instructions bhool jata hai kyunki use diagnosis ka stress hai. Ye kis type ka barrier hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Physical barrier",
+      "Psychological barrier",
+      "Mechanical barrier",
+      "Language barrier"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "medium"
+    answer: "Psychological barrier",
+    explanation: "Fear, anxiety aur stress information processing ko affect karte hain. Isse patient instructions ko retain nahi kar pata. Nurse ko emotional support provide karna chahiye aur information ko simple parts me dena chahiye.",
+    topic: "Communication Barriers",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke Health Education Planning topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Community health nurse pregnant women ko danger signs samjha rahi hai. Learning ko reinforce karne ke liye sabse effective strategy kya hogi?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Ek hi baar information dena",
+      "Sirf chart display karna",
+      "Key points repeat karna aur understanding verify karna",
+      "Medical jargon use karna"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "medium"
+    answer: "Key points repeat karna aur understanding verify karna",
+    explanation: "Reinforcement learning retention badhata hai. Understanding verify karne se misconceptions identify ho jati hain. Repetition aur feedback effective education ke essential components hain.",
+    topic: "Health Teaching Principles",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke Health Education Planning topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Health educator session start karne se pehle audience ke cultural beliefs ke baare me jankari collect karta hai. Iska mukhya uddeshya kya hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Message ko audience ke context ke hisab se adapt karna",
+      "Session ko formal banana",
+      "Documentation complete karna",
+      "Budget calculate karna"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Message ko audience ke context ke hisab se adapt karna",
+    explanation: "Cultural beliefs health behavior ko directly influence karte hain. Audience-centered education zyada acceptable aur effective hoti hai. Isi liye cultural assessment important mana jata hai.",
+    topic: "Cultural Communication",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke Health Education Planning topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Nurse family planning session me flip chart ka use karti hai. Flip chart kis category me aata hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Audio aid",
+      "Audio-visual aid",
+      "Mass media",
+      "Visual aid"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Visual aid",
+    explanation: "Flip chart ek visual teaching aid hai jo concepts ko samjhane me help karta hai. Isme sound component nahi hota. Visual aids attention aur retention dono improve karte hain.",
+    topic: "Audio Visual Aids",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke Health Education Planning topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Patient kehta hai, 'Mujhe operation se bahut dar lag raha hai.' Nurse ka sabse therapeutic response kya hoga?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Darne ki koi baat nahi hai",
+      "Aapko itna stress nahi lena chahiye",
+      "Aap kis baat se sabse zyada chintit hain, mujhe batayiye",
+      "Operation cancel kar dete hain"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Aap kis baat se sabse zyada chintit hain, mujhe batayiye",
+    explanation: "Open-ended question patient ko apni feelings express karne ka mauka deta hai. Therapeutic communication emotions explore karti hai. Reassurance dena bina assessment ke effective nahi hota.",
+    topic: "Therapeutic Communication",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke Health Education Planning topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Health campaign me posters lagaye gaye lekin target population unhe padh nahi sakti. Sabse bada issue kya hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Budget problem",
+      "Audience characteristics ko ignore kiya gaya",
+      "Feedback zyada tha",
+      "Message bahut short tha"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Audience characteristics ko ignore kiya gaya",
+    explanation: "Health education audience ke literacy level ke according honi chahiye. Agar log padh nahi sakte to posters ka impact kam ho jayega. Teaching methods learner-centered honi chahiye.",
+    topic: "Principles of Health Education",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke Health Education Planning topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Village me sanitation improve karne ke liye local leaders aur community members ko planning me involve kiya gaya. Is approach ka major benefit kya hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Cost automatically zero ho jati hai",
+      "Documentation ki zarurat nahi rehti",
+      "Disease turant khatam ho jati hai",
+      "Community ownership aur participation badhta hai"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Community ownership aur participation badhta hai",
+    explanation: "Community participation sustainable health programs ka key factor hai. Jab log planning me involve hote hain to acceptance aur compliance improve hoti hai. Long-term behavior change bhi better hota hai.",
+    topic: "Community Participation",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke Health Education Planning topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Nurse patient se kehti hai, 'Apne shabdon me bataiye ki aap dawa kaise lenge.' Ye technique kya assess karti hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Patient ki understanding",
+      "Patient ki hearing ability",
+      "Patient ki income",
+      "Patient ka blood pressure"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Patient ki understanding",
+    explanation: "Teach-back method patient comprehension assess karne ka effective tool hai. Isse nurse confirm kar sakti hai ki instructions sahi samjhi gayi hain ya nahi. Patient safety ke liye ye bahut useful hai.",
+    topic: "Teach-Back Method",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke Health Education Planning topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Hospital me infection control awareness ke liye role play use kiya gaya. Role play ka sabse bada advantage kya hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Sirf theory cover karta hai",
+      "Feedback ko rokta hai",
+      "Real-life situations ka practice karwata hai",
+      "Written records ko replace karta hai"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Real-life situations ka practice karwata hai",
+    explanation: "Role play experiential learning provide karta hai. Learners practical situations me decision making aur communication skills practice kar sakte hain. Isse retention aur confidence dono badhte hain.",
+    topic: "Teaching Methods",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke Health Education Planning topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Health education program ki success evaluate karte waqt sabse strong evidence kya mana jayega?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Session me chairs bhar jana",
+      "Target population ke health behavior me measurable sudhar",
+      "Speaker ka experience",
+      "Printed material ki quantity"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke Health Education Planning topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke Health Education Planning topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke Health Education Planning topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke Health Education Planning topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke Health Education Planning topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke Health Education Planning topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke Health Education Planning topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke Health Education Planning topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke Health Education Planning topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke Health Education Planning topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Health Education Planning me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Health Education Planning",
-
+    answer: "Target population ke health behavior me measurable sudhar",
+    explanation: "Behavior change aur health outcomes evaluation ke sabse meaningful indicators hote hain. Process measures useful hain lekin final goal nahi. Effective communication ka result measurable improvement hona chahiye.",
+    topic: "Evaluation of Health Education",
     difficulty: "hard"
   }
 ];
 
 export default set1;
+
+// Answer Key:
+// [3,1,4,2,1,3,2,4,1,4,2,3,1,4,3,2,4,1,3,2]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

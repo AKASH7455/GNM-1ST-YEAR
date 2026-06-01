@@ -1,631 +1,272 @@
 const set2 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Nervous & Endocrine System topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
-    options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "medium"
+    question: "Patient me facial paralysis ke saath taste sensation bhi lose ho gayi hai. Sabse adhik kaunsi cranial nerve affected hai?",
+    options: ["Trigeminal Nerve", "Facial Nerve", "Glossopharyngeal Nerve", "Hypoglossal Nerve"],
+    answer: "Facial Nerve",
+    explanation: "Facial Nerve (CN VII) facial muscles aur anterior tongue ke taste sensation ko control karti hai. Isliye facial paralysis ke saath taste loss iska important sign hai.",
+    topic: "Nervous System",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
-    options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "medium"
+    question: "Severe dehydration me body ka sabse immediate physiological response kya hoga?",
+    options: ["ADH secretion increase", "Insulin secretion increase", "RBC destruction", "Platelet decrease"],
+    answer: "ADH secretion increase",
+    explanation: "Dehydration me ADH release badhta hai jisse kidney water conserve karti hai. Isse urine output kam hota hai aur fluid balance maintain rehta hai.",
+    topic: "Urinary Physiology",
+    difficulty: "hard"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Normal adult me oxygen ka sabse adhik transport kis form me hota hai?",
+    options: ["Plasma me dissolved", "Bicarbonate form", "Hemoglobin se bound", "Carbamino compounds"],
+    answer: "Hemoglobin se bound",
+    explanation: "Lagbhag 98% oxygen Hemoglobin ke saath transport hoti hai. Plasma me dissolved oxygen bahut kam hoti hai.",
+    topic: "Respiratory Physiology",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Nervous & Endocrine System topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
-    ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "medium"
+    question: "Parathyroid hormone ka major target organ kaunsa hai?",
+    options: ["Bone", "Skin", "Pancreas", "Spleen"],
+    answer: "Bone",
+    explanation: "PTH bone se calcium release karwata hai aur serum calcium level badhata hai. Kidney aur intestine par bhi indirect effect hota hai.",
+    topic: "Endocrine System",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
-    options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
-    ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "medium"
+    question: "Cardiac muscle ki khas property jo usse skeletal muscle se alag banati hai?",
+    options: ["Voluntary control", "Intercalated discs", "No mitochondria", "Single blood supply"],
+    answer: "Intercalated discs",
+    explanation: "Intercalated discs cardiac muscle cells ko electrically connect karte hain. Isi wajah se heart coordinated contraction karta hai.",
+    topic: "Cardiovascular System",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Nervous & Endocrine System topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
-    options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Vitamin D deficiency me calcium absorption sabse adhik kis organ me affect hota hai?",
+    options: ["Large intestine", "Stomach", "Small intestine", "Esophagus"],
+    answer: "Small intestine",
+    explanation: "Vitamin D small intestine me calcium absorption ko facilitate karta hai. Deficiency me calcium uptake significantly kam ho jata hai.",
+    topic: "Digestive Physiology",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Nervous & Endocrine System topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
-    ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "medium"
+    question: "Patient ko spinal cord injury T1 level ke niche hui hai. Sabse pehle kis function par prabhav padega?",
+    options: ["Lower limb movement", "Vision", "Hearing", "Taste"],
+    answer: "Lower limb movement",
+    explanation: "T1 ke niche spinal cord injury se lower body ke motor aur sensory pathways affect hote hain. Cranial functions generally preserved rehte hain.",
+    topic: "Nervous System",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Body ka sabse bada lymphoid organ kaunsa hai?",
+    options: ["Thymus", "Spleen", "Tonsil", "Appendix"],
+    answer: "Spleen",
+    explanation: "Spleen sabse bada lymphoid organ hai. Ye blood filtration aur immune response me important role nibhata hai.",
+    topic: "Lymphatic System",
     difficulty: "medium"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
-    options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
-    ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "medium"
+    question: "Metabolic acidosis me body ka compensatory response kya hoga?",
+    options: ["Respiration slow hona", "Respiration fast hona", "Heart rate decrease", "Urine output band hona"],
+    answer: "Respiration fast hona",
+    explanation: "Acidosis me body excess CO2 ko remove karne ke liye hyperventilation karti hai. Ye respiratory compensation hai.",
+    topic: "Acid Base Balance",
+    difficulty: "hard"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Nervous & Endocrine System topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
-    options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "medium"
+    question: "Acetylcholine receptor blockade ka direct effect kya hoga?",
+    options: ["Muscle paralysis", "Increased contraction", "Hyperglycemia", "Polyuria"],
+    answer: "Muscle paralysis",
+    explanation: "Neuromuscular junction par Acetylcholine action block hone se muscle contraction nahi ho pata aur paralysis develop hota hai.",
+    topic: "Muscular System",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Nervous & Endocrine System topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
-    ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Coronary arteries ka primary function kya hai?",
+    options: ["Lungs ko blood dena", "Heart muscle ko blood supply dena", "Brain perfusion", "Kidney filtration"],
+    answer: "Heart muscle ko blood supply dena",
+    explanation: "Coronary arteries myocardium ko oxygen aur nutrients provide karti hain. Inka blockage myocardial infarction ka major cause hai.",
+    topic: "Cardiovascular System",
     difficulty: "medium"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "medium"
+    question: "Nephron me maximum glucose reabsorption kis segment me hota hai?",
+    options: ["Loop of Henle", "Collecting Duct", "Proximal Convoluted Tubule", "Distal Tubule"],
+    answer: "Proximal Convoluted Tubule",
+    explanation: "PCT me filtered glucose ka lagbhag poora hissa reabsorb ho jata hai. Diabetes me threshold cross hone par glycosuria hoti hai.",
+    topic: "Urinary System",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
-    options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Agar bile secretion completely block ho jaye to sabse adhik kis nutrient ki absorption affect hogi?",
+    options: ["Protein", "Fat", "Water", "Sodium"],
+    answer: "Fat",
+    explanation: "Bile fats ko emulsify karti hai. Iske bina fat digestion aur fat-soluble vitamin absorption severely affect hota hai.",
+    topic: "Digestive System",
     difficulty: "hard"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Nervous & Endocrine System topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
-    ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Blood clot formation ka sabse pehla step kya hai?",
+    options: ["Fibrin formation", "Platelet plug formation", "Clot retraction", "RBC destruction"],
+    answer: "Platelet plug formation",
+    explanation: "Vessel injury ke turant baad platelets aggregate karke platelet plug banate hain. Fibrin baad me clot ko stabilize karta hai.",
+    topic: "Hematology",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Skeletal muscle contraction ke liye direct trigger kya hota hai?",
+    options: ["Calcium ion release", "Potassium loss", "Glucose increase", "ATP destruction"],
+    answer: "Calcium ion release",
+    explanation: "Calcium troponin se bind karke actin-myosin interaction allow karta hai. Iske bina contraction possible nahi hai.",
+    topic: "Muscular System",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Nervous & Endocrine System topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
-    options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "hard"
+    question: "Pituitary gland ko master gland kyu kaha jata hai?",
+    options: ["Sabse badi gland hai", "Dusri endocrine glands ko regulate karti hai", "Blood filter karti hai", "RBC banati hai"],
+    answer: "Dusri endocrine glands ko regulate karti hai",
+    explanation: "Pituitary TSH, ACTH, FSH jaise hormones release karti hai jo dusri endocrine glands ko control karte hain.",
+    topic: "Endocrine System",
+    difficulty: "medium"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Nervous & Endocrine System topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
-    options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Pleural cavity me air enter hone par sabse probable condition kya hogi?",
+    options: ["Pneumothorax", "Hemothorax", "Pericarditis", "Ascites"],
+    answer: "Pneumothorax",
+    explanation: "Pleural cavity me air aane se lung collapse ho sakta hai. Is condition ko pneumothorax kaha jata hai.",
+    topic: "Respiratory System",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "hard"
+    question: "WBC ka kaunsa type acute bacterial infection me sabse pehle increase hota hai?",
+    options: ["Eosinophils", "Neutrophils", "Basophils", "Monocytes"],
+    answer: "Neutrophils",
+    explanation: "Neutrophils bacterial infection ke first-line defenders hote hain. Neutrophilia acute infection ka common finding hai.",
+    topic: "Hematology",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
-    ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Hypothyroidism me sabse expected physiological change kya hoga?",
+    options: ["Metabolic rate decrease", "Heart rate increase", "Temperature increase", "Weight loss"],
+    answer: "Metabolic rate decrease",
+    explanation: "Thyroid hormones kam hone par metabolism slow ho jata hai. Weight gain aur cold intolerance common findings hain.",
+    topic: "Endocrine System",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Nervous & Endocrine System topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
-    options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
-    ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "hard"
+    question: "Cerebrum ka primary function kya hai?",
+    options: ["Balance maintain karna", "Higher mental functions", "Respiration control", "Reflex action"],
+    answer: "Higher mental functions",
+    explanation: "Thinking, memory, reasoning aur voluntary activities cerebrum ke major functions hain.",
+    topic: "Nervous System",
+    difficulty: "medium"
   },
-
   {
     id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Anatomy & Physiology ke Nervous & Endocrine System topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Aldosterone secretion badhne par kya hoga?",
+    options: ["Sodium retention increase", "Potassium retention increase", "Glucose excretion", "Protein synthesis stop"],
+    answer: "Sodium retention increase",
+    explanation: "Aldosterone kidney me sodium reabsorption aur potassium excretion badhata hai. Isse blood volume bhi badhta hai.",
+    topic: "Endocrine Physiology",
     difficulty: "hard"
   },
-
   {
     id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "hard"
+    question: "Hemoglobin ka normal physiological role kya hai?",
+    options: ["Hormone secretion", "Oxygen transport", "Clot formation", "Antibody production"],
+    answer: "Oxygen transport",
+    explanation: "Hemoglobin RBC ke andar oxygen ko lungs se tissues tak transport karta hai. Ye gas transport ka main protein hai.",
+    topic: "Hematology",
+    difficulty: "medium"
   },
-
   {
     id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Aortic valve failure ka direct effect kya hoga?",
+    options: ["Blood backflow into left ventricle", "Right atrial enlargement", "Pulmonary collapse", "Kidney ischemia"],
+    answer: "Blood backflow into left ventricle",
+    explanation: "Aortic valve incompetence se diastole me blood aorta se wapas left ventricle me aa jata hai.",
+    topic: "Cardiovascular System",
     difficulty: "hard"
   },
-
   {
     id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Anatomy & Physiology ke Nervous & Endocrine System topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "hard"
+    question: "Red bone marrow ka primary function kya hai?",
+    options: ["Fat storage", "Blood cell production", "Calcium excretion", "Hormone synthesis"],
+    answer: "Blood cell production",
+    explanation: "Red bone marrow hematopoiesis ka major site hai jahan RBC, WBC aur platelets bante hain.",
+    topic: "Skeletal System",
+    difficulty: "medium"
   },
-
   {
     id: 25,
-
-    question: "Home visit ke time family batati hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Respiratory center ko blood me kis factor ki increase sabse strongly stimulate karti hai?",
+    options: ["Oxygen", "Carbon dioxide", "Calcium", "Sodium"],
+    answer: "Carbon dioxide",
+    explanation: "CO2 level badhne par respiratory center strongly stimulate hota hai aur ventilation increase karta hai.",
+    topic: "Respiratory Physiology",
     difficulty: "hard"
   },
-
   {
     id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Anatomy & Physiology ke Nervous & Endocrine System topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Juxtaglomerular apparatus ka major function kya hai?",
+    options: ["Insulin secretion", "Blood pressure regulation", "Bile production", "RBC destruction"],
+    answer: "Blood pressure regulation",
+    explanation: "JGA renin release karke RAAS system activate karta hai jo blood pressure control me important hai.",
+    topic: "Urinary System",
     difficulty: "hard"
   },
-
   {
     id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Anatomy & Physiology ke Nervous & Endocrine System topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
-    difficulty: "hard"
+    question: "Sympathetic nervous system activation se kya hoga?",
+    options: ["Heart rate decrease", "Heart rate increase", "Pupil constriction", "Digestion increase"],
+    answer: "Heart rate increase",
+    explanation: "Fight-or-flight response me sympathetic stimulation heart rate aur cardiac output dono badhata hai.",
+    topic: "Nervous System",
+    difficulty: "medium"
   },
-
   {
     id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Osteoporosis me sabse major pathological change kya hota hai?",
+    options: ["Bone density decrease", "Cartilage increase", "Muscle hypertrophy", "RBC overproduction"],
+    answer: "Bone density decrease",
+    explanation: "Osteoporosis me bone mass aur density kam ho jati hai jisse fracture risk badh jata hai.",
+    topic: "Skeletal System",
     difficulty: "hard"
   },
-
   {
     id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Anatomy & Physiology ke Nervous & Endocrine System topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Portal vein ka blood sabse pehle kis organ me enter karta hai?",
+    options: ["Heart", "Liver", "Kidney", "Lung"],
+    answer: "Liver",
+    explanation: "Portal vein gastrointestinal tract se absorbed nutrients ko liver tak le jati hai processing ke liye.",
+    topic: "Digestive System",
     difficulty: "hard"
   },
-
   {
     id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Anatomy & Physiology ke Nervous & Endocrine System topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Nervous & Endocrine System me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Nervous & Endocrine System",
-
+    question: "Left ventricular failure ka sabse pehla major effect kis organ par dekha jata hai?",
+    options: ["Lungs", "Liver", "Spleen", "Pancreas"],
+    answer: "Lungs",
+    explanation: "Left ventricle failure se pulmonary congestion develop hoti hai. Isliye dyspnea aur pulmonary edema common findings hain.",
+    topic: "Cardiovascular System",
     difficulty: "hard"
   }
 ];

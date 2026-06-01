@@ -1,633 +1,292 @@
 const set4 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nursing Foundations ke Hygiene, Comfort & Elimination topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "Nurse ek patient ka admission assessment kar rahi hai. Sabse pehle kis type ka data collect kiya jata hai?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Subjective aur objective data",
+      "Sirf laboratory data",
+      "Sirf physician notes",
+      "Sirf family history"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
+    answer: "Subjective aur objective data",
+    explanation: "Admission assessment me patient se subjective information aur physical examination se objective data collect kiya jata hai. Yeh nursing process ka foundation hota hai. Accurate assessment se hi sahi care plan ban sakta hai.",
+    topic: "Nursing Process",
     difficulty: "medium"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Patient ko bed bath dete waqt nurse ko skin folds par redness milti hai. Sabse appropriate intervention kya hai?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Area ko tightly bandage karna",
+      "Area ko clean aur dry rakhna",
+      "Area par powder ki thick layer lagana",
+      "Redness ignore karna"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
+    answer: "Area ko clean aur dry rakhna",
+    explanation: "Skin folds me moisture accumulation skin breakdown ka risk badhata hai. Area ko clean aur dry rakhna infection aur pressure injury prevent karta hai. Regular assessment bhi important hai.",
+    topic: "Personal Hygiene",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Nurse patient ko ambulate karwa rahi hai aur patient ko dizziness feel hoti hai. Nurse ka first action kya hoga?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Patient ko chalne ke liye encourage karna",
+      "Patient ko turant bitha ya lita dena",
+      "Vital signs baad me lena",
+      "Patient ko akela chhod dena"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "medium"
+    answer: "Patient ko turant bitha ya lita dena",
+    explanation: "Dizziness fall risk ko increase karta hai. Patient ko safe position me lana immediate priority hai. Iske baad vital signs aur underlying cause assess kiya jata hai.",
+    topic: "Patient Safety",
+    difficulty: "hard"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Nursing Foundations ke Hygiene, Comfort & Elimination topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Agar sterile dressing pack kholte waqt nurse uske andar ke surface ko touch kar leti hai to kya mana jayega?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Pack abhi bhi sterile hai",
+      "Sirf corner contaminated hai",
+      "Pack ko use kiya ja sakta hai",
+      "Pack contaminated ho gaya"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "medium"
+    answer: "Pack contaminated ho gaya",
+    explanation: "Sterile surface ko non-sterile touch contamination create karta hai. Infection prevention ke liye contaminated pack ko replace karna chahiye. Aseptic technique compromise nahi honi chahiye.",
+    topic: "Aseptic Technique",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Patient ki respiratory rate 32/min hai. Nurse ko sabse pehle kya karna chahiye?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Respiratory distress assess karna",
+      "Patient ko discharge karna",
+      "Food intake record karna",
+      "Weight check karna"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "medium"
+    answer: "Respiratory distress assess karna",
+    explanation: "Respiratory rate 32/min tachypnea indicate karti hai. Nurse ko breathing pattern, oxygenation aur distress signs assess karne chahiye. Early intervention complications prevent kar sakta hai.",
+    topic: "Vital Signs",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nursing Foundations ke Hygiene, Comfort & Elimination topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Nurse ko medication vial par expiry date cross hui milti hai. Kya karna chahiye?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Dose half karke dena",
+      "Medicine use karna agar color normal ho",
+      "Medicine discard karna",
+      "Patient se permission lena"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "medium"
+    answer: "Medicine discard karna",
+    explanation: "Expired medication ki potency aur safety guarantee nahi hoti. Safe medication administration ke liye expired drug use nahi karni chahiye. Yeh medication safety ka important rule hai.",
+    topic: "Medication Safety",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Nursing Foundations ke Hygiene, Comfort & Elimination topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Bedridden patient me constipation prevent karne ke liye sabse effective nursing measure kya hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Adequate fluids aur mobility encourage karna",
+      "Daily enema dena",
+      "Food intake reduce karna",
+      "Strict bed rest dena"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
+    answer: "Adequate fluids aur mobility encourage karna",
+    explanation: "Hydration aur activity bowel motility improve karte hain. Constipation prevention ke liye yeh first-line interventions hain. Daily enema routine use ke liye recommended nahi hai.",
+    topic: "Bowel Elimination",
     difficulty: "medium"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Nurse suction machine use karne se pehle kya verify karegi?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Patient ka blood group",
+      "Machine properly functioning hai",
+      "Patient ka diet chart",
+      "Room temperature"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "medium"
+    answer: "Machine properly functioning hai",
+    explanation: "Emergency airway management me equipment readiness critical hai. Functioning suction machine airway clearance ke liye essential hai. Equipment failure serious complications cause kar sakta hai.",
+    topic: "Airway Management",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Patient ko fever hai aur nurse tepid sponge bath de rahi hai. Is intervention ka goal kya hai?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Body temperature reduce karna",
+      "Pulse rate increase karna",
+      "Appetite improve karna",
+      "Sleep induce karna"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
+    answer: "Body temperature reduce karna",
+    explanation: "Tepid sponge bath heat loss promote karta hai aur fever management me help karta hai. Yeh supportive nursing intervention hai. Patient comfort bhi improve hota hai.",
+    topic: "Temperature Management",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nursing Foundations ke Hygiene, Comfort & Elimination topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Blood transfusion ke dauran nurse ko patient me itching aur rash notice hota hai. Sabse pehla action kya hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Rate increase karna",
+      "Observation continue karna",
+      "Physician ko baad me batana",
+      "Transfusion stop karna"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "medium"
+    answer: "Transfusion stop karna",
+    explanation: "Itching aur rash allergic transfusion reaction ke signs ho sakte hain. Immediate transfusion stop karna patient safety ke liye zaroori hai. Further assessment aur notification required hai.",
+    topic: "Blood Transfusion",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nursing Foundations ke Hygiene, Comfort & Elimination topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Nurse patient ke urine output ko monitor kar rahi hai. Adult patient me adequate hourly urine output kitna mana jata hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Lagbhag 30 mL/hr ya usse adhik",
+      "5 mL/hr",
+      "10 mL/hr",
+      "15 mL/hr"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "medium"
+    answer: "Lagbhag 30 mL/hr ya usse adhik",
+    explanation: "Adequate urine output kidney perfusion aur hydration ka indicator hai. 30 mL/hr se kam output renal compromise indicate kar sakta hai. Regular monitoring important hai.",
+    topic: "Urinary Elimination",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "Nurse tracheostomy patient ki care kar rahi hai. Sabse priority assessment kya hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Skin color",
+      "Airway patency",
+      "Hair condition",
+      "Nail growth"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "medium"
+    answer: "Airway patency",
+    explanation: "Airway hamesha highest priority hoti hai. Tracheostomy blockage severe respiratory distress cause kar sakti hai. ABC principle ke hisab se airway assessment sabse pehle aata hai.",
+    topic: "Tracheostomy Care",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Patient ko prolonged bed rest diya gaya hai. Kis complication ka risk sabse zyada hota hai?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Pressure ulcer",
+      "Improved circulation",
+      "Increased muscle strength",
+      "Enhanced appetite"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
+    answer: "Pressure ulcer",
+    explanation: "Long-term immobility skin breakdown aur pressure ulcer risk ko increase karti hai. Repositioning aur skin care prevention ke key measures hain. Early prevention essential hai.",
+    topic: "Immobility Complications",
+    difficulty: "medium"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Nursing Foundations ke Hygiene, Comfort & Elimination topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Nurse medication administer karne se pehle allergy status verify karti hai. Yeh kis principle ko support karta hai?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Patient entertainment",
+      "Patient safety",
+      "Hospital finance",
+      "Staff scheduling"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
+    answer: "Patient safety",
+    explanation: "Allergy verification adverse drug reactions prevent karta hai. Medication administration me safety checks mandatory hain. Yeh nursing accountability ka important part hai.",
+    topic: "Medication Administration",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Nurse patient ke intake-output chart me negative fluid balance notice karti hai. Iska matlab kya hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Output intake se zyada hai",
+      "Intake output se zyada hai",
+      "Fluid balance normal hai",
+      "Data invalid hai"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
+    answer: "Output intake se zyada hai",
+    explanation: "Negative fluid balance dehydration ya fluid loss indicate kar sakta hai. Accurate monitoring aur assessment zaroori hai. Clinical condition ke according intervention ki jaati hai.",
+    topic: "Fluid Balance",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nursing Foundations ke Hygiene, Comfort & Elimination topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Patient ko seizure ke baad postictal phase me nurse kya expect karegi?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Extreme alertness",
+      "Hyperactivity",
+      "Confusion aur drowsiness",
+      "Immediate normal status"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
+    answer: "Confusion aur drowsiness",
+    explanation: "Postictal phase me patient generally confused, sleepy aur weak feel karta hai. Safety aur airway monitoring important hoti hai. Yeh expected finding hai.",
+    topic: "Neurological Care",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Nursing Foundations ke Hygiene, Comfort & Elimination topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Nurse wound healing ko improve karne ke liye kis nutritional element ko important maanti hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Protein",
+      "Excess sugar",
+      "Soft drinks",
+      "High sodium only"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
+    answer: "Protein",
+    explanation: "Protein tissue repair aur wound healing ke liye essential nutrient hai. Deficiency healing delay kar sakti hai. Adequate nutrition nursing care ka important component hai.",
+    topic: "Nutrition and Healing",
+    difficulty: "medium"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Patient education session ke baad patient procedure correctly demonstrate karta hai. Yeh kya indicate karta hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Teaching ineffective thi",
+      "Learning successful hui",
+      "Patient guess kar raha tha",
+      "Documentation ki zarurat nahi"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
+    answer: "Learning successful hui",
+    explanation: "Return demonstration learning ka best evidence mana jata hai. Isse patient ki understanding aur skill competency verify hoti hai. Effective education outcomes improve karti hai.",
+    topic: "Patient Education",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Nurse ko patient ke IV site par redness aur warmth milti hai. Sabse likely condition kya hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Phlebitis",
+      "Normal finding",
+      "Hypoglycemia",
+      "Dehydration"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
+    answer: "Phlebitis",
+    explanation: "Redness, warmth aur tenderness phlebitis ke common signs hain. IV site ko assess karke appropriate intervention karna chahiye. Delay complication risk badha sakta hai.",
+    topic: "IV Therapy",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nursing Foundations ke Hygiene, Comfort & Elimination topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Patient ke records ko unauthorized person ke saath share karna kis ethical principle ka violation hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Justice",
+      "Autonomy",
+      "Beneficence",
+      "Confidentiality"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nursing Foundations ke Hygiene, Comfort & Elimination topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Nursing Foundations ke Hygiene, Comfort & Elimination topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nursing Foundations ke Hygiene, Comfort & Elimination topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Nursing Foundations ke Hygiene, Comfort & Elimination topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Nursing Foundations ke Hygiene, Comfort & Elimination topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nursing Foundations ke Hygiene, Comfort & Elimination topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Hygiene, Comfort & Elimination me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Hygiene, Comfort & Elimination",
-
+    answer: "Confidentiality",
+    explanation: "Patient information private rakhna nursing ethical duty hai. Unauthorized disclosure privacy rights ko violate karta hai. Legal aur professional consequences ho sakte hain.",
+    topic: "Nursing Ethics",
     difficulty: "hard"
   }
 ];
 
 export default set4;
+
+// Answer Key:
+// [1,2,2,4,1,3,1,2,1,4,1,2,1,2,1,3,1,2,1,4]
+
+// Option 1 = 8
+// Option 2 = 6
+// Option 3 = 3
+// Option 4 = 3

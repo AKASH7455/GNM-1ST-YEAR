@@ -1,633 +1,192 @@
 const set2 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Microbiology ke Specimen Collection topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
-    options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "medium"
+    question: "ICU me ventilator par admitted patient ko fever aur purulent sputum develop hua. Nurse ko sabse pehle kis organism se related Hospital Acquired Infection ka suspicion rakhna chahiye?",
+    options: ["Candida albicans", "Plasmodium vivax", "Pseudomonas aeruginosa", "Entamoeba histolytica"],
+    answer: "Pseudomonas aeruginosa",
+    explanation: "Ventilator-associated pneumonia me Pseudomonas ek common nosocomial pathogen hai. Ye moist environment me grow karta hai aur ICU equipment ko contaminate kar sakta hai. Candida aur Entamoeba is scenario me common cause nahi hain. Early identification patient outcome improve karti hai.",
+    topic: "Hospital Acquired Infection",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Microbiology ke Specimen Collection topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
-    options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
+    question: "Blood culture collection ke dauran sabse important nursing action kya hai jisse false-positive result kam ho sake?",
+    options: ["Strict aseptic technique maintain karna", "Sample ko refrigerator me rakhna", "Antibiotic dene ke turant baad sample lena", "Tube ko shake karna"],
+    answer: "Strict aseptic technique maintain karna",
+    explanation: "Blood culture contamination ka major reason poor aseptic technique hota hai. Skin flora sample me aa sakti hai aur false-positive result de sakti hai. Sample handling aur timing bhi important hai lekin asepsis sabse critical hai. Ye microbiology diagnosis ki accuracy badhata hai.",
     topic: "Specimen Collection",
-
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Microbiology ke Specimen Collection topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
+    question: "Pulmonary tuberculosis patient ke room me infection spread rokne ke liye sabse appropriate precaution kaunsa hai?",
+    options: ["Contact precaution", "Standard precaution only", "Droplet precaution", "Airborne precaution"],
+    answer: "Airborne precaution",
+    explanation: "Tuberculosis airborne droplets nuclei ke through spread hoti hai. Isliye N95 mask aur proper ventilation zaroori hai. Contact aur droplet precautions alone sufficient nahi hote. Nurse ko transmission chain todne par focus karna chahiye.",
+    topic: "Infection Control",
     difficulty: "medium"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Microbiology ke Specimen Collection topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
-    ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
+    question: "Patient ko severe watery diarrhea hai aur stool culture me Vibrio cholerae identify hua. Disease transmission ka sabse probable route kya hai?",
+    options: ["Airborne route", "Feco-oral route", "Vector-borne route", "Direct blood contact"],
+    answer: "Feco-oral route",
+    explanation: "Cholera contaminated food aur water ke through spread hota hai. Poor sanitation iska major risk factor hai. Airborne aur blood contact transmission is disease me relevant nahi hote. Community health measures prevention me important hain.",
+    topic: "Disease Transmission",
     difficulty: "medium"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Microbiology ke Specimen Collection topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
-    options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
-    ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "medium"
+    question: "Autoclaving ke baad sterile packs wet milte hain. Nurse ko is situation ko kaise interpret karna chahiye?",
+    options: ["Sterility compromised ho sakti hai", "Packs definitely sterile hain", "Wetness expected finding hai", "Storage se koi farq nahi padega"],
+    answer: "Sterility compromised ho sakti hai",
+    explanation: "Wet packs contamination ka risk badhate hain kyunki microorganisms moisture ke through enter kar sakte hain. Isliye unhe sterile maan kar use nahi karna chahiye. Reprocessing required ho sakti hai. Patient safety ke liye strict sterilization standards follow karne chahiye.",
+    topic: "Sterilization",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Microbiology ke Specimen Collection topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
-    options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "medium"
+    question: "Postoperative wound se pus discharge ho raha hai. Gram stain me Gram-positive cocci clusters me dikh rahe hain. Sabse likely organism kaunsa hai?",
+    options: ["Escherichia coli", "Mycobacterium tuberculosis", "Staphylococcus aureus", "Vibrio cholerae"],
+    answer: "Staphylococcus aureus",
+    explanation: "Gram-positive cocci in clusters ka classic appearance Staphylococcus aureus ka hota hai. Ye wound infection ka common cause hai. E. coli Gram-negative bacillus hota hai. Clinical correlation diagnosis ko support karta hai.",
+    topic: "Bacteriology",
+    difficulty: "hard"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Microbiology ke Specimen Collection topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
-    ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
+    question: "Urinary catheter wale patient me CAUTI risk kam karne ke liye nurse ko kya karna chahiye?",
+    options: ["Daily catheter change karna", "Closed drainage system maintain karna", "Bag ko bed par rakhna", "Tubing ko disconnect karte rehna"],
+    answer: "Closed drainage system maintain karna",
+    explanation: "Closed drainage system infection prevention ka key principle hai. Frequent disconnection se microorganisms enter kar sakte hain. Catheter care evidence-based honi chahiye. Ye nosocomial infection rate ko kam karta hai.",
+    topic: "Nosocomial Infection",
     difficulty: "medium"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Microbiology ke Specimen Collection topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "medium"
+    question: "Healthcare worker ko accidental needle-stick injury hui hai. Blood-borne infection risk assessment me sabse zyada concern kis virus ka hota hai?",
+    options: ["Rhinovirus", "Rotavirus", "Norovirus", "Hepatitis B virus"],
+    answer: "Hepatitis B virus",
+    explanation: "Needle-stick injuries ke baad Hepatitis B transmission ka risk significant hota hai. Vaccination aur post-exposure protocol follow karna zaroori hai. Rhinovirus aur Norovirus blood-borne pathogens nahi hain. Immediate reporting essential hai.",
+    topic: "Virology",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Microbiology ke Specimen Collection topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
-    options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
-    ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
+    question: "Hand hygiene compliance improve karne ka sabse effective microbiological rationale kya hai?",
+    options: ["Transient microorganisms ko remove karna", "Normal flora ko completely destroy karna", "Body temperature kam karna", "Blood pressure control karna"],
+    answer: "Transient microorganisms ko remove karna",
+    explanation: "Transient flora patient-to-patient transmission ka major source hoti hai. Proper hand hygiene infection chain todti hai. Normal flora ko completely eliminate karna objective nahi hota. Ye infection prevention ka basic pillar hai.",
+    topic: "Hand Hygiene",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Microbiology ke Specimen Collection topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
-    options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "medium"
+    question: "Immunocompromised patient ke oral cavity me white patches develop hue jo scrape karne par remove ho jaate hain. Sabse likely cause kya hai?",
+    options: ["Herpes simplex", "Streptococcus pyogenes", "Mycobacterium leprae", "Candida albicans"],
+    answer: "Candida albicans",
+    explanation: "Oral thrush commonly Candida albicans ki wajah se hota hai. Immunocompromised patients me iska risk zyada hota hai. White removable plaques classic finding hain. Early treatment complications ko rokta hai.",
+    topic: "Mycology",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Microbiology ke Specimen Collection topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
-    ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "medium"
+    question: "Antibiotic sensitivity report me organism multiple drugs ke prati resistant hai. Is finding ko kya kaha jata hai?",
+    options: ["Attenuation", "Multidrug resistance", "Sterilization", "Commensalism"],
+    answer: "Multidrug resistance",
+    explanation: "Multidrug resistance ka matlab organism kai antibiotics ke prati resistant hai. Ye treatment ko difficult bana deta hai. Irrational antibiotic use is problem ko badhata hai. Antimicrobial stewardship bahut important hai.",
+    topic: "Antimicrobial Resistance",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Microbiology ke Specimen Collection topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "medium"
+    question: "Rabies exposure ke baad vaccine dene ka microbiological basis kya hai?",
+    options: ["Immediate toxin neutralization", "Fungal destruction", "Active immunity develop karna", "Blood dilution karna"],
+    answer: "Active immunity develop karna",
+    explanation: "Rabies vaccine body ko antibodies produce karne ke liye stimulate karta hai. Is process ko active immunity kehte hain. Vaccine exposure ke baad bhi effective ho sakti hai. Timely administration life-saving hai.",
+    topic: "Immunology",
+    difficulty: "hard"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Microbiology ke Specimen Collection topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
-    options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
+    question: "Culture media par bacteria grow karne ka primary purpose kya hota hai?",
+    options: ["Organism ko isolate aur identify karna", "Virus multiplication karna", "Blood group determine karna", "Hemoglobin increase karna"],
+    answer: "Organism ko isolate aur identify karna",
+    explanation: "Culture media microorganisms ko grow karne aur identify karne me help karta hai. Diagnosis aur antibiotic selection ke liye ye important hai. Viral growth ke liye special methods chahiye. Accurate identification treatment guide karti hai.",
+    topic: "Culture Techniques",
+    difficulty: "medium"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Microbiology ke Specimen Collection topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
-    ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
+    question: "Food poisoning outbreak me botulism ka suspicion hai. Iska causative organism kaunsa hai?",
+    options: ["Salmonella typhi", "Escherichia coli", "Shigella dysenteriae", "Clostridium botulinum"],
+    answer: "Clostridium botulinum",
+    explanation: "Clostridium botulinum potent neurotoxin produce karta hai. Improperly preserved food is disease se associated hota hai. Neurological symptoms important clue hote hain. Early recognition critical hai.",
+    topic: "Food Microbiology",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Microbiology ke Specimen Collection topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
+    question: "Malaria diagnosis ke liye peripheral blood smear me kya identify kiya jata hai?",
+    options: ["Bacterial colonies", "Fungal spores", "Plasmodium parasites", "Viral particles"],
+    answer: "Plasmodium parasites",
+    explanation: "Peripheral smear malaria diagnosis ka standard method hai. Isme Plasmodium species ko directly visualize kiya jata hai. Bacteria aur virus is test ka target nahi hote. Species identification treatment selection me help karti hai.",
+    topic: "Parasitology",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Microbiology ke Specimen Collection topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
-    options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
-    ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
+    question: "Disinfection aur sterilization me major difference kya hai?",
+    options: ["Dono same process hain", "Sterilization sab microorganisms aur spores ko destroy karta hai", "Disinfection spores ko hamesha destroy karta hai", "Sterilization sirf viruses ko destroy karta hai"],
+    answer: "Sterilization sab microorganisms aur spores ko destroy karta hai",
+    explanation: "Sterilization highest level microbial destruction provide karta hai. Isme bacterial spores bhi destroy ho jate hain. Disinfection me spores survive kar sakte hain. Surgical instruments ke liye sterilization preferred hai.",
+    topic: "Sterilization and Disinfection",
     difficulty: "hard"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Microbiology ke Specimen Collection topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
-    options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
-    ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
+    question: "Patient me jaundice, dark urine aur positive HBsAg report aayi hai. Sabse likely diagnosis kya hai?",
+    options: ["Typhoid fever", "Malaria", "Dengue fever", "Hepatitis B infection"],
+    answer: "Hepatitis B infection",
+    explanation: "HBsAg positivity Hepatitis B infection ka important marker hai. Jaundice aur liver involvement common findings hain. Malaria aur dengue me HBsAg positive nahi hota. Infection control precautions zaroori hain.",
+    topic: "Diagnostic Microbiology",
     difficulty: "hard"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Microbiology ke Specimen Collection topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
-    options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
-    ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
+    question: "Vaccination program ka sabse important community-level benefit kya hai?",
+    options: ["Herd immunity develop karna", "Antibiotic resistance badhana", "Incubation period badhana", "Mutation induce karna"],
+    answer: "Herd immunity develop karna",
+    explanation: "Jab community ka bada hissa immune hota hai to disease spread kam ho jata hai. Isse vulnerable individuals bhi indirectly protected rehte hain. Vaccination public health ka major tool hai. Disease outbreaks ko control karne me madad milti hai.",
+    topic: "Community Immunology",
+    difficulty: "medium"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Microbiology ke Specimen Collection topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
-    options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
-    ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
+    question: "AIDS patient me opportunistic infection develop hone ka primary reason kya hai?",
+    options: ["Excess RBC production", "High platelet count", "Severe reduction in immune function", "Increased hemoglobin"],
+    answer: "Severe reduction in immune function",
+    explanation: "HIV CD4 cells ko damage karta hai jisse immunity weak ho jati hai. Opportunistic infections isi wajah se develop hoti hain. Hemoglobin ya platelet increase iska cause nahi hai. Infection prevention aur monitoring essential hai.",
+    topic: "HIV Microbiology",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Microbiology ke Specimen Collection topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
-    options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
-    ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Microbiology ke Specimen Collection topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Microbiology ke Specimen Collection topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Microbiology ke Specimen Collection topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Microbiology ke Specimen Collection topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Microbiology ke Specimen Collection topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Microbiology ke Specimen Collection topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Microbiology ke Specimen Collection topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Microbiology ke Specimen Collection topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Microbiology ke Specimen Collection topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Microbiology ke Specimen Collection topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Specimen Collection me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Specimen Collection",
-
-    difficulty: "hard"
+    question: "Typhoid fever ke prevention me sabse effective public health measure kya hai?",
+    options: ["Air filtration", "Safe water and sanitation", "Noise control", "Radiation shielding"],
+    answer: "Safe water and sanitation",
+    explanation: "Typhoid contaminated food aur water se spread hota hai. Safe drinking water aur sanitation transmission ko significantly reduce karte hain. Air filtration is disease me relevant nahi hai. Community prevention strategies bahut important hain.",
+    topic: "Preventive Microbiology",
+    difficulty: "medium"
   }
 ];
 
 export default set2;
+
+// Answer Key:
+// [3,1,4,2,1,3,2,4,1,4,2,3,1,4,3,2,4,1,3,2]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

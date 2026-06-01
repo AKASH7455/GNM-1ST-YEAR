@@ -2,20 +2,21 @@ const set2 = [
   {
     id: 1,
 
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke Communication Process & Barriers topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
+    question: "Ek community health nurse slum area me hand hygiene awareness program chala rahi hai. Session ke baad log sahi handwashing technique demonstrate karne lagte hain. Ye kis domain of learning ka example hai?",
 
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Psychomotor domain",
+      "Cognitive domain",
+      "Affective domain",
+      "Communication domain"
     ],
 
-    answer: "focused assessment karke priority nursing intervention start karna",
+    answer: "Psychomotor domain",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Psychomotor domain skills aur actions se related hota hai. Handwashing ko correctly perform karna ek practical skill hai. Cognitive domain knowledge aur affective domain attitude se sambandhit hota hai. Isliye demonstration psychomotor learning ko show karta hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Domains of Learning",
 
     difficulty: "medium"
   },
@@ -23,20 +24,21 @@ const set2 = [
   {
     id: 2,
 
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
+    question: "Health education session ke dauran kuch participants mobile phone use kar rahe hain aur dhyan nahi de rahe. Ye kis type ka communication barrier hai?",
 
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Semantic barrier",
+      "Environmental barrier",
+      "Psychological barrier",
+      "Cultural barrier"
     ],
 
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
+    answer: "Environmental barrier",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Environmental barriers external disturbances ki wajah se communication ko affect karte hain. Mobile distraction aur surrounding disturbances message reception ko kam kar dete hain. Effective communication ke liye suitable environment zaruri hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Communication Barriers",
 
     difficulty: "medium"
   },
@@ -44,20 +46,21 @@ const set2 = [
   {
     id: 3,
 
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
+    question: "Nurse HIV awareness program me myths aur misconceptions ko clear karne ke liye participants se questions poochti hai. Is approach ka main objective kya hai?",
 
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Attendance badhana",
+      "Knowledge gaps identify karna",
+      "Session short karna",
+      "Documentation complete karna"
     ],
 
-    answer: "standard protocol follow karke finding accurately document karna",
+    answer: "Knowledge gaps identify karna",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Questions poochne se learners ki current understanding assess ki ja sakti hai. Misconceptions identify karke unhe correct information di ja sakti hai. Ye effective health teaching ka important component hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Teaching-Learning Process",
 
     difficulty: "medium"
   },
@@ -65,20 +68,21 @@ const set2 = [
   {
     id: 4,
 
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke Communication Process & Barriers topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
+    question: "Family planning awareness ke liye radio broadcast ka use kiya gaya. Radio communication ka sabse bada limitation kya hai?",
 
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Feedback ka abhav",
+      "Cost bahut zyada hona",
+      "Audience bahut kam hona",
+      "Message repeat na hona"
     ],
 
-    answer: "therapeutic communication se concern clarify karke teaching dena",
+    answer: "Feedback ka abhav",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Radio mass communication ka effective medium hai lekin immediate feedback provide nahi karta. Sender ko turant nahi pata chalta ki audience ne message samjha ya nahi. Isliye interaction limited hoti hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Mass Communication",
 
     difficulty: "medium"
   },
@@ -86,20 +90,21 @@ const set2 = [
   {
     id: 5,
 
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
+    question: "Antenatal clinic me nurse pregnant woman ki baat dhyan se sunti hai aur uski feelings ko acknowledge karti hai. Isse sabse pehle kya develop hota hai?",
 
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Trust",
+      "Authority",
+      "Dependency",
+      "Fear"
     ],
 
-    answer: "risk factors identify karke prevention-focused counselling dena",
+    answer: "Trust",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Therapeutic communication ka foundation trust hota hai. Jab nurse patient ki baat actively sunti hai to patient ko respect aur support feel hota hai. Isse therapeutic relationship strong hoti hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Therapeutic Communication",
 
     difficulty: "medium"
   },
@@ -107,20 +112,21 @@ const set2 = [
   {
     id: 6,
 
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke Communication Process & Barriers topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
+    question: "Community health nurse ne sanitation par lecture diya lekin audience ne koi question nahi poocha. Effective communication assess karne ke liye nurse ko kya karna chahiye?",
 
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Session turant close kar dena",
+      "Attendance register check karna",
+      "Understanding evaluate karne ke liye feedback lena",
+      "Poster distribute karna"
     ],
 
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
+    answer: "Understanding evaluate karne ke liye feedback lena",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Feedback communication process ka essential component hai. Sirf silence ka matlab understanding nahi hota. Nurse ko questions, discussion ya demonstration ke through comprehension assess karni chahiye.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Communication Process",
 
     difficulty: "medium"
   },
@@ -128,146 +134,153 @@ const set2 = [
   {
     id: 7,
 
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke Communication Process & Barriers topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
+    question: "Ek village me open defecation ke khilaf campaign chalaya gaya. Kuch log apni purani aadatein chhodne ko taiyar nahi hain. Ye behavior change ka kaunsa challenge hai?",
 
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Learning readiness",
+      "Communication noise",
+      "Resistance to change",
+      "Message overload"
     ],
 
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
+    answer: "Resistance to change",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Health education me behavior change sabse difficult phase hota hai. Log apni purani beliefs aur habits ki wajah se naye practices adopt nahi karte. Is situation ko resistance to change kaha jata hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Behavior Change Communication",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 8,
 
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
+    question: "Nurse oral rehydration therapy sikhane ke liye ORS preparation ka live demonstration karti hai. Ye kis teaching method ka example hai?",
 
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Role play",
+      "Lecture",
+      "Panel discussion",
+      "Demonstration"
     ],
 
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
+    answer: "Demonstration",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Demonstration method practical skills sikhane ke liye sabse effective methods me se ek hai. Learners process ko dekhte hain aur baad me practice kar sakte hain. ORS preparation ek skill-based activity hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Methods of Health Education",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 9,
 
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
+    question: "Patient ko discharge ke waqt medicine instructions di gayi. Nurse chahti hai ki patient information yaad rakhe. Sabse effective strategy kya hogi?",
 
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Written aur verbal dono instructions dena",
+      "Sirf verbal instructions dena",
+      "Medical terminology use karna",
+      "Family ko involve na karna"
     ],
 
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
+    answer: "Written aur verbal dono instructions dena",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Multiple teaching methods retention improve karte hain. Written instructions future reference ke liye useful hote hain aur verbal explanation clarification provide karti hai. Dono ka combination zyada effective hota hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Patient Education",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 10,
 
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke Communication Process & Barriers topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
+    question: "Nurse ne health talk me bahut zyada information ek hi baar me de di. Participants confused ho gaye. Ye kis principle ki avhelna hai?",
 
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Motivation",
+      "Reinforcement",
+      "Simple to complex progression",
+      "Participation"
     ],
 
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
+    answer: "Simple to complex progression",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Health education me information ko simple se complex aur step-by-step dena chahiye. Ek saath bahut information dene se cognitive overload ho sakta hai. Isse learning aur retention dono prabhavit hote hain.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Principles of Health Education",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 11,
 
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke Communication Process & Barriers topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
+    question: "Health worker vaccine hesitancy wale parents ke saath empathy aur respect ke saath baat karti hai. Isse kis domain par sabse adhik prabhav padta hai?",
 
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Psychomotor domain",
+      "Affective domain",
+      "Cognitive domain",
+      "Physical domain"
     ],
 
-    answer: "nursing process ke according intervention evaluate aur modify karna",
+    answer: "Affective domain",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Affective domain attitudes, beliefs aur values se related hota hai. Empathy aur respectful communication parents ke attitudes ko positively influence kar sakti hai. Vaccine acceptance me ye bahut important role nibhata hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Domains of Learning",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 12,
 
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
+    question: "Community meeting ke dauran local language ka use kiya gaya. Iska sabse bada advantage kya hai?",
 
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Documentation kam hoti hai",
+      "Session formal ban jata hai",
+      "Audience engagement aur understanding badhti hai",
+      "Cost increase hota hai"
     ],
 
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
+    answer: "Audience engagement aur understanding badhti hai",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Local language audience ke liye familiar hoti hai. Isse message easily samjha jata hai aur participation improve hoti hai. Communication barriers bhi kam ho jate hain.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Communication Skills",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 13,
 
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
+    question: "Health educator ne posters me bahut chhote letters use kiye. Session ke baad log content nahi padh paye. Sabse badi galti kya thi?",
 
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Visual aid design inappropriate tha",
+      "Feedback nahi liya gaya",
+      "Audience zyada thi",
+      "Lecture lamba tha"
     ],
 
-    answer: "prescribed order verify karke safest nursing action implement karna",
+    answer: "Visual aid design inappropriate tha",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Visual aids tabhi effective hote hain jab unhe clearly dekha aur samjha ja sake. Chhote letters readability ko reduce kar dete hain. Design audience-centered hona chahiye.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Audio Visual Aids",
 
     difficulty: "hard"
   },
@@ -275,20 +288,21 @@ const set2 = [
   {
     id: 14,
 
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke Communication Process & Barriers topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
+    question: "Nurse patient ko smoking cessation ke fayde samjhati hai aur realistic goals set karne me madad karti hai. Ye communication ka kaunsa role hai?",
 
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Punishment",
+      "Motivation",
+      "Documentation",
+      "Delegation"
     ],
 
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
+    answer: "Motivation",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Behavior change ke liye motivation essential hai. Nurse realistic goals aur positive reinforcement ke through patient ko healthy choices adopt karne ke liye encourage karti hai. Ye motivational communication hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Behavior Change Communication",
 
     difficulty: "hard"
   },
@@ -296,20 +310,21 @@ const set2 = [
   {
     id: 15,
 
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
+    question: "School health education program me students ko groups me divide karke nutrition problems solve karne ko kaha gaya. Ye kis teaching strategy ka example hai?",
 
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Lecture",
+      "Demonstration",
+      "Group discussion",
+      "Exhibition"
     ],
 
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
+    answer: "Group discussion",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Group discussion active participation aur critical thinking ko promote karti hai. Students ideas exchange karte hain aur problem-solving skills develop karte hain. Ye learner-centered approach hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Methods of Health Education",
 
     difficulty: "hard"
   },
@@ -317,20 +332,21 @@ const set2 = [
   {
     id: 16,
 
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke Communication Process & Barriers topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
+    question: "Nurse ne TB patient ko medication adherence ke baare me sikhaya aur patient se repeat karwaya. Ye kis evaluation method ka example hai?",
 
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Observation",
+      "Checklist",
+      "Interview",
+      "Teach-back method"
     ],
 
-    answer: "objective data ke basis par nursing priority set karna",
+    answer: "Teach-back method",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Teach-back method me patient apne shabdon me information repeat karta hai. Isse nurse ko patient ki understanding verify karne me madad milti hai. Patient safety ke liye ye bahut effective hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Evaluation of Health Education",
 
     difficulty: "hard"
   },
@@ -338,20 +354,21 @@ const set2 = [
   {
     id: 17,
 
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke Communication Process & Barriers topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
+    question: "Community health nurse awareness campaign se pehle baseline survey karti hai. Iska primary purpose kya hai?",
 
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Audience ki existing knowledge aur needs assess karna",
+      "Budget finalize karna",
+      "Attendance badhana",
+      "Media select karna"
     ],
 
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
+    answer: "Audience ki existing knowledge aur needs assess karna",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Baseline assessment education planning ka important step hai. Isse learners ki needs aur knowledge gaps identify hote hain. Isi ke basis par relevant educational content tayar kiya jata hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Planning Health Education",
 
     difficulty: "hard"
   },
@@ -359,20 +376,21 @@ const set2 = [
   {
     id: 18,
 
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
+    question: "Patient ko diagnosis batate waqt nurse ka tone harsh aur rude hai. Isse communication par kya prabhav padega?",
 
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Understanding improve hogi",
+      "Trust aur cooperation kam ho jayega",
+      "Feedback badhega",
+      "Learning speed badhegi"
     ],
 
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
+    answer: "Trust aur cooperation kam ho jayega",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Communication me tone aur attitude bahut important hote hain. Harsh tone patient ke trust ko damage kar sakti hai. Isse therapeutic relationship aur treatment adherence dono prabhavit hote hain.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Interpersonal Communication",
 
     difficulty: "hard"
   },
@@ -380,20 +398,21 @@ const set2 = [
   {
     id: 19,
 
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
+    question: "Village me health awareness ke liye puppet show ka use kiya gaya. Iska major advantage kya hai?",
 
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Realistic laboratory training",
+      "Audience ko engage karna aur message ko memorable banana",
+      "Documentation simplify karna",
+      "Immediate diagnosis karna"
     ],
 
-    answer: "cultural belief respect karte hue evidence-based advice dena",
+    answer: "Audience ko engage karna aur message ko memorable banana",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Folk media jaise puppet show community settings me bahut effective hote hain. Ye attention attract karte hain aur health messages ko easily remember karne me madad karte hain. Cultural relevance bhi badhti hai.",
 
-    topic: "Communication Process & Barriers",
+    topic: "Folk Media in Health Education",
 
     difficulty: "hard"
   },
@@ -401,233 +420,32 @@ const set2 = [
   {
     id: 20,
 
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke Communication Process & Barriers topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
+    question: "Health education program ke 6 mahine baad open defecation cases significantly kam ho gaye. Ye kis type ka evaluation result hai?",
 
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "Process evaluation",
+      "Structure evaluation",
+      "Attendance evaluation",
+      "Outcome evaluation"
     ],
 
-    answer: "SBAR format me relevant assessment aur action handover karna",
+    answer: "Outcome evaluation",
 
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Outcome evaluation actual behavior aur health status changes ko measure karti hai. Open defecation me reduction ek measurable health outcome hai. Ye program effectiveness ka strong indicator mana jata hai.",
 
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke Communication Process & Barriers topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke Communication Process & Barriers topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke Communication Process & Barriers topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke Communication Process & Barriers topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke Communication Process & Barriers topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke Communication Process & Barriers topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Communication Process & Barriers me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Communication Process & Barriers",
+    topic: "Evaluation of Health Education",
 
     difficulty: "hard"
   }
 ];
 
 export default set2;
+
+// Answer Key:
+// [1,2,2,1,1,3,3,4,1,3,2,3,1,2,3,4,1,2,2,4]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5

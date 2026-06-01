@@ -1,633 +1,312 @@
 const set4 = [
   {
     id: 1,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Food Safety & Community Nutrition topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
-
+    question: "ICU me admitted septic patient ka serum albumin bahut low hai. Nurse ko kis nutritional intervention ko priority deni chahiye?",
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Low protein diet",
+      "High protein diet",
+      "Salt-free water only",
+      "Fat-free diet"
     ],
-
-    answer: "focused assessment karke priority nursing intervention start karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "medium"
+    answer: "High protein diet",
+    explanation:
+      "Sepsis aur critical illness me protein catabolism increase ho jata hai. Low serum albumin poor nutritional status ka indicator ho sakta hai. High protein intake tissue repair aur immune function support karta hai. Low protein diet condition ko aur worsen kar sakti hai.",
+    topic: "Clinical Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 2,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Food Safety & Community Nutrition topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
-
+    question: "Night blindness se suffer kar rahe child ke diet plan me kis food ko include karna sabse appropriate hoga?",
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "White rice",
+      "Sugar syrup",
+      "Carrot",
+      "Butter biscuit"
     ],
-
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
+    answer: "Carrot",
+    explanation:
+      "Carrot beta-carotene ka rich source hai jo Vitamin A me convert hota hai. Vitamin A deficiency night blindness ka common cause hai. Diet counseling me Vitamin A rich foods ko emphasize kiya jata hai. Early correction vision complications ko prevent kar sakti hai.",
+    topic: "Vitamin Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 3,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Food Safety & Community Nutrition topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
-
+    question: "Community survey me adolescent girls me anemia prevalence high mili. Sabse effective nutrition strategy kya hogi?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Iron-Folic Acid supplementation",
+      "Low protein diet",
+      "Calcium restriction",
+      "Fluid restriction"
     ],
-
-    answer: "standard protocol follow karke finding accurately document karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "medium"
+    answer: "Iron-Folic Acid supplementation",
+    explanation:
+      "Adolescent girls me iron deficiency anemia common hai. Iron aur folic acid supplementation RBC production support karti hai. Community programs me IFA tablets anemia control ka major component hain. Dietary counseling bhi saath me zaroori hai.",
+    topic: "Community Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 4,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Food Safety & Community Nutrition topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
-
+    question: "Type 2 diabetes patient ko diet education dete waqt nurse kis advice ko sabse appropriate maane gi?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Sugary drinks increase karna",
+      "Meals skip karna",
+      "Unlimited sweets lena",
+      "Controlled carbohydrate intake"
     ],
-
-    answer: "therapeutic communication se concern clarify karke teaching dena",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "medium"
+    answer: "Controlled carbohydrate intake",
+    explanation:
+      "Diabetes management me carbohydrate control blood glucose regulation ke liye essential hai. Sugary drinks aur sweets glucose spikes create kar sakte hain. Regular balanced meals glycemic control improve karte hain.",
+    topic: "Diabetic Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 5,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Food Safety & Community Nutrition topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
-
+    question: "Renal failure patient me hyperphosphatemia prevent karne ke liye kis food ko limit kiya ja sakta hai?",
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Dairy products",
+      "Apple",
+      "Cucumber",
+      "Lauki"
     ],
-
-    answer: "risk factors identify karke prevention-focused counselling dena",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "medium"
+    answer: "Dairy products",
+    explanation:
+      "Dairy products phosphorus-rich hote hain. Chronic kidney disease me phosphorus accumulation bone aur cardiovascular complications create kar sakta hai. Renal diet planning me phosphorus restriction important hai.",
+    topic: "Renal Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 6,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Food Safety & Community Nutrition topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
-
+    question: "Pregnant woman me megaloblastic anemia ka risk kam karne ke liye kis nutrient ka adequate intake zaroori hai?",
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Sodium",
+      "Folic Acid",
+      "Fluoride",
+      "Vitamin K"
     ],
-
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
+    answer: "Folic Acid",
+    explanation:
+      "Folic acid DNA synthesis aur RBC formation ke liye essential hai. Pregnancy me demand badh jati hai. Deficiency me megaloblastic anemia aur fetal complications dono ka risk badhta hai.",
+    topic: "Maternal Nutrition",
     difficulty: "medium"
   },
-
   {
     id: 7,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Food Safety & Community Nutrition topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
-
+    question: "Burn patient ke nutritional assessment me positive nitrogen balance achieve karne ka primary purpose kya hai?",
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Tissue repair promote karna",
+      "Fluid loss badhana",
+      "Blood sugar increase karna",
+      "Weight loss karna"
     ],
-
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "medium"
+    answer: "Tissue repair promote karna",
+    explanation:
+      "Positive nitrogen balance indicate karta hai ki body me protein synthesis breakdown se zyada ho rahi hai. Burn patients me healing aur tissue regeneration ke liye yeh desirable goal hai. Adequate protein intake iske liye required hota hai.",
+    topic: "Clinical Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 8,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Food Safety & Community Nutrition topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
-
+    question: "Kwashiorkor wale child me edema develop hone ka direct cause kya hota hai?",
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Excess calcium",
+      "Low serum albumin",
+      "Vitamin C excess",
+      "Hyperglycemia"
     ],
-
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "medium"
+    answer: "Low serum albumin",
+    explanation:
+      "Protein deficiency ke karan serum albumin level kam ho jata hai. Oncotic pressure reduce hone se fluid tissues me accumulate hota hai aur edema develop hota hai. Yeh kwashiorkor ki classic finding hai.",
+    topic: "Protein Energy Malnutrition",
+    difficulty: "hard"
   },
-
   {
     id: 9,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Food Safety & Community Nutrition topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
-
+    question: "Post-operative patient me constipation prevent karne ke liye nurse kis dietary component ko increase karne ki salah degi?",
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Fiber",
+      "Refined sugar",
+      "Trans-fat",
+      "Saturated fat"
     ],
-
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
+    answer: "Fiber",
+    explanation:
+      "Dietary fiber bowel motility improve karta hai aur stool bulk badhata hai. Post-operative constipation prevention me adequate fluids ke saath fiber useful hota hai. Non-pharmacological management ka important part hai.",
+    topic: "Dietary Fiber",
     difficulty: "medium"
   },
-
   {
     id: 10,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Food Safety & Community Nutrition topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
-
+    question: "Osteomalacia se affected adult patient me sabse important nutrient deficiency kaunsi hoti hai?",
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Vitamin K",
+      "Iron",
+      "Calcium only",
+      "Vitamin D"
     ],
-
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "medium"
+    answer: "Vitamin D",
+    explanation:
+      "Vitamin D deficiency bone mineralization ko affect karti hai aur osteomalacia ka major cause hai. Adequate sunlight exposure aur dietary intake treatment ka part hote hain. Calcium bhi important hai lekin primary deficiency Vitamin D hai.",
+    topic: "Vitamin Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 11,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Food Safety & Community Nutrition topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
-
+    question: "Liver cirrhosis patient me sodium restriction ka primary objective kya hai?",
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Ascites reduce karna",
+      "Hemoglobin increase karna",
+      "Vision improve karna",
+      "Calcium absorption badhana"
     ],
-
-    answer: "nursing process ke according intervention evaluate aur modify karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "medium"
+    answer: "Ascites reduce karna",
+    explanation:
+      "Sodium water retention ko increase karta hai. Cirrhosis me sodium restriction ascites aur edema control karne me help karta hai. Therapeutic diet management ka yeh important component hai.",
+    topic: "Liver Nutrition",
+    difficulty: "hard"
   },
-
   {
     id: 12,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Food Safety & Community Nutrition topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
-
+    question: "School health screening me ek child ka BMI age ke hisab se bahut high mila. Yeh kis condition ki taraf indicate karta hai?",
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Undernutrition",
+      "Obesity",
+      "Protein deficiency",
+      "Wasting"
     ],
-
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
+    answer: "Obesity",
+    explanation:
+      "High BMI overweight ya obesity ka indicator ho sakta hai. Childhood obesity future cardiovascular aur metabolic diseases ka risk badhati hai. Early intervention aur nutrition education zaroori hai.",
+    topic: "Nutritional Assessment",
     difficulty: "medium"
   },
-
   {
     id: 13,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Food Safety & Community Nutrition topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
-
+    question: "Scurvy prevention ke liye nurse kis food group ko emphasize karegi?",
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Citrus fruits",
+      "Refined cereals",
+      "Sugary beverages",
+      "Animal fat"
     ],
-
-    answer: "prescribed order verify karke safest nursing action implement karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
+    answer: "Citrus fruits",
+    explanation:
+      "Scurvy Vitamin C deficiency se hota hai. Citrus fruits Vitamin C ke excellent sources hain. Adequate intake collagen synthesis aur wound healing support karta hai.",
+    topic: "Vitamin Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 14,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Food Safety & Community Nutrition topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
-
+    question: "Enteral feeding ke dauran aspiration risk kam karne ke liye patient ko kis position me rakhna chahiye?",
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Supine flat",
+      "Trendelenburg",
+      "Prone",
+      "Head elevated 30–45°"
     ],
-
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
+    answer: "Head elevated 30–45°",
+    explanation:
+      "Head elevation aspiration pneumonia ka risk significantly reduce karti hai. Enteral feeding safety protocols me yeh standard nursing intervention mana jata hai. Flat position risk badha sakti hai.",
+    topic: "Enteral Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 15,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Food Safety & Community Nutrition topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
-
+    question: "Iodine deficiency disorders ko prevent karne ka sabse effective public health measure kya hai?",
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Universal salt iodization",
+      "Iron injections",
+      "Vitamin A syrup",
+      "Protein supplements"
     ],
-
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
+    answer: "Universal salt iodization",
+    explanation:
+      "Iodized salt population level par iodine deficiency prevent karne ka proven method hai. Isse goiter aur developmental complications dono reduce hote hain. Public health nutrition programs me iska major role hai.",
+    topic: "Community Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 16,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Food Safety & Community Nutrition topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
-
+    question: "Breastfeeding mother ko additional calories ki zarurat primarily kis wajah se hoti hai?",
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Blood pressure maintain karne ke liye",
+      "Milk production ke liye",
+      "Vision improve karne ke liye",
+      "Bone fracture heal karne ke liye"
     ],
-
-    answer: "objective data ke basis par nursing priority set karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
+    answer: "Milk production ke liye",
+    explanation:
+      "Lactation ke dauran energy requirement increase ho jati hai kyunki breast milk synthesis ke liye additional calories aur nutrients chahiye hote hain. Maternal nutrition directly infant health ko affect karti hai.",
+    topic: "Lactation Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 17,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Food Safety & Community Nutrition topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
-
+    question: "Severe diarrhea ke baad potassium replacement ke liye kaunsa food sabse suitable hai?",
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Banana",
+      "White sugar",
+      "Butter",
+      "Tea"
     ],
-
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
+    answer: "Banana",
+    explanation:
+      "Banana potassium ka rich source hai aur diarrhea ke baad electrolyte losses ko replace karne me help karta hai. Potassium balance muscle aur cardiac function ke liye important hai.",
+    topic: "Mineral Nutrition",
+    difficulty: "medium"
   },
-
   {
     id: 18,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Food Safety & Community Nutrition topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
-
+    question: "Parenteral nutrition receive kar rahe patient me catheter care ka sabse important principle kya hai?",
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Frequent disconnection",
+      "Strict aseptic technique",
+      "Open handling",
+      "Unsterile dressing changes"
     ],
-
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
+    answer: "Strict aseptic technique",
+    explanation:
+      "Parenteral nutrition patients me bloodstream infection ka risk high hota hai. Strict aseptic technique infection prevention ka cornerstone hai. Nursing vigilance patient safety ke liye essential hai.",
+    topic: "Parenteral Nutrition",
     difficulty: "hard"
   },
-
   {
     id: 19,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Food Safety & Community Nutrition topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
-
+    question: "Marasmus me sabse common nutritional deficiency pattern kya hota hai?",
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Severe calorie deficiency",
+      "Excess protein intake",
+      "Vitamin K excess",
+      "Sodium overload"
     ],
-
-    answer: "cultural belief respect karte hue evidence-based advice dena",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
+    answer: "Severe calorie deficiency",
+    explanation:
+      "Marasmus primarily severe energy deficiency ka result hai. Child me marked wasting aur loss of subcutaneous fat dekha jata hai. Protein-energy malnutrition ke assessment me iski identification important hai.",
+    topic: "Protein Energy Malnutrition",
     difficulty: "hard"
   },
-
   {
     id: 20,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Food Safety & Community Nutrition topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
-
+    question: "Exclusive breastfeeding kitne mahine tak recommend ki jati hai?",
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "2 months",
+      "4 months",
+      "12 months",
+      "6 months"
     ],
-
-    answer: "SBAR format me relevant assessment aur action handover karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Nutrition ke Food Safety & Community Nutrition topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Nutrition ke Food Safety & Community Nutrition topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Nutrition ke Food Safety & Community Nutrition topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Nutrition ke Food Safety & Community Nutrition topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Nutrition ke Food Safety & Community Nutrition topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Nutrition ke Food Safety & Community Nutrition topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Nutrition ke Food Safety & Community Nutrition topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Nutrition ke Food Safety & Community Nutrition topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Nutrition ke Food Safety & Community Nutrition topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Nutrition ke Food Safety & Community Nutrition topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki Food Safety & Community Nutrition me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "Food Safety & Community Nutrition",
-
-    difficulty: "hard"
+    answer: "6 months",
+    explanation:
+      "WHO recommendation ke anusaar pehle 6 mahine tak exclusive breastfeeding di jani chahiye. Is period me breast milk infant ki nutritional aur hydration needs ko adequately meet karta hai.",
+    topic: "Infant Nutrition",
+    difficulty: "medium"
   }
 ];
 
 export default set4;
+
+// Answer Key:
+// [2,3,1,4,1,2,1,2,1,4,1,2,1,4,1,2,1,2,1,4]
+
+// Option 1 = 8
+// Option 2 = 5
+// Option 3 = 2
+// Option 4 = 5

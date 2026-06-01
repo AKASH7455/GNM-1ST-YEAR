@@ -2,20 +2,21 @@ const set3 = [
   {
     id: 1,
 
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke AV Aids & Teaching Methods topic me symptoms mixed hain aur immediate priority choose karni hai. Nurse ka best assessment priority kya hoga?",
+    question: "Ek ASHA worker village me exclusive breastfeeding ke benefits samjha rahi hai. Kuch mothers baar-baar purani galat beliefs ka zikr kar rahi hain. Communication ko effective banane ke liye nurse ko sabse pehle kya karna chahiye?",
 
     options: [
-      "focused assessment karke priority nursing intervention start karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena"
+      "Mothers ki beliefs ko samajhkar unhe scientific facts se clarify karna",
+      "Unki baat ignore karna",
+      "Sirf pamphlet distribute karna",
+      "Discussion ko turant khatam karna"
     ],
 
-    answer: "focused assessment karke priority nursing intervention start karna",
+    answer: "Mothers ki beliefs ko samajhkar unhe scientific facts se clarify karna",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Health education me audience ke existing beliefs ko samajhna zaruri hota hai. Agar misconceptions ko address nahi kiya gaya to behavior change mushkil ho jata hai. Respectful clarification trust aur acceptance dono badhata hai. Sirf information dena kaafi nahi hota, myths ko bhi address karna padta hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Health Beliefs and Communication",
 
     difficulty: "medium"
   },
@@ -23,20 +24,21 @@ const set3 = [
   {
     id: 2,
 
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me infection spread ka risk high hai aur family wrong practice kar rahi hai. Nurse ka best nursing intervention kya hoga?",
+    question: "Nurse patient ko low-salt diet ke baare me sikha rahi hai. Patient baar-baar sunne me dikkat ki complaint karta hai. Ye kis type ka communication barrier hai?",
 
     options: [
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena",
-      "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Psychological barrier",
+      "Physical barrier",
+      "Cultural barrier",
+      "Semantic barrier"
     ],
 
-    answer: "patient safety maintain karte hue senior nurse/doctor ko timely report karna",
+    answer: "Physical barrier",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Hearing impairment ek physical barrier hai jo communication ko directly affect karta hai. Agar receiver message clearly nahi sun pa raha to information transfer incomplete ho jayega. Nurse ko alternate methods use karne chahiye jaise written instructions ya hearing aid support.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Barriers of Communication",
 
     difficulty: "medium"
   },
@@ -44,20 +46,21 @@ const set3 = [
   {
     id: 3,
 
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me patient anxious hai aur instruction clearly follow nahi kar pa raha. Nurse ka best patient safety action kya hoga?",
+    question: "Community health nurse sanitation awareness program me villagers ko decision making me actively involve karti hai. Is approach ka sabse bada benefit kya hai?",
 
     options: [
-      "same gloves se multiple patients handle karna",
-      "standard protocol follow karke finding accurately document karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "Program ka kharcha kam ho jata hai",
+      "Attendance automatically badh jati hai",
+      "Community participation aur ownership develop hoti hai",
+      "Documentation ki zarurat khatam ho jati hai"
     ],
 
-    answer: "standard protocol follow karke finding accurately document karna",
+    answer: "Community participation aur ownership develop hoti hai",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Jab community members planning aur implementation me involve hote hain to ownership develop hoti hai. Isse program ki sustainability aur acceptance improve hoti hai. Community-led interventions long-term results dene me zyada successful hote hain.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Community Participation",
 
     difficulty: "medium"
   },
@@ -65,20 +68,21 @@ const set3 = [
   {
     id: 4,
 
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke AV Aids & Teaching Methods topic me abnormal finding subtle hai lekin complication prevent karna zaroori hai. Nurse ka best infection prevention step kya hoga?",
+    question: "Nurse ne family planning session ke baad participants se anonymous feedback forms bharwaye. Iska mukhya uddeshya kya hai?",
 
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "equipment check kiye bina procedure start karna",
-      "therapeutic communication se concern clarify karke teaching dena"
+      "Attendance record karna",
+      "Budget evaluate karna",
+      "Future sessions cancel karna",
+      "Communication aur learning effectiveness assess karna"
     ],
 
-    answer: "therapeutic communication se concern clarify karke teaching dena",
+    answer: "Communication aur learning effectiveness assess karna",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Feedback education program ki effectiveness evaluate karne ka important tool hai. Isse learners ki understanding aur satisfaction ka pata chalta hai. Future improvements ke liye bhi feedback useful hota hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Evaluation of Communication",
 
     difficulty: "medium"
   },
@@ -86,20 +90,21 @@ const set3 = [
   {
     id: 5,
 
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me documentation incomplete hai aur continuity of care affect ho sakti hai. Nurse ka best clinical reasoning kya hoga?",
+    question: "Nurse adolescent group me substance abuse prevention par discussion kar rahi hai. Learners ko apne experiences share karne ka mauka diya jata hai. Ye kis teaching method ka example hai?",
 
     options: [
-      "risk factors identify karke prevention-focused counselling dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "infection control ke bina sample collect karna"
+      "Group discussion",
+      "Lecture",
+      "Exhibition",
+      "Panel discussion"
     ],
 
-    answer: "risk factors identify karke prevention-focused counselling dena",
+    answer: "Group discussion",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Group discussion me participants actively contribute karte hain. Is method se critical thinking aur experience sharing dono encourage hote hain. Health education me participation learning ko strong banati hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Methods of Health Education",
 
     difficulty: "medium"
   },
@@ -107,20 +112,21 @@ const set3 = [
   {
     id: 6,
 
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke AV Aids & Teaching Methods topic me resource limited setting me safe nursing decision lena hai. Nurse ka best health education kya hoga?",
+    question: "Patient kehta hai, 'Mujhe lagta hai meri condition kabhi improve nahi hogi.' Nurse ka sabse therapeutic response kya hoga?",
 
     options: [
-      "self-medication continue karne ko safe bolna",
-      "aseptic technique aur hand hygiene maintain karke care continue karna",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
+      "Aap galat soch rahe hain",
+      "Aisa mat sochiye",
+      "Aapko aisa kyu lag raha hai, mujhe batayiye",
+      "Main busy hoon, baad me baat karenge"
     ],
 
-    answer: "aseptic technique aur hand hygiene maintain karke care continue karna",
+    answer: "Aapko aisa kyu lag raha hai, mujhe batayiye",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Open-ended questions patient ko apni feelings explore karne ka mauka dete hain. Therapeutic communication patient-centered hoti hai. Direct disagreement ya reassurance feelings ko suppress kar sakti hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Therapeutic Communication",
 
     difficulty: "medium"
   },
@@ -128,20 +134,21 @@ const set3 = [
   {
     id: 7,
 
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me patient education deni hai but cultural belief strong hai. Nurse ka best documentation action kya hoga?",
+    question: "Health worker ne dengue prevention ka message social media par share kiya. Ye kis communication category me aata hai?",
 
     options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient consent ke bina non-urgent care start karna",
-      "vital signs aur related symptoms ko reassess karke trend compare karna"
+      "Interpersonal communication",
+      "Mass communication",
+      "Formal communication",
+      "Group communication"
     ],
 
-    answer: "vital signs aur related symptoms ko reassess karke trend compare karna",
+    answer: "Mass communication",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Social media ek samay me large audience tak information pahucha sakta hai. Isliye ise mass communication ke under classify kiya jata hai. Awareness campaigns ke liye ye bahut effective medium hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Mass Communication",
 
     difficulty: "medium"
   },
@@ -149,125 +156,131 @@ const set3 = [
   {
     id: 8,
 
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me procedure se pehle safety verification pending hai. Nurse ka best referral decision kya hoga?",
+    question: "Health educator ORS preparation ka live demonstration karne ke baad learners se bhi ORS banwata hai. Is activity ka primary purpose kya hai?",
 
     options: [
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna",
-      "red flag sign milte hi urgent referral ya escalation arrange karna",
-      "bina assessment patient ko reassure karke bhej dena"
+      "Attendance verify karna",
+      "Session ko lamba banana",
+      "Skill acquisition evaluate karna",
+      "Entertainment provide karna"
     ],
 
-    answer: "red flag sign milte hi urgent referral ya escalation arrange karna",
+    answer: "Skill acquisition evaluate karna",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Return demonstration learners ki practical competency assess karti hai. Sirf theory samajhna kaafi nahi hota. Health practices me actual performance evaluate karna bahut important hota hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Evaluation Methods",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 9,
 
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me follow-up plan decide karna hai before discharge. Nurse ka best family counselling kya hoga?",
+    question: "Community awareness program me local folk songs ka use kiya gaya. Iska sabse bada advantage kya hai?",
 
     options: [
-      "simple Hinglish me instruction dekar return demonstration lena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "doctor order assume karke intervention start kar dena"
+      "Cultural acceptability aur audience engagement badhana",
+      "Documentation simplify karna",
+      "Medical accuracy badhana",
+      "Budget eliminate karna"
     ],
 
-    answer: "simple Hinglish me instruction dekar return demonstration lena",
+    answer: "Cultural acceptability aur audience engagement badhana",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Folk media local culture ke kareeb hota hai. Audience isse easily connect karti hai aur message zyada effectively receive karti hai. Cultural relevance health education ki success ko improve karti hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Folk Media",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 10,
 
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke AV Aids & Teaching Methods topic me red flag sign possible hai aur referral timing important hai. Nurse ka best procedure safety kya hoga?",
+    question: "Nurse ne education session me bahut technical English terms use kiye jisse participants confuse ho gaye. Ye kis barrier ka example hai?",
 
     options: [
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "privacy, consent aur comfort ensure karke patient-centred care dena",
-      "patient question avoid karke topic change kar dena"
+      "Psychological barrier",
+      "Semantic barrier",
+      "Physical barrier",
+      "Environmental barrier"
     ],
 
-    answer: "privacy, consent aur comfort ensure karke patient-centred care dena",
+    answer: "Semantic barrier",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Semantic barriers language aur meaning se related hote hain. Complex medical terminology audience ki understanding ko reduce kar sakti hai. Effective health education ke liye simple aur familiar language use karni chahiye.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Communication Barriers",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 11,
 
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke AV Aids & Teaching Methods topic me caregiver ko home care skill sikhani hai. Nurse ka best risk management kya hoga?",
+    question: "Hospital me infection prevention training ke liye posters lagaye gaye hain. Poster ka primary function kya hai?",
 
     options: [
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "nursing process ke according intervention evaluate aur modify karna"
+      "Skill demonstration karna",
+      "Behavior change ko reinforce karna",
+      "Medication prescribe karna",
+      "Patient assessment karna"
     ],
 
-    answer: "nursing process ke according intervention evaluate aur modify karna",
+    answer: "Behavior change ko reinforce karna",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Posters visual reminders provide karte hain aur key messages ko reinforce karte hain. Ye awareness maintain rakhne me helpful hote hain. Lekin practical skill training ke liye alone sufficient nahi hote.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Audio Visual Aids",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 12,
 
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me clinical reasoning se safest intervention select karna hai. Nurse ka best follow-up care kya hoga?",
+    question: "Ek patient discharge instructions repeat nahi kar pa raha. Nurse ko sabse appropriate next step kya lena chahiye?",
 
     options: [
-      "equipment check kiye bina procedure start karna",
-      "family ko danger signs aur follow-up schedule clearly samjhana",
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna"
+      "Patient ko ghar bhej dena",
+      "Instructions skip kar dena",
+      "Family ko blame karna",
+      "Instructions ko dubara simple language me explain karna"
     ],
 
-    answer: "family ko danger signs aur follow-up schedule clearly samjhana",
+    answer: "Instructions ko dubara simple language me explain karna",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Patient understanding verify karna patient safety ka important part hai. Agar patient instructions repeat nahi kar pa raha to re-teaching ki zarurat hoti hai. Simpler language aur teach-back technique helpful hoti hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Patient Education",
 
-    difficulty: "medium"
+    difficulty: "hard"
   },
 
   {
     id: 13,
 
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me assessment data conflicting hai aur nurse ko recheck karna hai. Nurse ka best communication approach kya hoga?",
+    question: "Health educator pehle learners ki needs assess karta hai aur uske baad teaching plan banata hai. Ye kis principle ko reflect karta hai?",
 
     options: [
-      "prescribed order verify karke safest nursing action implement karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
+      "Need-based learning",
+      "Mass communication",
+      "Formal reporting",
+      "Delegation"
     ],
 
-    answer: "prescribed order verify karke safest nursing action implement karna",
+    answer: "Need-based learning",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Effective health education audience ki actual needs aur problems par based honi chahiye. Assessment se relevant content identify hota hai. Isse teaching meaningful aur practical banti hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Principles of Health Education",
 
     difficulty: "hard"
   },
@@ -275,20 +288,21 @@ const set3 = [
   {
     id: 14,
 
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke AV Aids & Teaching Methods topic me standard precaution ka correct application test ho raha hai. Nurse ka best complication prevention kya hoga?",
+    question: "Nurse patient ki baat sunte waqt eye contact maintain karti hai aur sir hila kar response deti hai. Ye kis type ka communication hai?",
 
     options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "infection chain break karne ke liye appropriate precaution apply karna"
+      "Written communication",
+      "Mass communication",
+      "Verbal communication",
+      "Non-verbal communication"
     ],
 
-    answer: "infection chain break karne ke liye appropriate precaution apply karna",
+    answer: "Non-verbal communication",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Eye contact, gestures aur facial expressions non-verbal communication ke parts hain. Ye empathy aur attention ko express karte hain. Therapeutic relationship me non-verbal cues ka bahut mahatva hota hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Non-Verbal Communication",
 
     difficulty: "hard"
   },
@@ -296,20 +310,21 @@ const set3 = [
   {
     id: 15,
 
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me patient response evaluate karke next step lena hai. Nurse ka best ethical care kya hoga?",
+    question: "Village me malaria prevention campaign ke baad mosquito net use karne wale households ki sankhya badh gayi. Ye kis outcome ko indicate karta hai?",
 
     options: [
-      "patient consent ke bina non-urgent care start karna",
-      "fluid balance, output aur warning signs ko close monitor karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
+      "Attendance outcome",
+      "Budget outcome",
+      "Behavior change outcome",
+      "Documentation outcome"
     ],
 
-    answer: "fluid balance, output aur warning signs ko close monitor karna",
+    answer: "Behavior change outcome",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Health education ka primary goal positive behavior change lana hota hai. Mosquito net use me increase awareness ko actual practice me convert hone ka indicator hai. Ye successful intervention ka sign hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Behavior Change Communication",
 
     difficulty: "hard"
   },
@@ -317,20 +332,21 @@ const set3 = [
   {
     id: 16,
 
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke AV Aids & Teaching Methods topic me ethical communication aur privacy maintain karni hai. Nurse ka best monitoring parameter kya hoga?",
+    question: "Nurse ek anxious patient ko information dene se pehle uski anxiety reduce karne ki koshish karti hai. Iska main reason kya hai?",
 
     options: [
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena",
-      "objective data ke basis par nursing priority set karna",
-      "documentation skip karke sirf verbal message dena"
+      "Documentation reduce karna",
+      "Learning aur comprehension improve karna",
+      "Medication avoid karna",
+      "Attendance badhana"
     ],
 
-    answer: "objective data ke basis par nursing priority set karna",
+    answer: "Learning aur comprehension improve karna",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Anxiety information processing ko negatively affect karti hai. Jab patient calm hota hai to wo instructions ko better samajh aur yaad rakh pata hai. Emotional readiness learning ka important factor hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Psychological Factors in Communication",
 
     difficulty: "hard"
   },
@@ -338,20 +354,21 @@ const set3 = [
   {
     id: 17,
 
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me monitoring parameter decide karna hai. Nurse ka best care evaluation kya hoga?",
+    question: "School health program me students ko role play karwaya gaya jisme healthy eating habits dikhayi gayi. Role play ka major advantage kya hai?",
 
     options: [
-      "ABC assessment karke life-threatening problem pehle manage karna",
-      "doctor order assume karke intervention start kar dena",
-      "privacy ignore karke public area me discussion karna",
-      "warning sign ko normal bolkar observation delay karna"
+      "Real-life situations ka practice karwana",
+      "Documentation complete karna",
+      "Lecture replace karna",
+      "Attendance count karna"
     ],
 
-    answer: "ABC assessment karke life-threatening problem pehle manage karna",
+    answer: "Real-life situations ka practice karwana",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Role play learners ko practical situations me skills aur attitudes practice karne ka opportunity deta hai. Experiential learning retention aur confidence dono improve karti hai. Health education me ye bahut effective strategy hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Teaching Methods",
 
     difficulty: "hard"
   },
@@ -359,20 +376,21 @@ const set3 = [
   {
     id: 18,
 
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me complication ke early signs identify karne hain. Nurse ka best community practice kya hoga?",
+    question: "Community meeting ke dauran participants openly apni concerns discuss karte hain aur solutions suggest karte hain. Ye kis communication pattern ka example hai?",
 
     options: [
-      "same gloves se multiple patients handle karna",
-      "contraindication check karke procedure/teaching ka next step decide karna",
-      "clinical finding ko memory se baad me record karna",
-      "high-risk patient ko follow-up ke bina discharge karna"
+      "One-way communication",
+      "Formal communication",
+      "Two-way communication",
+      "Written communication"
     ],
 
-    answer: "contraindication check karke procedure/teaching ka next step decide karna",
+    answer: "Two-way communication",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Two-way communication me sender aur receiver dono actively participate karte hain. Feedback aur discussion understanding ko improve karte hain. Health education me ye one-way communication se zyada effective mana jata hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Types of Communication",
 
     difficulty: "hard"
   },
@@ -380,20 +398,21 @@ const set3 = [
   {
     id: 19,
 
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me SBAR handover me relevant data include karna hai. Nurse ka best discharge teaching kya hoga?",
+    question: "Nurse diabetes patient ko dietary modifications sikhati hai aur achievable goals set karne me madad karti hai. Isse sabse zyada kya improve hota hai?",
 
     options: [
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna",
-      "cultural belief respect karte hue evidence-based advice dena",
-      "fluid restriction bina indication advise karna"
+      "Patient motivation aur adherence",
+      "Hospital budget",
+      "Documentation quality",
+      "Medication stock"
     ],
 
-    answer: "cultural belief respect karte hue evidence-based advice dena",
+    answer: "Patient motivation aur adherence",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Realistic goals patients ko empowered feel karwate hain. Motivation badhne se treatment adherence improve hoti hai. Long-term chronic disease management me ye bahut important factor hai.",
 
-    topic: "AV Aids & Teaching Methods",
+    topic: "Motivational Communication",
 
     difficulty: "hard"
   },
@@ -401,233 +420,32 @@ const set3 = [
   {
     id: 20,
 
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke AV Aids & Teaching Methods topic me health teaching ka outcome measure karna hai. Nurse ka best standard precaution kya hoga?",
+    question: "Health education program evaluate karte waqt sabse strong evidence kya mana jayega?",
 
     options: [
-      "cultural belief ka mazak bana kar teaching dena",
-      "abnormal vital sign ko repeat kiye bina close karna",
-      "patient ko complex English medical terms me samjhana",
-      "SBAR format me relevant assessment aur action handover karna"
+      "High attendance",
+      "Large number of pamphlets distributed",
+      "Long duration session",
+      "Target population ke health outcomes me measurable improvement"
     ],
 
-    answer: "SBAR format me relevant assessment aur action handover karna",
+    answer: "Target population ke health outcomes me measurable improvement",
 
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
+    explanation:
+      "Final success ka assessment actual health outcomes aur behavior changes se kiya jata hai. Attendance aur materials process indicators hain. Outcome indicators program effectiveness ka strongest evidence provide karte hain.",
 
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 21,
-
-    question: "Clinical duty me student nurse ko case milta hai jahan Health Education & Communication Skills ke AV Aids & Teaching Methods topic me nursing diagnosis ko intervention se link karna hai. Nurse ka best emergency response kya hoga?",
-
-    options: [
-      "clean-to-dirty sequence maintain karke cross infection prevent karna",
-      "caregiver ko skill practice ka chance na dena",
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi"
-    ],
-
-    answer: "clean-to-dirty sequence maintain karke cross infection prevent karna",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 22,
-
-    question: "Ward round ke dauran examiner situation deta hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me risk factor modify karne ke liye counselling karni hai. Nurse ka best nursing diagnosis link kya hoga?",
-
-    options: [
-      "risk factor ko unrelated maan kar plan na banana",
-      "single symptom dekhkar final diagnosis declare karna",
-      "patient response observe karke effectiveness evaluate karna",
-      "charting me approximate values likh dena"
-    ],
-
-    answer: "patient response observe karke effectiveness evaluate karna",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 23,
-
-    question: "Community posting me nurse observe karti hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me medication/procedure safety principle apply karna hai. Nurse ka best teaching method kya hoga?",
-
-    options: [
-      "education diye bina compliance expect karna",
-      "caregiver ko supervised practice aur feedback provide karna",
-      "symptom ignore karke routine round continue karna",
-      "bina assessment patient ko reassure karke bhej dena"
-    ],
-
-    answer: "caregiver ko supervised practice aur feedback provide karna",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 24,
-
-    question: "Emergency setting me patient arrive hota hai aur Health Education & Communication Skills ke AV Aids & Teaching Methods topic me family ko misconception correct karna hai. Nurse ka best record accuracy kya hoga?",
-
-    options: [
-      "family ko blame karke counselling stop kar dena",
-      "documentation skip karke sirf verbal message dena",
-      "aseptic step chhod kar procedure jaldi finish karna",
-      "early complication signs ke liye frequent observation rakhna"
-    ],
-
-    answer: "early complication signs ke liye frequent observation rakhna",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 25,
-
-    question: "Home visit ke time family batati hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me priority action ABC/safety ke basis par choose karna hai. Nurse ka best patient-centred action kya hoga?",
-
-    options: [
-      "health education ko patient ki readiness ke hisab se plan karna",
-      "warning sign ko normal bolkar observation delay karna",
-      "same gloves se multiple patients handle karna",
-      "patient question avoid karke topic change kar dena"
-    ],
-
-    answer: "health education ko patient ki readiness ke hisab se plan karna",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 26,
-
-    question: "Skill lab assessment me scenario diya gaya hai jahan Health Education & Communication Skills ke AV Aids & Teaching Methods topic me examiner rationale poochta hai, sirf definition nahi. Nurse ka best exam rationale kya hoga?",
-
-    options: [
-      "clinical finding ko memory se baad me record karna",
-      "exam rationale me safest, least harmful aur evidence-based option choose karna",
-      "unverified information ko confirmed diagnosis bol dena",
-      "pain ya distress ko exam anxiety samajhkar ignore karna"
-    ],
-
-    answer: "exam rationale me safest, least harmful aur evidence-based option choose karna",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 27,
-
-    question: "OPD counselling me patient confuse hai kyunki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me patient ki condition stable nahi lag rahi aur observation plan banana hai. Nurse ka best reassessment step kya hoga?",
-
-    options: [
-      "equipment check kiye bina procedure start karna",
-      "fluid restriction bina indication advise karna",
-      "baseline data compare karke abnormal change confirm karna",
-      "abnormal vital sign ko repeat kiye bina close karna"
-    ],
-
-    answer: "baseline data compare karke abnormal change confirm karna",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 28,
-
-    question: "Post-procedure observation me nurse note karti hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me care ke baad expected outcome achieve nahi hua. Nurse ka best error prevention kya hoga?",
-
-    options: [
-      "equipment aur identity check karke error prevention ensure karna",
-      "infection control ke bina sample collect karna",
-      "self-medication continue karne ko safe bolna",
-      "caregiver ko skill practice ka chance na dena"
-    ],
-
-    answer: "equipment aur identity check karke error prevention ensure karna",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 29,
-
-    question: "Handover ke dauran important finding milti hai ki Health Education & Communication Skills ke AV Aids & Teaching Methods topic me student nurse ko error prevention ke liye best step choose karna hai. Nurse ka best psychological support kya hoga?",
-
-    options: [
-      "late sign aane tak assessment delay karna",
-      "handover me only diagnosis batana, assessment nahi",
-      "risk factor ko unrelated maan kar plan na banana",
-      "emotional support dekar anxiety reduce karna aur cooperation badhana"
-    ],
-
-    answer: "emotional support dekar anxiety reduce karna aur cooperation badhana",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
-
-    difficulty: "hard"
-  },
-
-  {
-    id: 30,
-
-    question: "Internal exam me priority-based question poocha gaya hai jahan Health Education & Communication Skills ke AV Aids & Teaching Methods topic me family discharge ke baad danger signs samajhna chahti hai. Nurse ka best team coordination kya hoga?",
-
-    options: [
-      "patient consent ke bina non-urgent care start karna",
-      "interprofessional team se timely coordination karna",
-      "education diye bina compliance expect karna",
-      "team ko inform kiye bina abnormal result ignore karna"
-    ],
-
-    answer: "interprofessional team se timely coordination karna",
-
-    explanation: "Correct answer best hai kyunki AV Aids & Teaching Methods me nurse ko priority assessment, patient safety aur evidence-based intervention follow karna hota hai. Baaki options galat hain kyunki woh assessment delay karte hain, asepsis/documentation ignore karte hain, ya patient-centred communication ko weak banate hain. NCLEX-style reasoning me safest aur least harmful action choose kiya jata hai.",
-
-    topic: "AV Aids & Teaching Methods",
+    topic: "Program Evaluation",
 
     difficulty: "hard"
   }
 ];
 
 export default set3;
+
+// Answer Key:
+// [1,2,3,4,1,3,2,3,1,2,2,4,1,4,3,2,1,3,1,4]
+
+// Option 1 = 5
+// Option 2 = 5
+// Option 3 = 5
+// Option 4 = 5
