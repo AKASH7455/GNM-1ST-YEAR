@@ -1,7 +1,3 @@
-import anatomyPhysiology from "./anatomy-physiology";
-
-const quizData = {
-  "anatomy-physiology": anatomyPhysiology
-};
+import quizData from "./syllabusQuizData.js";
 
 export default quizData;

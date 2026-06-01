@@ -40,7 +40,7 @@
 
 .sets-page {
   padding: 20px;
-  padding-bottom: 90px;
+  padding-bottom: var(--bottom-nav-space);
 
   background: var(--background-color);
 
@@ -52,12 +52,12 @@
 ========================= */
 
 .sets-header {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .sets-header h1 {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 800;
 
   color: var(--text-heading);
 }
@@ -82,7 +82,7 @@
   display: flex;
   flex-direction: column;
 
-  gap: 14px;
+  gap: 12px;
 }
 
 /* =========================
@@ -94,13 +94,13 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 18px;
+  padding: 16px;
 
   background: var(--card-bg);
 
   border: 1px solid var(--card-border);
 
-  border-radius: 18px;
+  border-radius: 16px;
 
   text-decoration: none;
 

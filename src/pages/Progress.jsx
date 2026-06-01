@@ -6,6 +6,8 @@ import {
   FaChartLine
 } from "react-icons/fa6";
 
+import { Link } from "react-router-dom";
+
 import { useQuiz } from "../context/QuizContext";
 
 import "../styles/progress.css";
@@ -17,6 +19,8 @@ function Progress() {
     return (
       <div className="progress-page">
         <div className="progress-empty">
+          <FaChartLine />
+
           <h2>
             No Quiz Data Found
           </h2>
@@ -25,6 +29,13 @@ function Progress() {
             Complete a quiz to
             view progress.
           </p>
+
+          <Link
+            to="/subjects"
+            className="progress-empty-link"
+          >
+            Start a Quiz
+          </Link>
         </div>
       </div>
     );

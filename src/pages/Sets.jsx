@@ -33,7 +33,7 @@ function Sets() {
         <h1>Select Quiz Set</h1>
 
         <p>
-          {subject.title}
+          {subject.name}
         </p>
       </div>
 

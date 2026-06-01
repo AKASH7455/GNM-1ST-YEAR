@@ -45,17 +45,17 @@ function Home() {
       <div className="stats-container">
 
         <div className="stat-card">
-          <h3>8</h3>
+          <h3>11</h3>
           <p>Subjects</p>
         </div>
 
         <div className="stat-card">
-          <h3>40</h3>
+          <h3>55</h3>
           <p>Sets</p>
         </div>
 
         <div className="stat-card">
-          <h3>800+</h3>
+          <h3>275</h3>
           <p>Questions</p>
         </div>
 

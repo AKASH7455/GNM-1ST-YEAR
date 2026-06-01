@@ -11,7 +11,7 @@
   --shadow-color: rgba(232, 67, 147, 0.15);
   --shadow-hover: rgba(232, 67, 147, 0.25);
 
-  --bottom-nav-space: 110px;
+  --bottom-nav-space: 140px;
 }
 
 .blue-theme {
@@ -23,7 +23,7 @@
   --shadow-color: rgba(37, 99, 235, 0.16);
   --shadow-hover: rgba(37, 99, 235, 0.25);
 
-  --bottom-nav-space: 110px;
+  --bottom-nav-space: 140px;
 }
 
 /* =========================
@@ -34,18 +34,18 @@
   position: fixed;
 
   left: 50%;
-  bottom: 16px;
+  bottom: 18px;
 
   transform: translateX(-50%);
 
   width: calc(100% - 32px);
-  max-width: 500px;
+  max-width: 420px;
 
   display: flex;
   justify-content: space-around;
   align-items: center;
 
-  padding: 14px 18px;
+  padding: 10px 14px;
 
   background: var(--nav-bg);
 
@@ -54,7 +54,7 @@
 
   border: 1px solid var(--nav-border);
 
-  border-radius: 24px;
+  border-radius: 18px;
 
   box-shadow: 0 8px 30px var(--shadow-color);
 
@@ -71,15 +71,15 @@
   align-items: center;
   justify-content: center;
 
-  gap: 6px;
+  gap: 5px;
 
-  min-width: 65px;
+  min-width: 58px;
 
   text-decoration: none;
 
   color: var(--text-secondary);
 
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
 
   transition: all 0.3s ease;
@@ -90,8 +90,8 @@
 ========================= */
 
 .bottom-link svg {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
 
   transition: all 0.3s ease;
 }
@@ -105,20 +105,20 @@
 }
 
 .active-bottom svg {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 
-  padding: 7px;
+  padding: 5px;
 
-  border-radius: 12px;
+  border-radius: 9px;
 
   background: var(--primary-color);
 
   color: var(--active-icon-text);
 
-  box-shadow: 0 8px 20px var(--shadow-hover);
+  box-shadow: 0 6px 18px var(--shadow-hover);
 
-  transform: translateY(-4px);
+  transform: translateY(-3px);
 }
 
 .active-bottom span {
@@ -135,7 +135,7 @@
 }
 
 .bottom-link:hover svg {
-  transform: translateY(-2px) scale(1.05);
+  transform: translateY(-2px);
 }
 
 /* =========================
@@ -147,13 +147,49 @@
 }
 
 /* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 480px) {
+  .bottom-nav {
+    width: calc(100% - 24px);
+
+    padding: 9px 8px;
+
+    bottom: 12px;
+
+    border-radius: 18px;
+  }
+
+  .bottom-link {
+    min-width: 50px;
+
+    font-size: 10px;
+
+    gap: 4px;
+  }
+
+  .bottom-link svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .active-bottom svg {
+    width: 22px;
+    height: 22px;
+
+    padding: 5px;
+  }
+}
+
+/* =========================
    SAFE AREA SUPPORT
 ========================= */
 
 @supports (padding-bottom: env(safe-area-inset-bottom)) {
   .bottom-nav {
     padding-bottom: calc(
-      14px + env(safe-area-inset-bottom)
+      12px + env(safe-area-inset-bottom)
     );
   }
 }

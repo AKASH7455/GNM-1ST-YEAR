@@ -141,3 +141,31 @@
 
   font-weight: 700;
 }
+.explanation-box {
+  margin-top: 14px;
+
+  padding: 12px;
+
+  border-radius: 12px;
+
+  background: var(
+    --surface-soft
+  );
+
+  border: 1px solid
+    var(--card-border);
+}
+
+.explanation-box h4 {
+  margin-bottom: 8px;
+
+  color: var(--primary-color);
+}
+
+.explanation-box p {
+  line-height: 1.6;
+
+  color: var(
+    --text-secondary
+  );
+}

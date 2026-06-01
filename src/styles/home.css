@@ -6,7 +6,7 @@
   min-height: 100vh;
 
   padding: 20px;
-  padding-bottom: 110px;
+  padding-bottom: var(--bottom-nav-space);
 
   background: var(--background-color);
 }
@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
 
-  border-radius: 32px;
+  border-radius: 24px;
 
   background: linear-gradient(
     135deg,
@@ -151,9 +151,9 @@
 
   height: 56px;
 
-  border: none;
+  border: 0;
 
-  border-radius: 16px;
+  border-radius: 14px;
 
   text-decoration: none;
 
@@ -235,7 +235,7 @@
 
   border: 1px solid var(--card-border);
 
-  border-radius: 20px;
+  border-radius: 16px;
 
   box-shadow:
     0 8px 22px var(--shadow-color);

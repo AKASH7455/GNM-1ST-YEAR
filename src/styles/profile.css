@@ -5,7 +5,7 @@
 .profile-page {
   min-height: 100vh;
 
-  padding: 20px 16px 120px;
+  padding: 20px 16px var(--bottom-nav-space);
 
   background: var(--background-color);
 
@@ -19,14 +19,14 @@
 .profile-header {
   text-align: center;
 
-  margin-bottom: 26px;
+  margin-bottom: 18px;
 }
 
 .profile-avatar {
-  width: 96px;
-  height: 96px;
+  width: 84px;
+  height: 84px;
 
-  margin: 0 auto 16px;
+  margin: 0 auto 12px;
 
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@
 
   color: #ffffff;
 
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
 
   box-shadow:
@@ -76,9 +76,9 @@
   border: 1px solid
     var(--card-border);
 
-  border-radius: 22px;
+  border-radius: 20px;
 
-  padding: 22px;
+  padding: 18px;
 
   box-shadow:
     0 10px 30px
@@ -86,7 +86,7 @@
 }
 
 .profile-section h3 {
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 
   font-size: 18px;
 
@@ -105,7 +105,7 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: 16px 0;
+  padding: 13px 0;
 
   border-bottom: 1px solid
     var(--card-border);
@@ -134,7 +134,7 @@
 
   padding: 10px 16px;
 
-  border-radius: 12px;
+  border-radius: 11px;
 
   cursor: pointer;
 

@@ -1,3 +1,26 @@
+.quiz-timer {
+  width: fit-content;
+
+  margin: 0 auto 20px;
+
+  padding: 10px 18px;
+
+  background: var(--card-bg);
+
+  border: 1px solid var(--card-border);
+
+  border-radius: 14px;
+
+  color: var(--primary-color);
+
+  font-weight: 700;
+
+  font-size: 1rem;
+
+  box-shadow: 0 4px 12px
+    var(--shadow-color);
+}
+
 /* =========================
    PINK THEME
 ========================= */
@@ -42,7 +65,7 @@
   min-height: 100vh;
 
   padding: 20px;
-  padding-bottom: 100px;
+  padding-bottom: var(--bottom-nav-space);
 
   background: var(--background-color);
 }
@@ -59,14 +82,20 @@
   margin-bottom: 24px;
 }
 
+.quiz-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .quiz-header h2 {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 800;
 
   color: var(--text-heading);
 }
 
-.quiz-header span {
+.question-count {
   background: var(--card-gradient-end);
 
   color: var(--primary-color);
@@ -79,6 +108,19 @@
   font-weight: 600;
 
   border: 1px solid var(--card-border);
+}
+
+.quiz-timer {
+  width: fit-content;
+  margin: 0;
+  padding: 6px 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 0.95rem;
+  box-shadow: 0 6px 18px var(--shadow-color);
 }
 
 /* =========================
@@ -118,7 +160,7 @@
   border: 1px solid
     var(--card-border);
 
-  border-radius: 24px;
+  border-radius: 20px;
 
   padding: 24px;
 
@@ -137,7 +179,7 @@
 }
 
 .question-text {
-  font-size: 22px;
+  font-size: 21px;
 
   line-height: 1.6;
 
@@ -169,7 +211,7 @@
   border: 1px solid
     var(--card-border);
 
-  border-radius: 16px;
+  border-radius: 14px;
 
   background: var(--card-bg);
 
@@ -219,7 +261,7 @@
 
   padding: 16px;
 
-  border-radius: 16px;
+  border-radius: 14px;
 
   font-size: 15px;
   font-weight: 600;
@@ -288,4 +330,43 @@
   font-weight: 600;
 
   color: var(--text-secondary);
+}
+
+@media (max-width: 420px) {
+  .quiz-page {
+    padding: 16px;
+    padding-bottom: var(--bottom-nav-space);
+  }
+
+  .quiz-header {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .quiz-header h2 {
+    font-size: 24px;
+  }
+
+  .quiz-meta {
+    gap: 8px;
+  }
+
+  .question-count,
+  .quiz-timer {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .question-card {
+    padding: 20px;
+  }
+
+  .question-text {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .quiz-actions {
+    flex-direction: row;
+  }
 }

@@ -42,7 +42,7 @@
   min-height: 100vh;
 
   padding: 20px;
-  padding-bottom: 100px;
+  padding-bottom: var(--bottom-nav-space);
 
   background: var(--background-color);
 
@@ -163,7 +163,7 @@
 ========================= */
 
 .progress-empty {
-  min-height: 60vh;
+  min-height: calc(100vh - var(--bottom-nav-space) - 40px);
 
   display: flex;
   flex-direction: column;
@@ -172,6 +172,22 @@
   align-items: center;
 
   text-align: center;
+
+  padding: 28px 22px;
+
+  background: var(--card-bg);
+
+  border: 1px solid var(--card-border);
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 26px var(--shadow-color);
+}
+
+.progress-empty svg {
+  margin-bottom: 16px;
+  color: var(--primary-color);
+  font-size: 38px;
 }
 
 .progress-empty h2 {
@@ -189,4 +205,24 @@
   max-width: 300px;
 
   line-height: 1.6;
+}
+
+.progress-empty-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+  min-height: 46px;
+  padding: 0 18px;
+
+  border-radius: 13px;
+
+  background: var(--primary-color);
+  color: var(--text-white);
+
+  text-decoration: none;
+  font-weight: 700;
+
+  box-shadow: 0 10px 22px var(--shadow-color);
 }

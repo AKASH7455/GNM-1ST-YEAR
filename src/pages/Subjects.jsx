@@ -9,12 +9,14 @@ function Subjects() {
         All Subjects
       </h1>
 
-      {subjects.map((subject) => (
-        <SubjectCard
-          key={subject.id}
-          subject={subject}
-        />
-      ))}
+      <div className="subjects-list">
+        {subjects.map((subject) => (
+          <SubjectCard
+            key={subject.id}
+            subject={subject}
+          />
+        ))}
+      </div>
 
     </div>
   );

@@ -1,12 +1,23 @@
-import { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import {
+  useState,
+  useEffect,
+  useCallback
+} from "react";
+
+import {
+  useParams,
+  useNavigate
+} from "react-router-dom";
 
 import { useQuiz } from "../context/QuizContext";
 
 import quizData from "../data";
 import calculateScore from "../utils/calculateScore";
+
 import "../styles/quiz.css";
 
+import Timer from "../components/Timer";
+import useQuizTimer from "../hooks/useQuizTimer";
 
 function Quiz() {
   const { subjectId, setId } = useParams();
@@ -31,11 +42,68 @@ function Quiz() {
   const question =
     questions[currentQuestion];
 
- useEffect(() => {
-  if (question) {
-    setSelectedOption("");
-  }
-}, [currentQuestion]);
+  useEffect(() => {
+    setCurrentQuestion(0);
+    setAnswers({});
+  }, [subjectId, setId]);
+
+  const prepareReviewData = () => {
+    return questions.map((question) => ({
+      ...question,
+
+      selectedAnswer:
+        answers[question.id] ||
+        "Not Answered",
+
+      isCorrect:
+        answers[question.id] ===
+        question.answer
+    }));
+  };
+
+  const handleSubmitQuiz =
+    useCallback(() => {
+      const finalResult =
+        calculateScore(
+          questions,
+          answers
+        );
+
+      const reviewData =
+        prepareReviewData();
+
+      setResult(finalResult);
+
+      setReviewQuestions(
+        reviewData
+      );
+
+      navigate("/result");
+    }, [
+      questions,
+      answers,
+      navigate,
+      setResult,
+      setReviewQuestions
+    ]);
+
+  const { timeLeft } =
+    useQuizTimer(
+      questions.length * 60,
+      handleSubmitQuiz
+    );
+
+  useEffect(() => {
+    if (!question) return;
+
+    setSelectedOption(
+      answers[question.id] || ""
+    );
+  }, [
+    currentQuestion,
+    question,
+    answers
+  ]);
 
   const handleOptionSelect = (
     option
@@ -66,10 +134,13 @@ function Quiz() {
         answers
       );
 
+    const reviewData =
+      prepareReviewData();
+
     setResult(finalResult);
 
     setReviewQuestions(
-      questions
+      reviewData
     );
 
     navigate("/result");
@@ -101,14 +172,19 @@ function Quiz() {
 
   return (
     <div className="quiz-page">
-
       <div className="quiz-header">
         <h2>GNM Quiz</h2>
 
-        <span>
-          {currentQuestion + 1} /{" "}
-          {questions.length}
-        </span>
+        <div className="quiz-meta">
+          <span className="question-count">
+            {currentQuestion + 1} /
+            {questions.length}
+          </span>
+
+          <Timer
+            timeLeft={timeLeft}
+          />
+        </div>
       </div>
 
       <div className="progress-wrapper">
@@ -116,7 +192,8 @@ function Quiz() {
           className="progress-fill"
           style={{
             width: `${
-              ((currentQuestion + 1) /
+              ((currentQuestion +
+                1) /
                 questions.length) *
               100
             }%`
@@ -125,9 +202,9 @@ function Quiz() {
       </div>
 
       <div className="question-card">
-
         <h3 className="question-number">
-          Question {currentQuestion + 1}
+          Question{" "}
+          {currentQuestion + 1}
         </h3>
 
         <h2 className="question-text">
@@ -135,13 +212,16 @@ function Quiz() {
         </h2>
 
         <div className="options-container">
-
           {question.options.map(
-            (option, index) => (
+            (
+              option,
+              index
+            ) => (
               <button
                 key={index}
                 className={`option-btn ${
-                  selectedOption === option
+                  selectedOption ===
+                  option
                     ? "active-option"
                     : ""
                 }`}
@@ -155,14 +235,14 @@ function Quiz() {
               </button>
             )
           )}
-
         </div>
 
         <div className="quiz-actions">
-
           <button
             className="prev-btn"
-            onClick={handlePrevious}
+            onClick={
+              handlePrevious
+            }
             disabled={
               currentQuestion === 0
             }
@@ -173,18 +253,17 @@ function Quiz() {
           <button
             className="next-btn"
             onClick={handleNext}
-            disabled={!selectedOption}
+            disabled={
+              !selectedOption
+            }
           >
             {currentQuestion ===
             questions.length - 1
               ? "Finish Quiz"
               : "Next Question"}
           </button>
-
         </div>
-
       </div>
-
     </div>
   );
 }

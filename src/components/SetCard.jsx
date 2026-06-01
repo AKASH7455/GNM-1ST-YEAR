@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaChevronRight } from "react-icons/fa6";
 
 function SetCard({ setNumber, subjectId }) {
   return (
@@ -11,7 +12,9 @@ function SetCard({ setNumber, subjectId }) {
         <p>Practice Quiz</p>
       </div>
 
-      <span>→</span>
+      <span>
+        <FaChevronRight />
+      </span>
     </Link>
   );
 }

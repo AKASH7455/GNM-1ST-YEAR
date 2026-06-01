@@ -3,6 +3,7 @@ import BottomNav from "./components/BottomNav";
 
 import { QuizProvider } from "./context/QuizContext";
 
+import "./styles/main.css";
 import "./styles/subjects.css";
 
 function App() {

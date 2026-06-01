@@ -2,10 +2,7 @@ import { useQuiz } from "../context/QuizContext";
 import "../styles/review.css";
 
 function ReviewAnswers() {
-  const {
-    reviewQuestions,
-    answers
-  } = useQuiz();
+  const { reviewQuestions } = useQuiz();
 
   if (
     !reviewQuestions ||
@@ -13,9 +10,7 @@ function ReviewAnswers() {
   ) {
     return (
       <div className="review-page">
-        <h2>
-          No Review Data Found
-        </h2>
+        <h2>No Review Data Found</h2>
       </div>
     );
   }
@@ -26,55 +21,66 @@ function ReviewAnswers() {
       <h1>Review Answers</h1>
 
       {reviewQuestions.map(
-        (question, index) => {
-          const userAnswer =
-            answers[question.id];
+        (question, index) => (
+          <div
+            key={question.id}
+            className="review-card"
+          >
+            <h3>
+              Q{index + 1}.{" "}
+              {question.question}
+            </h3>
 
-          const isCorrect =
-            userAnswer ===
-            question.answer;
+            <p>
+              <strong>
+                Your Answer:
+              </strong>{" "}
+              {question.selectedAnswer}
+            </p>
 
-          return (
-            <div
-              key={question.id}
-              className="review-card"
+            <p className="correct-answer">
+              <strong>
+                Correct Answer:
+              </strong>{" "}
+              {question.answer}
+            </p>
+
+            <p
+              className={
+                question.isCorrect
+                  ? "correct"
+                  : "wrong"
+              }
             >
+              {question.isCorrect
+                ? "Correct"
+                : "Wrong"}
+            </p>
 
-              <h3>
-                Q{index + 1}.{" "}
-                {question.question}
-              </h3>
+            <p>
+              <strong>
+                Topic:
+              </strong>{" "}
+              {question.topic}
+            </p>
+
+            <p>
+              <strong>
+                Difficulty:
+              </strong>{" "}
+              {question.difficulty}
+            </p>
+
+            <div className="explanation-box">
+              <h4>Explanation</h4>
 
               <p>
-                <strong>
-                  Your Answer:
-                </strong>{" "}
-                {userAnswer ||
-                  "Not Answered"}
+                {question.explanation}
               </p>
-
-              <p>
-                <strong>
-                  Correct Answer:
-                </strong>{" "}
-                {question.answer}
-              </p>
-
-              <p
-                className={
-                  isCorrect
-                    ? "correct"
-                    : "wrong"
-                }
-              >
-                {isCorrect
-                  ? "Correct"
-                  : "Wrong"}
-              </p>
-
             </div>
-          );
-        }
+
+          </div>
+        )
       )}
 
     </div>
