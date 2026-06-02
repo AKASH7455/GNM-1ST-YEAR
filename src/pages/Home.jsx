@@ -1,10 +1,20 @@
 import { Link } from "react-router-dom";
 
 import nurseImage from "../assets/images/nurse.png";
+import quizData from "../data";
 
 import "../styles/home.css";
 
 function Home() {
+  const subjects = Object.values(quizData);
+  const totalSubjects = subjects.length;
+  const totalSets = subjects.reduce((sum, subject) => sum + Object.keys(subject.sets).length, 0);
+  const totalQuestions = subjects.reduce(
+    (sum, subject) =>
+      sum + Object.values(subject.sets).reduce((setSum, setQuestions) => setSum + setQuestions.length, 0),
+    0
+  );
+
   return (
     <section className="home">
 
@@ -45,17 +55,17 @@ function Home() {
       <div className="stats-container">
 
         <div className="stat-card">
-          <h3>11</h3>
+          <h3>{totalSubjects}</h3>
           <p>Subjects</p>
         </div>
 
         <div className="stat-card">
-          <h3>55</h3>
+          <h3>{totalSets}</h3>
           <p>Sets</p>
         </div>
 
         <div className="stat-card">
-          <h3>275</h3>
+          <h3>{totalQuestions}</h3>
           <p>Questions</p>
         </div>
 
